@@ -78,6 +78,54 @@ button.danger { background: #dc2626; color: #fff; }
 .history-row {
   display: flex; justify-content: space-between; align-items: center;
   background: #fff; border: 1px solid #d1d5db; border-radius: 6px;
-  padding: 0.7rem 0.9rem; margin-bottom: 0.5rem; cursor: pointer;
+  padding: 0.7rem 0.9rem; margin-bottom: 0.5rem; cursor: default;
+  flex-wrap: wrap; gap: 0.5rem;
 }
-.history-row:hover { border-color: #1e3a5f; }
+.history-row.clickable { cursor: pointer; }
+.history-row.clickable:hover { border-color: #1e3a5f; }
+.row-actions { display: flex; gap: 0.25rem; }
+button.small { padding: 0.35rem 0.7rem; font-size: 0.85rem; }
+
+/* Paused exam: hide questions + nav, show the overlay instead. */
+#view-exam.paused #question-box,
+#view-exam.paused .exam-nav { display: none; }
+.pause-overlay {
+  background: #fff; border: 2px solid #1e3a5f; border-radius: 8px;
+  padding: 2rem 1.2rem; margin-bottom: 1rem; text-align: center;
+}
+.pause-overlay.hidden { display: none; }
+
+/* Resume banner on home. */
+.resume-banner {
+  background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px;
+  padding: 0.8rem 1rem; margin-bottom: 1.25rem;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+}
+.resume-banner.hidden { display: none; }
+
+/* Debrief （复盘） category stats + filters. */
+.filter-row { display: flex; gap: 0.5rem; margin: 1rem 0; flex-wrap: wrap; }
+.filter-btn.active { background: #1e3a5f; color: #fff; }
+.cat-stat {
+  display: flex; align-items: center; gap: 0.75rem;
+  background: #fff; border: 1px solid #d1d5db; border-radius: 6px;
+  padding: 0.5rem 0.9rem; margin-bottom: 0.4rem;
+}
+.cat-stat-label { flex: 0 0 45%; font-size: 0.95rem; }
+.cat-stat-bar {
+  flex: 1; height: 10px; background: #e5e7eb; border-radius: 999px;
+  overflow: hidden;
+}
+.cat-stat-fill { display: block; height: 100%; background: #1e3a5f; }
+.cat-stat-nums { flex: 0 0 auto; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+
+/* Question management form. */
+.form-label { display: block; margin-bottom: 0.8rem; font-weight: 600; }
+.form-label select,
+.form-label input,
+.form-label textarea {
+  display: block; width: 100%; margin-top: 0.3rem; padding: 0.55rem 0.7rem;
+  border: 1px solid #d1d5db; border-radius: 6px; font-size: 1rem;
+  font-family: inherit; background: #fff; font-weight: 400;
+}
+.success { color: #16a34a; }

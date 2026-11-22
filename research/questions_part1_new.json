@@ -1,0 +1,2025 @@
+[
+  {
+    "id": "SC-001",
+    "category": "sentence-completion",
+    "question": "The committee's report was so ______ that both sides claimed it supported their position.",
+    "options": ["trenchant", "lucid", "equivocal", "categorical"],
+    "answer": 2,
+    "explanation": "Equivocal means open to more than one interpretation, which is why both sides could read it in their favor. Trenchant (sharp, incisive), lucid (clear), and categorical (unconditional) all imply a clarity the report lacked.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-002",
+    "category": "sentence-completion",
+    "question": "Despite years of lessons, her piano playing remained ______, full of hesitations and missed notes.",
+    "options": ["virtuosic", "halting", "mellifluous", "assured"],
+    "answer": 1,
+    "explanation": "Halting means stopping and starting repeatedly, which matches the hesitations and missed notes. Virtuosic, mellifluous, and assured all describe skilled, confident playing.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-003",
+    "category": "sentence-completion",
+    "question": "The mayor's ______ apology satisfied no one; it acknowledged no fault and promised nothing.",
+    "options": ["perfunctory", "abject", "contrite", "effusive"],
+    "answer": 0,
+    "explanation": "Perfunctory means done with minimal effort or interest, as a mere formality — fitting an apology that conceded nothing. Abject and contrite imply genuine remorse, and effusive implies overflowing sincerity.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-004",
+    "category": "sentence-completion",
+    "question": "The scientist's findings were ______, overturning decades of accepted theory in a single paper.",
+    "options": ["derivative", "inconsequential", "tentative", "revolutionary"],
+    "answer": 3,
+    "explanation": "Revolutionary describes findings that completely overturn established thinking. Derivative (copied), inconsequential (unimportant), and tentative (uncertain) all contradict the described impact.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-005",
+    "category": "sentence-completion",
+    "question": "His colleagues found him ______: he answered questions in monosyllables and avoided office gatherings.",
+    "options": ["gregarious", "loquacious", "taciturn", "ebullient"],
+    "answer": 2,
+    "explanation": "Taciturn means reserved or uncommunicative, saying little — matching the monosyllables and avoidance of gatherings. Gregarious, loquacious, and ebullient all describe outgoing, talkative people.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-006",
+    "category": "sentence-completion",
+    "question": "The novel's plot was so ______ that readers could predict every twist chapters in advance.",
+    "options": ["formulaic", "labyrinthine", "enigmatic", "suspenseful"],
+    "answer": 0,
+    "explanation": "Formulaic means following a predictable pattern or formula, which is why every twist could be foreseen. Labyrinthine (maze-like), enigmatic (mysterious), and suspenseful all imply unpredictability.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-007",
+    "category": "sentence-completion",
+    "question": "After the merger, the two corporate cultures proved ______; every attempt to combine them ended in friction.",
+    "options": ["compatible", "irreconcilable", "complementary", "harmonious"],
+    "answer": 1,
+    "explanation": "Irreconcilable means incapable of being brought into agreement, which explains the constant friction. Compatible, complementary, and harmonious all suggest the cultures would blend well.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-008",
+    "category": "sentence-completion",
+    "question": "The witness's testimony was ______, changing each time she told the story.",
+    "options": ["steadfast", "corroborated", "unwavering", "inconsistent"],
+    "answer": 3,
+    "explanation": "Inconsistent means not staying the same, which fits testimony that changed with each retelling. Steadfast, corroborated, and unwavering all imply stability and confirmation.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-009",
+    "category": "sentence-completion",
+    "question": "The professor's lectures were ______, racing through the entire syllabus in a single dense hour with no time for questions.",
+    "options": ["leisurely", "compressed", "discursive", "exhaustive"],
+    "answer": 1,
+    "explanation": "Compressed means squeezed into a shorter space or time, matching lectures raced through in one hour. Leisurely and discursive imply a slow, wandering pace, while exhaustive implies thorough coverage rather than speed.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-010",
+    "category": "sentence-completion",
+    "question": "The hiking trail was ______, climbing steeply for miles with no level stretches.",
+    "options": ["gentle", "meandering", "arduous", "level"],
+    "answer": 2,
+    "explanation": "Arduous means requiring great effort and endurance, fitting a steep climb with no relief. Gentle, meandering, and level all suggest an easy, flat route.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-011",
+    "category": "sentence-completion",
+    "question": "Her criticism of the plan was ______, pointing out flaws no one else had noticed.",
+    "options": ["fawning", "perfunctory", "superficial", "incisive"],
+    "answer": 3,
+    "explanation": "Incisive means sharp and penetrating in analysis, which explains spotting flaws others missed. Fawning (flattering), perfunctory (cursory), and superficial (shallow) all contradict the depth of the criticism.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-012",
+    "category": "sentence-completion",
+    "question": "The old mansion had a ______ atmosphere, its dark halls and creaking floors unsettling every visitor.",
+    "options": ["eerie", "cheerful", "inviting", "mundane"],
+    "answer": 0,
+    "explanation": "Eerie means strange and frightening, matching dark halls and creaking floors that unsettled visitors. Cheerful, inviting, and mundane describe pleasant or ordinary atmospheres.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-013",
+    "category": "sentence-completion",
+    "question": "The diplomat's ______ remarks calmed both sides, paving the way for further talks.",
+    "options": ["inflammatory", "provocative", "conciliatory", "belligerent"],
+    "answer": 2,
+    "explanation": "Conciliatory means intended to restore friendly relations, which is why the remarks calmed both sides. Inflammatory, provocative, and belligerent would all have escalated the conflict.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-014",
+    "category": "sentence-completion",
+    "question": "The experiment's results were ______, varying wildly each time the procedure was repeated.",
+    "options": ["replicable", "erratic", "consistent", "conclusive"],
+    "answer": 1,
+    "explanation": "Erratic means unpredictable and irregular, matching results that varied wildly. Replicable, consistent, and conclusive all imply stable, repeatable outcomes.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-015",
+    "category": "sentence-completion",
+    "question": "He was a ______ worker, arriving before dawn and staying long after his colleagues had left.",
+    "options": ["indolent", "lackadaisical", "dilatory", "assiduous"],
+    "answer": 3,
+    "explanation": "Assiduous means showing great care and perseverance, fitting someone who works the longest hours. Indolent (lazy), lackadaisical (unenthusiastic), and dilatory (slow, delaying) describe the opposite work ethic.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-016",
+    "category": "sentence-completion",
+    "question": "The reviewer's praise was ______, noting the film's strong acting but ignoring its weak script.",
+    "options": ["qualified", "unqualified", "effusive", "unequivocal"],
+    "answer": 0,
+    "explanation": "Qualified praise is limited or given with reservations — here, praising the acting while the script went unmentioned. Unqualified, effusive, and unequivocal all describe wholehearted, unreserved praise.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-017",
+    "category": "sentence-completion",
+    "question": "The town's economy was ______, depending almost entirely on a single factory.",
+    "options": ["diversified", "precarious", "robust", "resilient"],
+    "answer": 1,
+    "explanation": "Precarious means dangerously unstable, which fits an economy dependent on one factory. Diversified, robust, and resilient all imply strength and the ability to withstand shocks.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-018",
+    "category": "sentence-completion",
+    "question": "Her argument was ______, supported by data, precedent, and careful logic.",
+    "options": ["specious", "fallacious", "cogent", "tenuous"],
+    "answer": 2,
+    "explanation": "Cogent means clear, logical, and convincing, matching an argument backed by data and logic. Specious and fallacious mean misleading or false, and tenuous means weak and unconvincing.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-019",
+    "category": "sentence-completion",
+    "question": "The new policy was ______ in its effects, helping wealthy districts while hurting poorer ones.",
+    "options": ["inequitable", "equitable", "uniform", "impartial"],
+    "answer": 0,
+    "explanation": "Inequitable means unfair or unjust, fitting a policy that helped the wealthy and hurt the poor. Equitable, uniform, and impartial all imply fairness or even treatment.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-020",
+    "category": "sentence-completion",
+    "question": "The child was ______ after the long flight, too tired to eat or play.",
+    "options": ["exuberant", "animated", "restless", "listless"],
+    "answer": 3,
+    "explanation": "Listless means lacking energy or enthusiasm, matching a child too tired to eat or play. Exuberant, animated, and restless all imply energy or activity.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-021",
+    "category": "sentence-completion",
+    "question": "The speaker's tone was ______, dripping with contempt for anyone who disagreed with him.",
+    "options": ["scornful", "deferential", "reverent", "genial"],
+    "answer": 0,
+    "explanation": "Scornful means expressing contempt or derision, matching a tone dripping with contempt. Deferential, reverent, and genial all imply respect or friendliness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-022",
+    "category": "sentence-completion",
+    "question": "The river, ______ by weeks of rain, threatened to overflow its banks.",
+    "options": ["depleted", "diminished", "swollen", "parched"],
+    "answer": 2,
+    "explanation": "Swollen means enlarged, here by weeks of rain, which is why the river threatened to overflow. Depleted, diminished, and parched all describe a river with less water, not more.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-023",
+    "category": "sentence-completion",
+    "question": "The engineer proposed a ______ solution: simple, cheap, and surprisingly effective.",
+    "options": ["convoluted", "elegant", "cumbersome", "makeshift"],
+    "answer": 1,
+    "explanation": "An elegant solution is one that is ingeniously simple and effective. Convoluted (overly complex), cumbersome (awkward), and makeshift (temporary and crude) all contradict the described simplicity.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-024",
+    "category": "sentence-completion",
+    "question": "The committee remained ______ on the proposal, neither endorsing nor rejecting it.",
+    "options": ["adamant", "resolute", "unequivocal", "ambivalent"],
+    "answer": 3,
+    "explanation": "Ambivalent means having mixed feelings, which explains neither endorsing nor rejecting the proposal. Adamant, resolute, and unequivocal all imply a firm, decided position.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-025",
+    "category": "sentence-completion",
+    "question": "His account of the accident was ______, matching the police report in every detail.",
+    "options": ["contradictory", "embellished", "corroborated", "apocryphal"],
+    "answer": 2,
+    "explanation": "Corroborated means confirmed or supported by other evidence — here, matching the police report in every detail. Contradictory, embellished, and apocryphal (of doubtful authenticity) all imply a mismatch with the facts.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-026",
+    "category": "sentence-completion",
+    "question": "The garden was ______ in spring, bursting with flowers of every color.",
+    "options": ["resplendent", "barren", "desolate", "drab"],
+    "answer": 0,
+    "explanation": "Resplendent means attractive and impressive through being richly colorful, matching a garden bursting with flowers. Barren, desolate, and drab describe emptiness or dullness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-027",
+    "category": "sentence-completion",
+    "question": "The author's latest book is a ______ departure from her earlier work, abandoning fiction for memoir.",
+    "options": ["subtle", "modest", "incremental", "radical"],
+    "answer": 3,
+    "explanation": "Radical means thorough and far-reaching, fitting a complete switch from fiction to memoir. Subtle, modest, and incremental all imply only small changes.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SC-028",
+    "category": "sentence-completion",
+    "question": "The supervisor's instructions were ______, leaving the new employees unsure what to do first.",
+    "options": ["explicit", "ambiguous", "precise", "meticulous"],
+    "answer": 1,
+    "explanation": "Ambiguous means open to more than one interpretation, which left the employees unsure. Explicit, precise, and meticulous all describe instructions that would have been clear.",
+    "source": "General vocabulary (GRE-level)"
+  }
+,
+  {
+    "id": "SIC-001",
+    "category": "synonyms-in-context",
+    "question": "Her candid remarks about the project's flaws surprised colleagues who were used to polite evasions. The word \"candid\" is closest in meaning to:",
+    "options": ["guarded", "frank", "hostile", "rehearsed"],
+    "answer": 1,
+    "explanation": "Candid means truthful and straightforward; her remarks were frank, unlike the polite evasions her colleagues expected. Guarded and rehearsed imply holding back, and hostile implies anger rather than honesty.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-002",
+    "category": "synonyms-in-context",
+    "question": "The loquacious tour guide kept up a steady stream of stories for the entire three-hour walk. The word \"loquacious\" is closest in meaning to:",
+    "options": ["taciturn", "melancholy", "reserved", "talkative"],
+    "answer": 3,
+    "explanation": "Loquacious means very talkative, matching a guide who spoke nonstop for three hours. Taciturn and reserved mean saying little, and melancholy means sad.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-003",
+    "category": "synonyms-in-context",
+    "question": "The fastidious editor caught every misplaced comma and every inconsistency in the manuscript. The word \"fastidious\" is closest in meaning to:",
+    "options": ["meticulous", "careless", "hasty", "indifferent"],
+    "answer": 0,
+    "explanation": "Fastidious means very attentive to detail; a meticulous editor would catch every error. Careless, hasty, and indifferent all describe the opposite attitude toward detail.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-004",
+    "category": "synonyms-in-context",
+    "question": "The irascible old fisherman snapped at anyone who came near his boat before dawn. The word \"irascible\" is closest in meaning to:",
+    "options": ["jovial", "placid", "short-tempered", "courteous"],
+    "answer": 2,
+    "explanation": "Irascible means easily angered; a short-tempered man would snap at intruders. Jovial (cheerful), placid (calm), and courteous (polite) all contradict his behavior.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-005",
+    "category": "synonyms-in-context",
+    "question": "In defeat, the champion was magnanimous, praising her opponent and refusing to blame the officials. The word \"magnanimous\" is closest in meaning to:",
+    "options": ["resentful", "petty", "vindictive", "generous"],
+    "answer": 3,
+    "explanation": "Magnanimous means generous in spirit, especially toward a rival or in defeat — she praised her opponent instead of blaming others. Resentful, petty, and vindictive describe the opposite, ungenerous response.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-006",
+    "category": "synonyms-in-context",
+    "question": "The timorous kitten hid under the sofa whenever visitors arrived. The word \"timorous\" is closest in meaning to:",
+    "options": ["fearful", "bold", "aggressive", "playful"],
+    "answer": 0,
+    "explanation": "Timorous means showing fear or nervousness, which is why the kitten hid from visitors. Bold, aggressive, and playful all describe a confident animal, not a frightened one.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-007",
+    "category": "synonyms-in-context",
+    "question": "The corpulent innkeeper, broad and round, greeted guests from behind the front desk. The word \"corpulent\" is closest in meaning to:",
+    "options": ["gaunt", "lanky", "overweight", "wiry"],
+    "answer": 2,
+    "explanation": "Corpulent means fat or overweight, matching the description of the innkeeper as broad and round. Gaunt, lanky, and wiry all describe thin builds.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-008",
+    "category": "synonyms-in-context",
+    "question": "Ebullient after the exam results, the students celebrated long into the evening. The word \"ebullient\" is closest in meaning to:",
+    "options": ["despondent", "exuberant", "sullen", "apathetic"],
+    "answer": 1,
+    "explanation": "Ebullient means cheerful and full of energy — exuberant students would celebrate for hours. Despondent, sullen, and apathetic all describe low spirits or indifference.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-009",
+    "category": "synonyms-in-context",
+    "question": "The querulous patient complained about the food, the noise, and the nurses in turn. The word \"querulous\" is closest in meaning to:",
+    "options": ["complaining", "contented", "stoic", "cheerful"],
+    "answer": 0,
+    "explanation": "Querulous means given to complaining, matching a patient who found fault with everything. Contented, stoic, and cheerful describe someone who accepts things without complaint.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-010",
+    "category": "synonyms-in-context",
+    "question": "The obsequious assistant agreed with every suggestion the director made, however impractical. The word \"obsequious\" is closest in meaning to:",
+    "options": ["defiant", "candid", "forthright", "fawning"],
+    "answer": 3,
+    "explanation": "Obsequious means excessively eager to please or obey a superior — fawning agreement with every suggestion. Defiant, candid, and forthright describe someone who speaks their own mind.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-011",
+    "category": "synonyms-in-context",
+    "question": "Despite the setbacks, the coach remained sanguine about the team's chances in the final. The word \"sanguine\" is closest in meaning to:",
+    "options": ["pessimistic", "optimistic", "indifferent", "despondent"],
+    "answer": 1,
+    "explanation": "Sanguine means optimistic or positive, especially in a difficult situation — the coach stayed hopeful despite setbacks. Pessimistic and despondent mean expecting the worst, and indifferent means not caring.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-012",
+    "category": "synonyms-in-context",
+    "question": "Denied a second helping of dessert, the petulant child stamped his foot and sulked. The word \"petulant\" is closest in meaning to:",
+    "options": ["gracious", "composed", "peevish", "patient"],
+    "answer": 2,
+    "explanation": "Petulant means childishly sulky or bad-tempered over a small annoyance — a peevish reaction to being refused dessert. Gracious, composed, and patient describe a calm, accepting response.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-013",
+    "category": "synonyms-in-context",
+    "question": "The indolent clerk spent the afternoon dozing at his desk while work piled up. The word \"indolent\" is closest in meaning to:",
+    "options": ["industrious", "diligent", "lazy", "meticulous"],
+    "answer": 2,
+    "explanation": "Indolent means wanting to avoid activity or exertion — a lazy clerk who dozed while work piled up. Industrious, diligent, and meticulous all describe a hard worker.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-014",
+    "category": "synonyms-in-context",
+    "question": "Her audacious plan to cross the desert alone drew gasps from the expedition committee. The word \"audacious\" is closest in meaning to:",
+    "options": ["bold", "timid", "cautious", "conventional"],
+    "answer": 0,
+    "explanation": "Audacious means showing a willingness to take surprisingly bold risks — a bold plan to cross a desert alone. Timid, cautious, and conventional describe safe, unadventurous behavior.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-015",
+    "category": "synonyms-in-context",
+    "question": "He had grown morose since the layoff, sitting in silence and refusing invitations. The word \"morose\" is closest in meaning to:",
+    "options": ["jovial", "vivacious", "gregarious", "gloomy"],
+    "answer": 3,
+    "explanation": "Morose means sullen and ill-tempered or gloomy, matching his silence and refusal of invitations. Jovial, vivacious, and gregarious all describe cheerful, sociable moods.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-016",
+    "category": "synonyms-in-context",
+    "question": "The garrulous taxi driver talked nonstop about politics, weather, and his grandchildren. The word \"garrulous\" is closest in meaning to:",
+    "options": ["reticent", "talkative", "taciturn", "sullen"],
+    "answer": 1,
+    "explanation": "Garrulous means excessively talkative, especially on trivial matters — a driver who talked nonstop. Reticent and taciturn mean saying little, and sullen means silently bad-tempered.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-017",
+    "category": "synonyms-in-context",
+    "question": "The pusillanimous guard fled at the first sign of trouble, leaving the gate unguarded. The word \"pusillanimous\" is closest in meaning to:",
+    "options": ["valiant", "intrepid", "resolute", "cowardly"],
+    "answer": 3,
+    "explanation": "Pusillanimous means lacking courage; a cowardly guard would flee at the first sign of trouble. Valiant, intrepid, and resolute all describe bravery and determination.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-018",
+    "category": "synonyms-in-context",
+    "question": "The affable host made every guest feel welcome within minutes of arriving. The word \"affable\" is closest in meaning to:",
+    "options": ["aloof", "brusque", "friendly", "hostile"],
+    "answer": 2,
+    "explanation": "Affable means friendly, good-natured, and easy to talk to — a host who put guests at ease at once. Aloof, brusque, and hostile describe cold or unfriendly behavior.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-019",
+    "category": "synonyms-in-context",
+    "question": "The truculent teenager argued with every teacher and picked fights in the hallway. The word \"truculent\" is closest in meaning to:",
+    "options": ["belligerent", "meek", "docile", "amiable"],
+    "answer": 0,
+    "explanation": "Truculent means eager to argue or fight — a belligerent teenager who argued with teachers and picked fights. Meek, docile, and amiable describe a mild, agreeable person.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-020",
+    "category": "synonyms-in-context",
+    "question": "Stoic through the long illness, she never complained and asked for nothing. The word \"stoic\" is closest in meaning to:",
+    "options": ["hysterical", "uncomplaining", "volatile", "effusive"],
+    "answer": 1,
+    "explanation": "Stoic means enduring hardship without complaint or display of feeling — she never complained through a long illness. Hysterical, volatile, and effusive all describe open emotional display.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-021",
+    "category": "synonyms-in-context",
+    "question": "The jovial innkeeper sang as he served breakfast and joked with every table. The word \"jovial\" is closest in meaning to:",
+    "options": ["morose", "cheerful", "dour", "sullen"],
+    "answer": 1,
+    "explanation": "Jovial means cheerful and friendly, matching an innkeeper who sang and joked with guests. Morose, dour, and sullen all describe a gloomy, unsociable mood.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-022",
+    "category": "synonyms-in-context",
+    "question": "The parsimonious landlord refused to replace the broken heater, calling it an unnecessary expense. The word \"parsimonious\" is closest in meaning to:",
+    "options": ["lavish", "munificent", "prodigal", "stingy"],
+    "answer": 3,
+    "explanation": "Parsimonious means unwilling to spend money — a stingy landlord who would not replace a broken heater. Lavish, munificent, and prodigal all describe generous or extravagant spending.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-023",
+    "category": "synonyms-in-context",
+    "question": "The choleric foreman flew into a rage when the shipment arrived a day late. The word \"choleric\" is closest in meaning to:",
+    "options": ["irritable", "phlegmatic", "serene", "imperturbable"],
+    "answer": 0,
+    "explanation": "Choleric means bad-tempered and easily angered — an irritable foreman who flew into a rage over a one-day delay. Phlegmatic, serene, and imperturbable describe calm, hard-to-ruffle temperaments.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SIC-024",
+    "category": "synonyms-in-context",
+    "question": "His laconic reply — \"Fine.\" — ended the discussion before it had begun. The word \"laconic\" is closest in meaning to:",
+    "options": ["verbose", "rambling", "terse", "effusive"],
+    "answer": 2,
+    "explanation": "Laconic means using very few words — a terse one-word reply that ended the discussion. Verbose, rambling, and effusive all describe using many words.",
+    "source": "General vocabulary (GRE-level)"
+  }
+,
+  {
+    "id": "SYN-001",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: loquacious",
+    "options": ["talkative", "taciturn", "reticent", "laconic"],
+    "answer": 0,
+    "explanation": "Loquacious means very talkative. Taciturn, reticent, and laconic all mean saying little — the opposite.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-002",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: taciturn",
+    "options": ["voluble", "reserved", "garrulous", "effusive"],
+    "answer": 1,
+    "explanation": "Taciturn means reserved or uncommunicative, saying little. Voluble, garrulous, and effusive all describe people who talk a great deal.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-003",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: gregarious",
+    "options": ["reclusive", "aloof", "sociable", "misanthropic"],
+    "answer": 2,
+    "explanation": "Gregarious means fond of company and sociable. Reclusive, aloof, and misanthropic all describe avoiding other people.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-004",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: phlegmatic",
+    "options": ["impassioned", "volatile", "irascible", "unemotional"],
+    "answer": 3,
+    "explanation": "Phlegmatic means calm and unemotional, not easily excited or upset. Impassioned, volatile, and irascible all describe strong or unstable emotions.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-005",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: choleric",
+    "options": ["phlegmatic", "placid", "imperturbable", "irascible"],
+    "answer": 3,
+    "explanation": "Choleric means bad-tempered and easily angered — irascible. Phlegmatic, placid, and imperturbable all describe a calm, hard-to-ruffle temperament.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-006",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: cantankerous",
+    "options": ["amiable", "genial", "irritable", "complaisant"],
+    "answer": 2,
+    "explanation": "Cantankerous means bad-tempered, argumentative, and hard to please — irritable. Amiable, genial, and complaisant all describe a pleasant, agreeable nature.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-007",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: obsequious",
+    "options": ["defiant", "sycophantic", "insolent", "forthright"],
+    "answer": 1,
+    "explanation": "Obsequious means excessively eager to please or obey a superior — sycophantic. Defiant, insolent, and forthright describe someone who resists authority or speaks plainly.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-008",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: pusillanimous",
+    "options": ["cowardly", "intrepid", "valiant", "audacious"],
+    "answer": 0,
+    "explanation": "Pusillanimous means lacking courage — cowardly. Intrepid, valiant, and audacious all describe bravery.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-009",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: fastidious",
+    "options": ["meticulous", "slipshod", "perfunctory", "slapdash"],
+    "answer": 0,
+    "explanation": "Fastidious means very attentive to detail and hard to please — meticulous. Slipshod, perfunctory, and slapdash all describe careless, sloppy work.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-010",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: corpulent",
+    "options": ["gaunt", "obese", "emaciated", "svelte"],
+    "answer": 1,
+    "explanation": "Corpulent means fat — obese. Gaunt, emaciated, and svelte all describe a thin build.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-011",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: lanky",
+    "options": ["stocky", "squat", "tall and thin", "rotund"],
+    "answer": 2,
+    "explanation": "Lanky means tall and thin, often awkwardly so. Stocky, squat, and rotund all describe a short, heavy build.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-012",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: swarthy",
+    "options": ["pallid", "fair", "wan", "dark-complexioned"],
+    "answer": 3,
+    "explanation": "Swarthy describes a dark-complexioned person. Pallid, fair, and wan all describe a pale complexion.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-013",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: morose",
+    "options": ["ebullient", "jovial", "buoyant", "gloomy"],
+    "answer": 3,
+    "explanation": "Morose means sullen and gloomy. Ebullient, jovial, and buoyant all describe cheerful, high spirits.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-014",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: jovial",
+    "options": ["dour", "morose", "cheerful", "sullen"],
+    "answer": 2,
+    "explanation": "Jovial means cheerful and friendly. Dour, morose, and sullen all describe a gloomy, unsociable mood.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-015",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: truculent",
+    "options": ["docile", "belligerent", "complaisant", "meek"],
+    "answer": 1,
+    "explanation": "Truculent means eager to argue or fight — belligerent. Docile, complaisant, and meek describe a mild, submissive nature.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-016",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: affable",
+    "options": ["amiable", "brusque", "curt", "churlish"],
+    "answer": 0,
+    "explanation": "Affable means friendly, good-natured, and easy to talk to — amiable. Brusque, curt, and churlish describe rude or abrupt behavior.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-017",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: irascible",
+    "options": ["short-tempered", "equable", "placid", "forbearing"],
+    "answer": 0,
+    "explanation": "Irascible means easily angered — short-tempered. Equable, placid, and forbearing describe a calm, patient temperament.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-018",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: stoic",
+    "options": ["demonstrative", "impassive", "effusive", "overwrought"],
+    "answer": 1,
+    "explanation": "Stoic means enduring hardship without complaint or display of feeling — impassive. Demonstrative, effusive, and overwrought all describe open emotional display.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-019",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: ebullient",
+    "options": ["apathetic", "despondent", "exuberant", "listless"],
+    "answer": 2,
+    "explanation": "Ebullient means cheerful and full of energy — exuberant. Apathetic, despondent, and listless describe low spirits or indifference.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-020",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: querulous",
+    "options": ["contented", "uncomplaining", "stoic", "complaining"],
+    "answer": 3,
+    "explanation": "Querulous means given to complaining, especially in a whining way. Contented, uncomplaining, and stoic describe accepting things without complaint.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-021",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: sycophantic",
+    "options": ["candid", "forthright", "blunt", "fawning"],
+    "answer": 3,
+    "explanation": "Sycophantic means behaving in an excessively flattering way to gain advantage — fawning. Candid, forthright, and blunt describe honest, direct speech.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-022",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: indolent",
+    "options": ["assiduous", "industrious", "lazy", "diligent"],
+    "answer": 2,
+    "explanation": "Indolent means wanting to avoid activity or exertion — lazy. Assiduous, industrious, and diligent all describe a hard worker.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-023",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: assiduous",
+    "options": ["lackadaisical", "diligent", "dilatory", "indolent"],
+    "answer": 1,
+    "explanation": "Assiduous means showing great care and perseverance — diligent. Lackadaisical, dilatory, and indolent all describe a lazy or half-hearted approach.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-024",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: rotund",
+    "options": ["plump", "gaunt", "angular", "lean"],
+    "answer": 0,
+    "explanation": "Rotund means rounded in shape, especially with reference to a person's body — plump. Gaunt, angular, and lean describe a thin build.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-025",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: gaunt",
+    "options": ["haggard", "hale", "ruddy", "plump"],
+    "answer": 0,
+    "explanation": "Gaunt means lean and haggard, especially from suffering, hunger, or age. Hale and ruddy describe healthy vigor, and plump describes fullness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-026",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: pugnacious",
+    "options": ["pacific", "quarrelsome", "conciliatory", "amenable"],
+    "answer": 1,
+    "explanation": "Pugnacious means eager to argue or fight — quarrelsome. Pacific, conciliatory, and amenable describe a peaceable, agreeable nature.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-027",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: magnanimous",
+    "options": ["parsimonious", "niggardly", "generous", "grudging"],
+    "answer": 2,
+    "explanation": "Magnanimous means generous in spirit, especially toward a rival or someone less powerful. Parsimonious, niggardly, and grudging all describe unwillingness to give.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-028",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: petulant",
+    "options": ["forbearing", "equable", "unflappable", "peevish"],
+    "answer": 3,
+    "explanation": "Petulant means childishly sulky or bad-tempered over a small annoyance — peevish. Forbearing, equable, and unflappable describe patience and calm.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-029",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: sanguine",
+    "options": ["despondent", "pessimistic", "lugubrious", "optimistic"],
+    "answer": 3,
+    "explanation": "Sanguine means optimistic or positive, especially in a difficult situation. Despondent, pessimistic, and lugubrious describe gloom and hopelessness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-030",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: melancholic",
+    "options": ["sanguine", "buoyant", "despondent", "ebullient"],
+    "answer": 2,
+    "explanation": "Melancholic means feeling or expressing sadness — despondent. Sanguine, buoyant, and ebullient all describe cheerful, hopeful moods.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-031",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: timorous",
+    "options": ["intrepid", "fearful", "dauntless", "audacious"],
+    "answer": 1,
+    "explanation": "Timorous means showing fear or nervousness — fearful. Intrepid, dauntless, and audacious all describe fearlessness.",
+    "source": "General vocabulary (GRE-level)"
+  }
+,
+  {
+    "id": "SYN-032",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: audacious",
+    "options": ["bold", "timorous", "diffident", "pusillanimous"],
+    "answer": 0,
+    "explanation": "Audacious means showing a willingness to take surprisingly bold risks. Timorous, diffident, and pusillanimous all describe timidity or cowardice.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-033",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: diffident",
+    "options": ["shy", "assertive", "brash", "presumptuous"],
+    "answer": 0,
+    "explanation": "Diffident means lacking self-confidence and shy in manner. Assertive, brash, and presumptuous describe bold, forward behavior.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-034",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: haughty",
+    "options": ["deferential", "arrogant", "humble", "obsequious"],
+    "answer": 1,
+    "explanation": "Haughty means arrogantly superior and disdainful of others. Deferential, humble, and obsequious describe submission or modesty.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-035",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: garrulous",
+    "options": ["laconic", "taciturn", "talkative", "reticent"],
+    "answer": 2,
+    "explanation": "Garrulous means excessively talkative, especially on trivial matters. Laconic, taciturn, and reticent all describe saying little.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-036",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: laconic",
+    "options": ["prolix", "verbose", "loquacious", "terse"],
+    "answer": 3,
+    "explanation": "Laconic means using very few words — terse. Prolix, verbose, and loquacious all describe using many words.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-037",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: voluble",
+    "options": ["halting", "hesitant", "inarticulate", "fluent"],
+    "answer": 3,
+    "explanation": "Voluble means talking fluently and readily. Halting, hesitant, and inarticulate describe difficulty in speaking.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-038",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: reticent",
+    "options": ["forthcoming", "expansive", "reserved", "loquacious"],
+    "answer": 2,
+    "explanation": "Reticent means not revealing one's thoughts or feelings readily — reserved. Forthcoming, expansive, and loquacious describe open, talkative people.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-039",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: effusive",
+    "options": ["restrained", "gushing", "muted", "guarded"],
+    "answer": 1,
+    "explanation": "Effusive means expressing feelings of gratitude or pleasure in an unrestrained way — gushing. Restrained, muted, and guarded describe holding feelings back.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-040",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: acerbic",
+    "options": ["caustic", "honeyed", "mellifluous", "saccharine"],
+    "answer": 0,
+    "explanation": "Acerbic means sharp and critical in tone or manner — caustic. Honeyed, mellifluous, and saccharine describe sweet, pleasant speech.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-041",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: curmudgeonly",
+    "options": ["cantankerous", "genial", "affable", "benign"],
+    "answer": 0,
+    "explanation": "Curmudgeonly means bad-tempered and crusty — cantankerous. Genial, affable, and benign describe a pleasant, kindly nature.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-042",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: dour",
+    "options": ["genial", "stern", "jocular", "effervescent"],
+    "answer": 1,
+    "explanation": "Dour means stern and gloomy in appearance or manner. Genial, jocular, and effervescent describe cheerful, lively dispositions.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-043",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: lugubrious",
+    "options": ["jocund", "ebullient", "mournful", "blithe"],
+    "answer": 2,
+    "explanation": "Lugubrious means looking or sounding sad and dismal — mournful. Jocund, ebullient, and blithe describe cheerfulness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-044",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: blithe",
+    "options": ["careworn", "anxious", "somber", "carefree"],
+    "answer": 3,
+    "explanation": "Blithe means showing a casual and cheerful indifference — carefree. Careworn, anxious, and somber describe worry or gloom.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-045",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: placid",
+    "options": ["turbulent", "tempestuous", "agitated", "calm"],
+    "answer": 3,
+    "explanation": "Placid means not easily upset or excited — calm. Turbulent, tempestuous, and agitated describe stormy, disturbed states.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-046",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: mercurial",
+    "options": ["steadfast", "phlegmatic", "volatile", "equable"],
+    "answer": 2,
+    "explanation": "Mercurial means subject to sudden and unpredictable changes of mood — volatile. Steadfast, phlegmatic, and equable describe stability of temper.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-047",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: equable",
+    "options": ["irascible", "even-tempered", "mercurial", "choleric"],
+    "answer": 1,
+    "explanation": "Equable means not easily disturbed or angered — even-tempered. Irascible, mercurial, and choleric describe unstable or quick tempers.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-048",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: imperturbable",
+    "options": ["unflappable", "skittish", "excitable", "overwrought"],
+    "answer": 0,
+    "explanation": "Imperturbable means unable to be upset or excited — unflappable. Skittish, excitable, and overwrought describe nervous, easily upset natures.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-049",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: intrepid",
+    "options": ["fearless", "pusillanimous", "timorous", "craven"],
+    "answer": 0,
+    "explanation": "Intrepid means fearless and adventurous. Pusillanimous, timorous, and craven all describe cowardice.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-050",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: craven",
+    "options": ["valiant", "cowardly", "gallant", "stalwart"],
+    "answer": 1,
+    "explanation": "Craven means contemptibly lacking in courage — cowardly. Valiant, gallant, and stalwart describe bravery and steadfastness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-051",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: valiant",
+    "options": ["craven", "pusillanimous", "brave", "fainthearted"],
+    "answer": 2,
+    "explanation": "Valiant means possessing or showing courage — brave. Craven, pusillanimous, and fainthearted describe cowardice.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-052",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: munificent",
+    "options": ["parsimonious", "penurious", "niggardly", "generous"],
+    "answer": 3,
+    "explanation": "Munificent means very generous in giving. Parsimonious, penurious, and niggardly all describe unwillingness to spend or give.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-053",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: parsimonious",
+    "options": ["munificent", "lavish", "prodigal", "stingy"],
+    "answer": 3,
+    "explanation": "Parsimonious means unwilling to spend money — stingy. Munificent, lavish, and prodigal describe generous or extravagant spending.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-054",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: prodigal",
+    "options": ["frugal", "thrifty", "wasteful", "parsimonious"],
+    "answer": 2,
+    "explanation": "Prodigal means spending money recklessly and wastefully. Frugal, thrifty, and parsimonious describe careful or stingy use of money.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-055",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: frugal",
+    "options": ["prodigal", "thrifty", "profligate", "extravagant"],
+    "answer": 1,
+    "explanation": "Frugal means careful with money and resources — thrifty. Prodigal, profligate, and extravagant describe reckless or lavish spending.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-056",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: profligate",
+    "options": ["extravagant", "abstemious", "ascetic", "frugal"],
+    "answer": 0,
+    "explanation": "Profligate means recklessly extravagant or wasteful. Abstemious, ascetic, and frugal describe self-restraint and careful use of resources.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-057",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: ascetic",
+    "options": ["austere", "hedonistic", "sybaritic", "indulgent"],
+    "answer": 0,
+    "explanation": "Ascetic means practicing severe self-discipline and abstaining from indulgence — austere. Hedonistic, sybaritic, and indulgent describe the pursuit of pleasure.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-058",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: hedonistic",
+    "options": ["ascetic", "pleasure-seeking", "abstemious", "puritanical"],
+    "answer": 1,
+    "explanation": "Hedonistic means devoted to the pursuit of pleasure — pleasure-seeking. Ascetic, abstemious, and puritanical describe self-denial and strictness.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-059",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: meticulous",
+    "options": ["cursory", "perfunctory", "painstaking", "slapdash"],
+    "answer": 2,
+    "explanation": "Meticulous means showing great attention to detail — painstaking. Cursory, perfunctory, and slapdash describe hasty, careless work.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-060",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: perfunctory",
+    "options": ["meticulous", "thorough", "painstaking", "cursory"],
+    "answer": 3,
+    "explanation": "Perfunctory means carried out with minimal effort or interest — cursory. Meticulous, thorough, and painstaking describe careful, complete work.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-061",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: obstinate",
+    "options": ["stubborn", "amenable", "pliable", "complaisant"],
+    "answer": 0,
+    "explanation": "Obstinate means stubbornly refusing to change one's opinion or course of action. Amenable, pliable, and complaisant describe a willing, adaptable nature.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "SYN-062",
+    "category": "synonyms",
+    "question": "Choose the word closest in meaning to: amenable",
+    "options": ["recalcitrant", "agreeable", "obdurate", "intractable"],
+    "answer": 1,
+    "explanation": "Amenable means open and responsive to suggestion — agreeable. Recalcitrant, obdurate, and intractable describe stubborn resistance.",
+    "source": "General vocabulary (GRE-level)"
+  }
+,
+  {
+    "id": "ANT-001",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: loquacious",
+    "options": ["voluble", "garrulous", "taciturn", "effusive"],
+    "answer": 2,
+    "explanation": "Loquacious means very talkative, so its opposite is taciturn (saying little). Voluble, garrulous, and effusive are all synonyms of loquacious.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-002",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: taciturn",
+    "options": ["voluble", "reticent", "laconic", "reserved"],
+    "answer": 0,
+    "explanation": "Taciturn means saying little, so its opposite is voluble (talking fluently and readily). Reticent, laconic, and reserved are all synonyms of taciturn.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-003",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: gregarious",
+    "options": ["sociable", "affable", "convivial", "reclusive"],
+    "answer": 3,
+    "explanation": "Gregarious means fond of company, so its opposite is reclusive (avoiding other people). Sociable, affable, and convivial are all synonyms of gregarious.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-004",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: phlegmatic",
+    "options": ["impassive", "excitable", "stoic", "imperturbable"],
+    "answer": 1,
+    "explanation": "Phlegmatic means calm and unemotional, so its opposite is excitable (easily stirred up). Impassive, stoic, and imperturbable are all synonyms of phlegmatic.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-005",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: choleric",
+    "options": ["irascible", "placid", "irritable", "testy"],
+    "answer": 1,
+    "explanation": "Choleric means bad-tempered and easily angered, so its opposite is placid (calm and peaceful). Irascible, irritable, and testy are all synonyms of choleric.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-006",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: magnanimous",
+    "options": ["generous", "munificent", "big-hearted", "petty"],
+    "answer": 3,
+    "explanation": "Magnanimous means generous in spirit, so its opposite is petty (small-minded and ungenerous). Generous, munificent, and big-hearted are all synonyms of magnanimous.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-007",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: fastidious",
+    "options": ["slipshod", "meticulous", "painstaking", "scrupulous"],
+    "answer": 0,
+    "explanation": "Fastidious means very attentive to detail, so its opposite is slipshod (careless and sloppy). Meticulous, painstaking, and scrupulous are all synonyms of fastidious.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-008",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: indolent",
+    "options": ["slothful", "lethargic", "industrious", "languid"],
+    "answer": 2,
+    "explanation": "Indolent means avoiding work or exertion, so its opposite is industrious (hard-working). Slothful, lethargic, and languid are all synonyms of indolent.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-009",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: ebullient",
+    "options": ["exuberant", "effervescent", "vivacious", "despondent"],
+    "answer": 3,
+    "explanation": "Ebullient means cheerful and full of energy, so its opposite is despondent (in low spirits). Exuberant, effervescent, and vivacious are all synonyms of ebullient.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-010",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: morose",
+    "options": ["sullen", "lugubrious", "buoyant", "dour"],
+    "answer": 2,
+    "explanation": "Morose means sullen and gloomy, so its opposite is buoyant (cheerful and optimistic). Sullen, lugubrious, and dour are all synonyms of morose.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-011",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: timorous",
+    "options": ["fearful", "intrepid", "diffident", "craven"],
+    "answer": 1,
+    "explanation": "Timorous means showing fear or nervousness, so its opposite is intrepid (fearless). Fearful, diffident, and craven all describe fearfulness or cowardice.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-012",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: audacious",
+    "options": ["timid", "bold", "daring", "intrepid"],
+    "answer": 0,
+    "explanation": "Audacious means bold and willing to take risks, so its opposite is timid (lacking courage). Bold, daring, and intrepid are all synonyms of audacious.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-013",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: affable",
+    "options": ["churlish", "amiable", "genial", "cordial"],
+    "answer": 0,
+    "explanation": "Affable means friendly and easy to talk to, so its opposite is churlish (rude and unfriendly). Amiable, genial, and cordial are all synonyms of affable.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-014",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: truculent",
+    "options": ["belligerent", "pugnacious", "amenable", "combative"],
+    "answer": 2,
+    "explanation": "Truculent means eager to argue or fight, so its opposite is amenable (open and agreeable). Belligerent, pugnacious, and combative are all synonyms of truculent.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-015",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: pusillanimous",
+    "options": ["cowardly", "craven", "fainthearted", "valiant"],
+    "answer": 3,
+    "explanation": "Pusillanimous means lacking courage, so its opposite is valiant (brave). Cowardly, craven, and fainthearted are all synonyms of pusillanimous.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-016",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: parsimonious",
+    "options": ["stingy", "lavish", "niggardly", "penurious"],
+    "answer": 1,
+    "explanation": "Parsimonious means unwilling to spend money, so its opposite is lavish (spending generously). Stingy, niggardly, and penurious are all synonyms of parsimonious.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-017",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: munificent",
+    "options": ["bountiful", "lavish", "stingy", "prodigal"],
+    "answer": 2,
+    "explanation": "Munificent means very generous in giving, so its opposite is stingy. Bountiful and lavish are synonyms of munificent, while prodigal describes wasteful spending rather than unwillingness to give.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-018",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: obstinate",
+    "options": ["obdurate", "compliant", "recalcitrant", "intractable"],
+    "answer": 1,
+    "explanation": "Obstinate means stubbornly refusing to change, so its opposite is compliant (willing to obey or agree). Obdurate, recalcitrant, and intractable are all synonyms of obstinate.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-019",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: amenable",
+    "options": ["recalcitrant", "agreeable", "tractable", "obliging"],
+    "answer": 0,
+    "explanation": "Amenable means open and responsive to suggestion, so its opposite is recalcitrant (stubbornly resistant). Agreeable, tractable, and obliging are all synonyms of amenable.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-020",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: meticulous",
+    "options": ["painstaking", "scrupulous", "exacting", "careless"],
+    "answer": 3,
+    "explanation": "Meticulous means showing great attention to detail, so its opposite is careless. Painstaking, scrupulous, and exacting are all synonyms of meticulous.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-021",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: diffident",
+    "options": ["shy", "assertive", "bashful", "self-effacing"],
+    "answer": 1,
+    "explanation": "Diffident means lacking self-confidence and shy, so its opposite is assertive (confident and forceful). Shy, bashful, and self-effacing are all synonyms of diffident.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-022",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: haughty",
+    "options": ["humble", "arrogant", "supercilious", "disdainful"],
+    "answer": 0,
+    "explanation": "Haughty means arrogantly superior, so its opposite is humble (modest and unassuming). Arrogant, supercilious, and disdainful are all synonyms of haughty.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-023",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: sanguine",
+    "options": ["optimistic", "buoyant", "pessimistic", "hopeful"],
+    "answer": 2,
+    "explanation": "Sanguine means optimistic, especially in a difficult situation, so its opposite is pessimistic (expecting the worst). Optimistic, buoyant, and hopeful are all synonyms of sanguine.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-024",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: melancholic",
+    "options": ["despondent", "lugubrious", "wistful", "cheerful"],
+    "answer": 3,
+    "explanation": "Melancholic means feeling or expressing sadness, so its opposite is cheerful. Despondent, lugubrious, and wistful all describe sadness or longing.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-025",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: petulant",
+    "options": ["peevish", "querulous", "fretful", "forbearing"],
+    "answer": 3,
+    "explanation": "Petulant means childishly sulky or bad-tempered, so its opposite is forbearing (patient and tolerant). Peevish, querulous, and fretful are all synonyms of petulant.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-026",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: querulous",
+    "options": ["complaining", "uncomplaining", "peevish", "fretful"],
+    "answer": 1,
+    "explanation": "Querulous means given to complaining, so its opposite is uncomplaining. Complaining, peevish, and fretful are all synonyms of querulous.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-027",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: volatile",
+    "options": ["stable", "mercurial", "erratic", "capricious"],
+    "answer": 0,
+    "explanation": "Volatile means liable to change rapidly and unpredictably, so its opposite is stable. Mercurial, erratic, and capricious are all synonyms of volatile.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-028",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: imperturbable",
+    "options": ["unflappable", "serene", "excitable", "composed"],
+    "answer": 2,
+    "explanation": "Imperturbable means unable to be upset or excited, so its opposite is excitable (easily stirred up). Unflappable, serene, and composed are all synonyms of imperturbable.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-029",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: garrulous",
+    "options": ["taciturn", "voluble", "loquacious", "chatty"],
+    "answer": 0,
+    "explanation": "Garrulous means excessively talkative, so its opposite is taciturn (saying little). Voluble, loquacious, and chatty are all synonyms of garrulous.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-030",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: laconic",
+    "options": ["terse", "succinct", "pithy", "verbose"],
+    "answer": 3,
+    "explanation": "Laconic means using very few words, so its opposite is verbose (using many words). Terse, succinct, and pithy are all synonyms of laconic.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-031",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: corpulent",
+    "options": ["rotund", "gaunt", "portly", "obese"],
+    "answer": 1,
+    "explanation": "Corpulent means fat, so its opposite is gaunt (lean and haggard). Rotund, portly, and obese are all synonyms of corpulent.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-032",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: lanky",
+    "options": ["gangling", "rangy", "stocky", "slender"],
+    "answer": 2,
+    "explanation": "Lanky means tall and thin, so its opposite is stocky (short and heavily built). Gangling, rangy, and slender all describe a tall, thin build like lanky.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-033",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: genial",
+    "options": ["affable", "cordial", "surly", "amiable"],
+    "answer": 2,
+    "explanation": "Genial means friendly and cheerful, so its opposite is surly (bad-tempered and unfriendly). Affable, cordial, and amiable are all synonyms of genial.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-034",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: surly",
+    "options": ["genial", "sullen", "churlish", "morose"],
+    "answer": 0,
+    "explanation": "Surly means bad-tempered and unfriendly, so its opposite is genial (friendly and cheerful). Sullen, churlish, and morose are all synonyms of surly.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-035",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: candid",
+    "options": ["forthright", "evasive", "frank", "blunt"],
+    "answer": 1,
+    "explanation": "Candid means truthful and straightforward, so its opposite is evasive (avoiding direct answers). Forthright, frank, and blunt are all synonyms of candid.",
+    "source": "General vocabulary (GRE-level)"
+  },
+  {
+    "id": "ANT-036",
+    "category": "antonyms",
+    "question": "Choose the word most nearly opposite in meaning to: craven",
+    "options": ["cowardly", "fainthearted", "pusillanimous", "valiant"],
+    "answer": 3,
+    "explanation": "Craven means contemptibly lacking in courage, so its opposite is valiant (brave). Cowardly, fainthearted, and pusillanimous are all synonyms of craven.",
+    "source": "General vocabulary (GRE-level)"
+  }
+,
+  {
+    "id": "IDM-001",
+    "category": "idioms",
+    "question": "At the start of the workshop, the trainer told a joke to break the ice. The idiom \"break the ice\" is closest in meaning to:",
+    "options": ["ease the initial awkwardness", "start an argument", "end the meeting early", "freeze the conversation"],
+    "answer": 0,
+    "explanation": "To break the ice means to ease the initial social awkwardness and get people talking. It has nothing to do with arguing, ending a meeting, or coldness.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-002",
+    "category": "idioms",
+    "question": "When she said the real problem was poor communication, she hit the nail on the head. The idiom \"hit the nail on the head\" is closest in meaning to:",
+    "options": ["miss the point entirely", "describe the situation exactly right", "fix the problem herself", "hurt someone's feelings"],
+    "answer": 1,
+    "explanation": "To hit the nail on the head means to say exactly the right thing or identify the problem precisely. It is not about missing the point, fixing things, or causing hurt.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-003",
+    "category": "idioms",
+    "question": "He finally decided to bite the bullet and tell his boss he needed a raise. The idiom \"bite the bullet\" is closest in meaning to:",
+    "options": ["avoid the issue", "complain to his coworkers", "face an unpleasant situation bravely", "ask someone else to do it"],
+    "answer": 2,
+    "explanation": "To bite the bullet means to face something unpleasant with courage rather than putting it off. Avoiding the issue, complaining, or delegating it are the opposite.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-004",
+    "category": "idioms",
+    "question": "With the bar exam two weeks away, she burned the midnight oil every night. The idiom \"burn the midnight oil\" is closest in meaning to:",
+    "options": ["sleep through the night", "waste time", "light candles for luck", "work or study late into the night"],
+    "answer": 3,
+    "explanation": "To burn the midnight oil means to work or study late into the night. It is not about sleeping, wasting time, or lighting candles.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-005",
+    "category": "idioms",
+    "question": "The repairs to the old house cost an arm and a leg. The idiom \"cost an arm and a leg\" is closest in meaning to:",
+    "options": ["were very cheap", "took very little time", "caused a serious injury", "were very expensive"],
+    "answer": 3,
+    "explanation": "To cost an arm and a leg means to be very expensive. It has nothing to do with cheapness, speed, or actual injury.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-006",
+    "category": "idioms",
+    "question": "Tom let the cat out of the bag about the surprise party. The idiom \"let the cat out of the bag\" is closest in meaning to:",
+    "options": ["keep the secret safe", "buy a gift for the party", "reveal the secret", "clean up after the party"],
+    "answer": 2,
+    "explanation": "To let the cat out of the bag means to reveal a secret, often by accident. Keeping the secret safe is the opposite; buying a gift and cleaning up are unrelated.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-007",
+    "category": "idioms",
+    "question": "She stayed home from work because she was feeling under the weather. The idiom \"under the weather\" is closest in meaning to:",
+    "options": ["caught in a storm", "slightly ill", "in a bad mood", "worried about the forecast"],
+    "answer": 1,
+    "explanation": "To feel under the weather means to feel slightly ill. It is not about storms, moods, or weather forecasts.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-008",
+    "category": "idioms",
+    "question": "They eat at that fancy restaurant once in a blue moon. The idiom \"once in a blue moon\" is closest in meaning to:",
+    "options": ["very rarely", "every full moon", "once a month", "only at night"],
+    "answer": 0,
+    "explanation": "Once in a blue moon means very rarely. It is not a literal schedule tied to the moon, a month, or nighttime.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-009",
+    "category": "idioms",
+    "question": "After months of practice, the driving test was a piece of cake. The idiom \"a piece of cake\" is closest in meaning to:",
+    "options": ["very easy", "surprisingly sweet", "a complete failure", "harder than expected"],
+    "answer": 0,
+    "explanation": "A piece of cake means something very easy to do. It has nothing to do with actual cake, sweetness, or failure.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-010",
+    "category": "idioms",
+    "question": "Finals start Monday, so it's time to hit the books. The idiom \"hit the books\" is closest in meaning to:",
+    "options": ["throw away your textbooks", "start studying seriously", "close the library", "buy new books"],
+    "answer": 1,
+    "explanation": "To hit the books means to begin studying seriously. It does not involve throwing books away, closing a library, or buying books.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-011",
+    "category": "idioms",
+    "question": "The interviewer kept pressing until the witness spilled the beans. The idiom \"spill the beans\" is closest in meaning to:",
+    "options": ["make a mess in the kitchen", "refuse to answer", "reveal the information", "change the subject"],
+    "answer": 2,
+    "explanation": "To spill the beans means to reveal secret or confidential information. Refusing to answer is the opposite, and the kitchen and changing the subject are unrelated.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-012",
+    "category": "idioms",
+    "question": "Break a leg at your audition tonight! The idiom \"break a leg\" is closest in meaning to:",
+    "options": ["be careful not to fall", "do not go on stage", "try to injure yourself", "good luck"],
+    "answer": 3,
+    "explanation": "Break a leg is a way of wishing someone good luck, especially before a performance. It is not a literal warning about falling or injury.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-013",
+    "category": "idioms",
+    "question": "Stop beating around the bush and tell me what happened. The idiom \"beat around the bush\" is closest in meaning to:",
+    "options": ["walk through the garden", "speak in a whisper", "answer quickly", "avoid saying what you mean"],
+    "answer": 3,
+    "explanation": "To beat around the bush means to avoid saying what you mean or getting to the point. It has nothing to do with gardens, whispering, or answering quickly.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-014",
+    "category": "idioms",
+    "question": "He was about to sign the contract when he got cold feet. The idiom \"get cold feet\" is closest in meaning to:",
+    "options": ["feel the room was chilly", "catch a cold", "become suddenly nervous and hesitant", "decide to walk away quickly"],
+    "answer": 2,
+    "explanation": "To get cold feet means to suddenly become too nervous to do something you had planned. It is not about temperature, illness, or walking away.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-015",
+    "category": "idioms",
+    "question": "We've been packing boxes since dawn — let's call it a day. The idiom \"call it a day\" is closest in meaning to:",
+    "options": ["work through the night", "stop working for the day", "check the calendar", "start a new project"],
+    "answer": 1,
+    "explanation": "To call it a day means to stop working for the day. Working through the night is the opposite, and calendars and new projects are unrelated.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-016",
+    "category": "idioms",
+    "question": "After the acceptance letter arrived, she was on cloud nine. The idiom \"on cloud nine\" is closest in meaning to:",
+    "options": ["extremely happy", "flying to another city", "confused and lost", "fast asleep"],
+    "answer": 0,
+    "explanation": "To be on cloud nine means to be extremely happy. It has nothing to do with flying, confusion, or sleep.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-017",
+    "category": "idioms",
+    "question": "I've sent you all the documents; now the ball is in your court. The idiom \"the ball is in your court\" is closest in meaning to:",
+    "options": ["it is your turn to act", "you have won the game", "you should play tennis", "I am finished helping you"],
+    "answer": 0,
+    "explanation": "The ball is in your court means it is now your turn to take action or respond. It is not about winning, tennis, or ending help.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-018",
+    "category": "idioms",
+    "question": "The contractor cut corners on the foundation, and the house soon developed cracks. The idiom \"cut corners\" is closest in meaning to:",
+    "options": ["work carefully and slowly", "do the job cheaply and carelessly", "measure the angles precisely", "finish ahead of schedule"],
+    "answer": 1,
+    "explanation": "To cut corners means to do something cheaply or carelessly to save time or money — here, causing cracks in the house. Working carefully, measuring precisely, and finishing early describe quality work, not shortcuts.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-019",
+    "category": "idioms",
+    "question": "After the twelve-hour shift, he hit the sack as soon as he got home. The idiom \"hit the sack\" is closest in meaning to:",
+    "options": ["go to the gym", "pack his bags", "go to bed", "start cooking dinner"],
+    "answer": 2,
+    "explanation": "To hit the sack means to go to bed. It has nothing to do with the gym, packing, or cooking.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-020",
+    "category": "idioms",
+    "question": "Take an umbrella — it's raining cats and dogs out there. The idiom \"rain cats and dogs\" is closest in meaning to:",
+    "options": ["rain lightly", "animals are falling from the sky", "the rain has stopped", "rain very heavily"],
+    "answer": 3,
+    "explanation": "To rain cats and dogs means to rain very heavily. It is not about light rain, the rain stopping, or animals literally falling.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-021",
+    "category": "idioms",
+    "question": "She announced her engagement at her sister's wedding, stealing her thunder. The idiom \"steal someone's thunder\" is closest in meaning to:",
+    "options": ["ruin the weather", "make loud noises", "give a toast", "take attention away from someone else"],
+    "answer": 3,
+    "explanation": "To steal someone's thunder means to take attention away from someone else who deserves it. It has nothing to do with weather, noise, or toasts.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-022",
+    "category": "idioms",
+    "question": "We were just talking about you — speak of the devil! The idiom \"speak of the devil\" is closest in meaning to:",
+    "options": ["you are in trouble", "someone has been gossiping", "the person being talked about has just arrived", "you should leave at once"],
+    "answer": 2,
+    "explanation": "Speak of the devil is said when the person you were just talking about appears. It is not about trouble, gossip, or asking someone to leave.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-023",
+    "category": "idioms",
+    "question": "He tends to exaggerate, so take his stories with a grain of salt. The idiom \"take it with a grain of salt\" is closest in meaning to:",
+    "options": ["believe them completely", "don't take them too literally", "season them well", "ignore him entirely"],
+    "answer": 1,
+    "explanation": "To take something with a grain of salt means not to take it too literally or believe it completely. It is not about seasoning food or ignoring someone entirely.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-024",
+    "category": "idioms",
+    "question": "They stayed friends through thick and thin, from college to retirement. The idiom \"through thick and thin\" is closest in meaning to:",
+    "options": ["through good times and bad", "in all kinds of weather", "despite their weight gain", "only when things went well"],
+    "answer": 0,
+    "explanation": "Through thick and thin means through good times and bad, staying loyal despite difficulties. It is not about weather, weight, or only good times.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-025",
+    "category": "idioms",
+    "question": "The company paid some workers under the table to avoid taxes. The idiom \"under the table\" is closest in meaning to:",
+    "options": ["secretly, without official records", "beneath the office furniture", "in small amounts each week", "after the work was inspected"],
+    "answer": 0,
+    "explanation": "Under the table means secretly and unofficially, without records — here, to avoid taxes. It is not about furniture, small amounts, or inspections.",
+    "source": "Common American idiom"
+  }
+,
+  {
+    "id": "IDM-026",
+    "category": "idioms",
+    "question": "After a stressful week, he went for a long run to blow off steam. The idiom \"blow off steam\" is closest in meaning to:",
+    "options": ["quit his job", "release built-up tension", "boil water", "shout at his boss"],
+    "answer": 1,
+    "explanation": "To blow off steam means to release built-up tension or frustration, often through exercise or recreation. It is not about quitting, boiling water, or shouting.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-027",
+    "category": "idioms",
+    "question": "By volunteering for three committees at once, she bit off more than she could chew. The idiom \"bite off more than you can chew\" is closest in meaning to:",
+    "options": ["eat too much at lunch", "help her friends", "take on more than she could handle", "finish her work early"],
+    "answer": 2,
+    "explanation": "To bite off more than you can chew means to take on more work or responsibility than you can manage. It is not about eating, helping friends, or finishing early.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-028",
+    "category": "idioms",
+    "question": "He passed the exam by the skin of his teeth. The idiom \"by the skin of your teeth\" is closest in meaning to:",
+    "options": ["with the highest score", "after cheating", "by brushing his teeth", "by the narrowest margin"],
+    "answer": 3,
+    "explanation": "By the skin of your teeth means barely succeeding, by the narrowest possible margin. It is not about high scores, cheating, or dental hygiene.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-029",
+    "category": "idioms",
+    "question": "Despite her fame, the actress is remarkably down to earth. The idiom \"down to earth\" is closest in meaning to:",
+    "options": ["afraid of flying", "living in a basement", "unhappy with success", "practical and unpretentious"],
+    "answer": 3,
+    "explanation": "Down to earth means practical, realistic, and unpretentious despite success or fame. It has nothing to do with flying, basements, or unhappiness.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-030",
+    "category": "idioms",
+    "question": "Losing that job was a blessing in disguise — it pushed her to start her own business. The idiom \"a blessing in disguise\" is closest in meaning to:",
+    "options": ["a terrible misfortune", "a religious ceremony", "a good thing that first seemed bad", "a gift from a stranger"],
+    "answer": 2,
+    "explanation": "A blessing in disguise is something that seems bad at first but turns out to be good. It is not a misfortune, a ceremony, or a literal gift.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-031",
+    "category": "idioms",
+    "question": "Don't worry about the visa yet — we'll cross that bridge when we come to it. The idiom \"cross that bridge when you come to it\" is closest in meaning to:",
+    "options": ["find a bridge to cross", "deal with the problem when it arises", "avoid the problem forever", "cross the river now"],
+    "answer": 1,
+    "explanation": "To cross that bridge when you come to it means to deal with a problem only when it actually arises, not before. It is not about literal bridges or avoiding the problem forever.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-032",
+    "category": "idioms",
+    "question": "If you keep crying wolf, no one will believe you when there's a real emergency. The idiom \"cry wolf\" is closest in meaning to:",
+    "options": ["raise false alarms", "howl at the moon", "warn people about wolves", "cry for help"],
+    "answer": 0,
+    "explanation": "To cry wolf means to raise a false alarm, so people stop believing you when there is real danger. It is not about howling, real wolves, or genuinely crying for help.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-033",
+    "category": "idioms",
+    "question": "The party got out of hand when uninvited guests started arriving. The idiom \"get out of hand\" is closest in meaning to:",
+    "options": ["become uncontrollable", "run out of food", "end early", "move outside"],
+    "answer": 0,
+    "explanation": "To get out of hand means to become uncontrollable. It is not about food, ending early, or moving outdoors.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-034",
+    "category": "idioms",
+    "question": "He forgot to file the report and now he's in hot water with his manager. The idiom \"in hot water\" is closest in meaning to:",
+    "options": ["taking a bath", "in trouble", "feeling warm", "working in a kitchen"],
+    "answer": 1,
+    "explanation": "To be in hot water means to be in trouble because of something you did or failed to do. It has nothing to do with baths, warmth, or kitchens.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-035",
+    "category": "idioms",
+    "question": "She jumped the gun by announcing the merger before the deal was signed. The idiom \"jump the gun\" is closest in meaning to:",
+    "options": ["win the race", "avoid the danger", "act too soon", "fire a weapon"],
+    "answer": 2,
+    "explanation": "To jump the gun means to act too soon, before the proper time. It is not about winning, avoiding danger, or firing a weapon.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-036",
+    "category": "idioms",
+    "question": "I know the rejection hurts, but keep your chin up — another offer will come. The idiom \"keep your chin up\" is closest in meaning to:",
+    "options": ["lift your head while walking", "look up at the sky", "tilt your head back", "stay cheerful in a difficult situation"],
+    "answer": 3,
+    "explanation": "To keep your chin up means to stay cheerful and hopeful in a difficult situation. It is not literally about head position or looking at the sky.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-037",
+    "category": "idioms",
+    "question": "The argument was settled years ago, so let sleeping dogs lie. The idiom \"let sleeping dogs lie\" is closest in meaning to:",
+    "options": ["let the dog rest", "don't disturb a peaceful animal", "wake the dog gently", "avoid restarting an old conflict"],
+    "answer": 3,
+    "explanation": "To let sleeping dogs lie means to avoid restarting an old conflict or bringing up a settled problem. It is not literally about dogs.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-038",
+    "category": "idioms",
+    "question": "He waited too long to apply and missed the boat on the scholarship. The idiom \"miss the boat\" is closest in meaning to:",
+    "options": ["arrive at the dock late", "forget to buy a ticket", "miss an opportunity", "take the wrong ferry"],
+    "answer": 2,
+    "explanation": "To miss the boat means to miss an opportunity by acting too late. It is not literally about docks, tickets, or ferries.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-039",
+    "category": "idioms",
+    "question": "The training is brutal, but no pain, no gain. The idiom \"no pain, no gain\" is closest in meaning to:",
+    "options": ["exercise is dangerous", "you must work hard to achieve results", "pain is a sign of injury", "gains come without effort"],
+    "answer": 1,
+    "explanation": "No pain, no gain means you must work hard and endure difficulty to achieve results. It is not a warning about danger or injury, and it contradicts the idea that gains come easily.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-040",
+    "category": "idioms",
+    "question": "She's still on the fence about whether to accept the job in Chicago. The idiom \"on the fence\" is closest in meaning to:",
+    "options": ["undecided", "sitting on a fence", "opposed to the job", "excited about moving"],
+    "answer": 0,
+    "explanation": "To be on the fence means to be undecided between two options. It is not about literally sitting on a fence, opposing the job, or being excited.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-041",
+    "category": "idioms",
+    "question": "Relax — I'm just pulling your leg; the meeting was never cancelled. The idiom \"pull someone's leg\" is closest in meaning to:",
+    "options": ["joke with you", "hurt your leg", "drag you along", "ask for a favor"],
+    "answer": 0,
+    "explanation": "To pull someone's leg means to tease or joke with them, not to be taken seriously. It has nothing to do with hurting, dragging, or favors.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-042",
+    "category": "idioms",
+    "question": "I hate to rain on your parade, but the budget won't cover a new car. The idiom \"rain on someone's parade\" is closest in meaning to:",
+    "options": ["celebrate with you", "spoil someone's plans or enthusiasm", "bring an umbrella", "join the parade"],
+    "answer": 1,
+    "explanation": "To rain on someone's parade means to spoil their plans or dampen their enthusiasm with bad news. It is not about celebrating, umbrellas, or joining a parade.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-043",
+    "category": "idioms",
+    "question": "Her email was polite, but if you read between the lines, she was furious. The idiom \"read between the lines\" is closest in meaning to:",
+    "options": ["read very slowly", "skip the important parts", "understand the hidden meaning", "read the email twice"],
+    "answer": 2,
+    "explanation": "To read between the lines means to understand a hidden or implied meaning that is not stated directly. It is not about reading speed, skipping parts, or rereading.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-044",
+    "category": "idioms",
+    "question": "Working from home three days a week gives her the best of both worlds. The idiom \"the best of both worlds\" is closest in meaning to:",
+    "options": ["two homes in different cities", "twice the work for the same pay", "a choice between two jobs", "the advantages of two different situations"],
+    "answer": 3,
+    "explanation": "The best of both worlds means enjoying the advantages of two different situations at once. It is not about two homes, double work, or choosing between jobs.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-045",
+    "category": "idioms",
+    "question": "When the landlord raised the rent again, it was the last straw. The idiom \"the last straw\" is closest in meaning to:",
+    "options": ["the final piece of hay", "a drink with a straw", "the end of the harvest", "the final problem that makes someone lose patience"],
+    "answer": 3,
+    "explanation": "The last straw is the final small problem in a series that makes someone lose patience. It has nothing to do with hay, drinks, or harvests.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-046",
+    "category": "idioms",
+    "question": "After three failed attempts to fix the engine, he threw in the towel. The idiom \"throw in the towel\" is closest in meaning to:",
+    "options": ["clean up the garage", "ask for help", "give up", "start over"],
+    "answer": 2,
+    "explanation": "To throw in the towel means to give up or admit defeat. It is not about cleaning, asking for help, or starting over.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-047",
+    "category": "idioms",
+    "question": "The keys were right under your nose the whole time, on the kitchen counter. The idiom \"right under your nose\" is closest in meaning to:",
+    "options": ["hidden in a drawer", "in an obvious place you overlooked", "under the table", "in your pocket"],
+    "answer": 1,
+    "explanation": "Right under your nose means in an obvious place that you overlooked. It is not about drawers, tables, or pockets.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-048",
+    "category": "idioms",
+    "question": "Tourist souvenirs are a dime a dozen in that part of town. The idiom \"a dime a dozen\" is closest in meaning to:",
+    "options": ["very common and cheap", "sold for ten cents each", "rare and valuable", "sold by the dozen only"],
+    "answer": 0,
+    "explanation": "A dime a dozen means very common and therefore cheap or of little value. It is not a literal price, and it is the opposite of rare and valuable.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-049",
+    "category": "idioms",
+    "question": "The prototype failed every test, so it's back to the drawing board. The idiom \"back to the drawing board\" is closest in meaning to:",
+    "options": ["start over from the beginning", "draw a picture of the prototype", "go back to art school", "buy new drafting tools"],
+    "answer": 0,
+    "explanation": "Back to the drawing board means to start over from the beginning after a plan has failed. It is not literally about drawing, art school, or drafting tools.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-050",
+    "category": "idioms",
+    "question": "Don't quit in anger — there's no need to burn your bridges with your old employer. The idiom \"burn your bridges\" is closest in meaning to:",
+    "options": ["set fire to a bridge", "destroy any chance of going back", "cross a river", "leave the city"],
+    "answer": 1,
+    "explanation": "To burn your bridges means to destroy any possibility of returning to a previous situation or relationship. It is not about literal fire, rivers, or leaving a city.",
+    "source": "Common American idiom"
+  }
+,
+  {
+    "id": "IDM-051",
+    "category": "idioms",
+    "question": "It's getting late — time to hit the road. The idiom \"hit the road\" is closest in meaning to:",
+    "options": ["pave the street", "drive dangerously", "leave; set out on a journey", "lie down on the road"],
+    "answer": 2,
+    "explanation": "To hit the road means to leave or set out on a journey. It is not about paving, dangerous driving, or lying down.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-052",
+    "category": "idioms",
+    "question": "She missed the deadline, but give her the benefit of the doubt — she may have had a good reason. The idiom \"give someone the benefit of the doubt\" is closest in meaning to:",
+    "options": ["accuse her of lying", "forgive her completely", "doubt everything she says", "trust her despite the uncertainty"],
+    "answer": 3,
+    "explanation": "To give someone the benefit of the doubt means to trust them or believe the best about them when the facts are uncertain. It is not an accusation, a full pardon, or total disbelief.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-053",
+    "category": "idioms",
+    "question": "We're all in the same boat — none of us has heard back about the grant. The idiom \"in the same boat\" is closest in meaning to:",
+    "options": ["traveling together", "sharing a boat ride", "working on the same team", "in the same difficult situation"],
+    "answer": 3,
+    "explanation": "To be in the same boat means to be in the same difficult situation as others. It is not literally about travel, boats, or teamwork.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-054",
+    "category": "idioms",
+    "question": "Relax, assembling this shelf is not rocket science. The idiom \"it's not rocket science\" is closest in meaning to:",
+    "options": ["it requires a scientist", "it involves rockets", "it isn't that difficult", "it is impossible"],
+    "answer": 2,
+    "explanation": "It's not rocket science means something isn't that difficult to understand or do. It has nothing to do with scientists, rockets, or impossibility.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-055",
+    "category": "idioms",
+    "question": "Could you keep an eye on the baby while I take a shower? The idiom \"keep an eye on\" is closest in meaning to:",
+    "options": ["stare at the baby", "watch over and take care of", "examine the baby's eyes", "photograph the baby"],
+    "answer": 1,
+    "explanation": "To keep an eye on someone means to watch over and take care of them. It is not about staring, eye exams, or photography.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-056",
+    "category": "idioms",
+    "question": "After the trial ended, the whole team went out to let their hair down. The idiom \"let your hair down\" is closest in meaning to:",
+    "options": ["relax and enjoy yourself", "remove your hat", "change your hairstyle", "go to sleep"],
+    "answer": 0,
+    "explanation": "To let your hair down means to relax and enjoy yourself after being formal or tense. It is not about hats, hairstyles, or sleep.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-057",
+    "category": "idioms",
+    "question": "With rent rising, it's getting harder to make ends meet. The idiom \"make ends meet\" is closest in meaning to:",
+    "options": ["earn enough to pay for basic needs", "tie two ropes together", "finish a project on time", "meet new people"],
+    "answer": 0,
+    "explanation": "To make ends meet means to earn enough money to pay for basic living expenses. It is not about ropes, deadlines, or meeting people.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-058",
+    "category": "idioms",
+    "question": "The new evidence let the suspect off the hook. The idiom \"off the hook\" is closest in meaning to:",
+    "options": ["hang him on a hook", "free from blame or obligation", "catch him in a trap", "hang up the phone"],
+    "answer": 1,
+    "explanation": "To be off the hook means to be freed from blame, trouble, or an obligation. It is not about literal hooks, traps, or phones.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-059",
+    "category": "idioms",
+    "question": "We don't have a plan for the weekend — we'll just play it by ear. The idiom \"play it by ear\" is closest in meaning to:",
+    "options": ["listen to music", "play an instrument", "decide as we go along", "ignore the plan"],
+    "answer": 2,
+    "explanation": "To play it by ear means to decide what to do as a situation develops, rather than planning in advance. It is not about music or instruments, and there is no plan to ignore.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-060",
+    "category": "idioms",
+    "question": "The teacher finally put her foot down about phones in class. The idiom \"put your foot down\" is closest in meaning to:",
+    "options": ["step on a phone", "walk out of the room", "stamp her foot in anger", "take a firm stand"],
+    "answer": 3,
+    "explanation": "To put your foot down means to take a firm stand and insist on something. It is not literally about stepping, walking out, or stamping in anger.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-061",
+    "category": "idioms",
+    "question": "The campaign ran out of steam after the first month. The idiom \"run out of steam\" is closest in meaning to:",
+    "options": ["lose its train", "run out of water", "overheat", "lose energy and momentum"],
+    "answer": 3,
+    "explanation": "To run out of steam means to lose energy, enthusiasm, or momentum. It is not about trains, water, or overheating.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-062",
+    "category": "idioms",
+    "question": "The young violinist stole the show at the concert. The idiom \"steal the show\" is closest in meaning to:",
+    "options": ["take the instruments", "cancel the performance", "attract the most attention and praise", "leave early"],
+    "answer": 2,
+    "explanation": "To steal the show means to attract the most attention and praise in a performance. It is not about theft, cancellation, or leaving early.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-063",
+    "category": "idioms",
+    "question": "Nobody mentioned the layoffs — it was the elephant in the room. The idiom \"the elephant in the room\" is closest in meaning to:",
+    "options": ["a large animal in the office", "an obvious problem everyone avoids discussing", "a piece of furniture", "a surprise guest"],
+    "answer": 1,
+    "explanation": "The elephant in the room is an obvious problem or uncomfortable truth that everyone avoids discussing. It is not about animals, furniture, or guests.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-064",
+    "category": "idioms",
+    "question": "Since the argument, everyone has been walking on eggshells around him. The idiom \"walk on eggshells\" is closest in meaning to:",
+    "options": ["be very careful not to upset him", "walk quietly", "avoid the kitchen", "tiptoe to stay fit"],
+    "answer": 0,
+    "explanation": "To walk on eggshells means to be very careful not to upset someone or cause trouble. It is not literally about quiet walking, kitchens, or fitness.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-065",
+    "category": "idioms",
+    "question": "When will the bus arrive? Your guess is as good as mine. The idiom \"your guess is as good as mine\" is closest in meaning to:",
+    "options": ["I don't know either", "you should guess better", "I know but won't tell you", "let's ask someone else"],
+    "answer": 0,
+    "explanation": "Your guess is as good as mine means I don't know the answer either, so your guess is as likely to be right as mine. It is not a challenge, a refusal to share, or a suggestion to ask someone else.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-066",
+    "category": "idioms",
+    "question": "Bringing up his old mistakes only added fuel to the fire. The idiom \"add fuel to the fire\" is closest in meaning to:",
+    "options": ["help put out the fire", "make a bad situation worse", "light a campfire", "warm the room"],
+    "answer": 1,
+    "explanation": "To add fuel to the fire means to make a bad situation worse. It is the opposite of putting out a fire, and it has nothing to do with campfires or warming a room.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-067",
+    "category": "idioms",
+    "question": "The hotel staff bent over backwards to make our stay comfortable. The idiom \"bend over backwards\" is closest in meaning to:",
+    "options": ["do yoga exercises", "injure their backs", "make a great effort to help", "bow to the guests"],
+    "answer": 2,
+    "explanation": "To bend over backwards means to make a great effort to help or please someone. It is not about yoga, injury, or bowing.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-068",
+    "category": "idioms",
+    "question": "I wanted to correct him, but I bit my tongue. The idiom \"bite your tongue\" is closest in meaning to:",
+    "options": ["hurt your mouth", "speak rudely", "eat something spicy", "hold back from saying something"],
+    "answer": 3,
+    "explanation": "To bite your tongue means to hold back from saying something you want to say. It is not about injuring your mouth, rudeness, or spicy food.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-069",
+    "category": "idioms",
+    "question": "The security guard caught the shoplifter red-handed. The idiom \"catch someone red-handed\" is closest in meaning to:",
+    "options": ["with paint on his hands", "after a long chase", "with blood on his hands", "in the act of doing something wrong"],
+    "answer": 3,
+    "explanation": "To catch someone red-handed means to catch them in the act of doing something wrong. It is not about paint, blood, or a chase.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-070",
+    "category": "idioms",
+    "question": "He may look scruffy, but don't judge a book by its cover — he's a brilliant engineer. The idiom \"don't judge a book by its cover\" is closest in meaning to:",
+    "options": ["don't read books", "judge people by their clothes", "don't judge by outward appearance", "don't buy old books"],
+    "answer": 2,
+    "explanation": "Don't judge a book by its cover means don't judge someone or something by outward appearance alone. It is not about reading, clothing, or buying books.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-071",
+    "category": "idioms",
+    "question": "She hit the jackpot with that apartment — cheap rent in a great neighborhood. The idiom \"hit the jackpot\" is closest in meaning to:",
+    "options": ["win a casino prize", "have great good luck", "gamble away her money", "find a pot of gold"],
+    "answer": 1,
+    "explanation": "To hit the jackpot means to have great good luck or sudden success. Here there was no casino, gambling, or literal pot of gold — just a lucky find.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-072",
+    "category": "idioms",
+    "question": "He took advanced calculus without the prerequisites and soon found himself in over his head. The idiom \"in over your head\" is closest in meaning to:",
+    "options": ["in a situation too difficult to handle", "swimming in deep water", "taller than everyone else", "drowning in paperwork"],
+    "answer": 0,
+    "explanation": "To be in over your head means to be in a situation too difficult to handle. It is not literally about swimming, height, or paperwork.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-073",
+    "category": "idioms",
+    "question": "Once the diet became popular, every celebrity jumped on the bandwagon. The idiom \"jump on the bandwagon\" is closest in meaning to:",
+    "options": ["join something because it is popular", "climb onto a wagon", "start a band", "leave the trend behind"],
+    "answer": 0,
+    "explanation": "To jump on the bandwagon means to join something because it has become popular. It is not about literal wagons, starting a band, or leaving a trend.",
+    "source": "Common American idiom"
+  },
+  {
+    "id": "IDM-074",
+    "category": "idioms",
+    "question": "By cycling to work, she kills two birds with one stone — exercise and commuting. The idiom \"kill two birds with one stone\" is closest in meaning to:",
+    "options": ["hunt birds with stones", "achieve two things with one action", "harm two people at once", "save money on transport"],
+    "answer": 1,
+    "explanation": "To kill two birds with one stone means to achieve two things with a single action. It is not about hunting, harming people, or saving money specifically.",
+    "source": "Common American idiom"
+  }
+]

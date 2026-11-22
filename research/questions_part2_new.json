@@ -1,0 +1,1630 @@
+[
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "The Consortium glossary defines an accessory as a person who aids or contributes in the commission of a crime. (An accomplice is one who knowingly, voluntarily, and intentionally unites with the principal offender in the crime.)",
+    "id": "CSC-034",
+    "options": [
+      "accomplice",
+      "accessory",
+      "defendant",
+      "witness"
+    ],
+    "question": "A person who aids or contributes in the commission of a crime is called a(n) ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "The burden of proof is the obligation of a party to establish by evidence a requisite degree of belief in the mind of the trier of fact; in a criminal case the government must prove guilt beyond a reasonable doubt.",
+    "id": "CSC-035",
+    "options": [
+      "the government",
+      "the defendant",
+      "the jury",
+      "the victim"
+    ],
+    "question": "In a criminal trial, the burden of proof rests on ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "A plaintiff is a person who initiates a lawsuit against another (also called the complainant); the plaintiff files a complaint and the defendant answers it.",
+    "id": "CSC-036",
+    "options": [
+      "defendant",
+      "appellant",
+      "plaintiff",
+      "prosecutor"
+    ],
+    "question": "In a civil case, the person who files the lawsuit is the ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Probable cause is a reasonable belief that a crime has been or is being committed; it is the basis for all lawful searches, seizures, and arrests.",
+    "id": "CSC-037",
+    "options": [
+      "a verdict",
+      "a summons",
+      "a deposition",
+      "probable cause"
+    ],
+    "question": "Before law enforcement officers may lawfully arrest a person or conduct a search, they must have ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Venue is the proper geographical area (county, city, or district) in which a court with jurisdiction may hear a case.",
+    "id": "CSC-038",
+    "options": [
+      "jurisdiction",
+      "venue",
+      "docket",
+      "precinct"
+    ],
+    "question": "The county or district in which a lawsuit is tried is called the ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "A verdict is the opinion of a jury (or judge where there is no jury) on the factual issues of a case.",
+    "id": "CSC-039",
+    "options": [
+      "verdict",
+      "indictment",
+      "sentence",
+      "motion"
+    ],
+    "question": "The jury's decision on the factual issues of a case is called the ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "A warrant is most commonly a court order authorizing law enforcement to make an arrest or conduct a search; the supporting affidavit must establish probable cause.",
+    "id": "CSC-040",
+    "options": [
+      "subpoena",
+      "summons",
+      "warrant",
+      "affidavit"
+    ],
+    "question": "A court order authorizing law enforcement to make an arrest or conduct a search is a ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "A civil suit begins with the filing of a complaint, and a summons notifies the defendant, who then files an answer admitting or denying the allegations.",
+    "id": "CSC-041",
+    "options": [
+      "warrant",
+      "verdict",
+      "indictment",
+      "summons"
+    ],
+    "question": "A document that notifies a defendant that a lawsuit has been filed against him is a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "A suit begins with the filing of a complaint, which states the plaintiff's version of the facts, the legal theory, and the damages or relief sought.",
+    "id": "CSC-042",
+    "options": [
+      "verdict",
+      "complaint",
+      "subpoena",
+      "warrant"
+    ],
+    "question": "A civil lawsuit begins when the plaintiff files a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "The defendant is the person against whom charges are brought; in a criminal case the government prosecutes the defendant, who never has to prove innocence.",
+    "id": "CSC-043",
+    "options": [
+      "defendant",
+      "plaintiff",
+      "appellant",
+      "prosecutor"
+    ],
+    "question": "In a criminal case, the person accused of committing the crime is the ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "A criminal verdict is guilty or not guilty; a not-guilty verdict means the defendant is acquitted of the charge.",
+    "id": "CSC-044",
+    "options": [
+      "convicted",
+      "indicted",
+      "acquitted",
+      "sentenced"
+    ],
+    "question": "If a jury finds a defendant not guilty, the defendant is ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "A guilty verdict results in a conviction; sentencing follows, with a pre-sentence investigation helping the judge choose within the statutory range.",
+    "id": "CSC-045",
+    "options": [
+      "acquittal",
+      "indictment",
+      "deposition",
+      "conviction"
+    ],
+    "question": "When a jury finds a defendant guilty, the result is a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "An appeal is not automatic: there must be a legal basis, an alleged material error, not mere dislike of the verdict. An appeal argues errors of procedure or law; it is not a retrial.",
+    "id": "CSC-046",
+    "options": [
+      "indictment",
+      "appeal",
+      "subpoena",
+      "deposition"
+    ],
+    "question": "A party who believes the trial court made an error of law may file a(n) ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Motions are requests for a legal ruling, not pleadings; examples include a motion to discover, a motion to dismiss, and a motion for summary judgment.",
+    "id": "CSC-047",
+    "options": [
+      "motion",
+      "pleading",
+      "verdict",
+      "deposition"
+    ],
+    "question": "A request asking the court for a legal ruling is called a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Cross-examination is limited to matters raised on direct examination, and leading questions are allowed to test the credibility of statements made during direct examination.",
+    "id": "CSC-048",
+    "options": [
+      "voir dire",
+      "discovery",
+      "cross-examination",
+      "deliberation"
+    ],
+    "question": "After direct examination, the opposing lawyer questions the witness in ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "After conviction, a pre-sentence investigation helps the judge choose a sentence within the statutory range; in most states and federal courts only the judge determines the sentence.",
+    "id": "CSC-049",
+    "options": [
+      "verdict",
+      "indictment",
+      "bail",
+      "sentence"
+    ],
+    "question": "The punishment imposed by the judge after a conviction is called the ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "In a criminal case the government prosecutes the individual or institution alleged to have violated public codes of behavior, represented by the prosecuting attorney.",
+    "id": "CSC-050",
+    "options": [
+      "public defender",
+      "prosecutor",
+      "plaintiff",
+      "bailiff"
+    ],
+    "question": "The lawyer who represents the government in a criminal case is the ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "At the initial appearance, defendants are advised of their rights including counsel, and indigent defendants get appointed counsel.",
+    "id": "CSC-051",
+    "options": [
+      "public defender",
+      "prosecutor",
+      "plaintiff",
+      "court reporter"
+    ],
+    "question": "A defendant who cannot afford to hire a lawyer may have one appointed by the court; such a lawyer is often called a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Plea bargaining resolves most criminal cases in most jurisdictions; the defendant typically pleads guilty to a lesser charge or one of several charges, but the judge is not bound by the prosecution's recommendation.",
+    "id": "CSC-052",
+    "options": [
+      "verdict",
+      "deposition",
+      "plea bargain",
+      "indictment"
+    ],
+    "question": "When a defendant agrees to plead guilty to a lesser charge in exchange for leniency, the agreement is called a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Mistrials may be declared for causes including the death of a juror or attorney, impropriety in drawing the jury, fundamental prejudicial error, juror misconduct, or a hopelessly deadlocked jury.",
+    "id": "CSC-053",
+    "options": [
+      "hung jury",
+      "appeal",
+      "acquittal",
+      "mistrial"
+    ],
+    "question": "A trial that is terminated and declared void before a verdict is reached is a ______.",
+    "source": "Court procedure"
+  }
+,
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Challenges for cause are unlimited and require the lawyer to state a reason, such as that the juror is a relative of a party or is biased.",
+    "id": "CSC-054",
+    "options": [
+      "peremptory challenge",
+      "challenge for cause",
+      "motion to dismiss",
+      "objection"
+    ],
+    "question": "During jury selection, a lawyer who believes a prospective juror is biased may make a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Peremptory challenges permit a lawyer to excuse a potential juror without stating a cause, but they are limited to a certain number and cannot be used to discriminate on the basis of race or sex.",
+    "id": "CSC-055",
+    "options": [
+      "peremptory challenge",
+      "challenge for cause",
+      "motion for summary judgment",
+      "subpoena"
+    ],
+    "question": "A lawyer may excuse a prospective juror without stating any reason by using a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Circumstantial evidence suggests a fact by implication or inference, such as the appearance of a crime scene or physical evidence suggesting criminal activity. Neither kind of evidence is more valuable than the other.",
+    "id": "CSC-056",
+    "options": [
+      "direct evidence",
+      "hearsay",
+      "circumstantial evidence",
+      "testimony"
+    ],
+    "question": "Evidence that suggests a fact by implication or inference, such as the appearance of a crime scene, is called ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Direct evidence speaks for itself: eyewitness accounts, a confession, or a weapon are examples. Neither direct nor circumstantial evidence is more valuable than the other.",
+    "id": "CSC-057",
+    "options": [
+      "circumstantial evidence",
+      "hearsay",
+      "perjury",
+      "direct evidence"
+    ],
+    "question": "An eyewitness account of a crime is an example of ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Discovery is the formal process of exchanging information between the parties about the witnesses and evidence they will present at trial, designed to prevent 'trial by ambush.'",
+    "id": "CSC-058",
+    "options": [
+      "voir dire",
+      "discovery",
+      "arraignment",
+      "deliberation"
+    ],
+    "question": "The formal exchange of information about witnesses and evidence before trial is called ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Witness testimony is part of the formal proceedings that the court reporter records verbatim, along with objections and the judge's rulings.",
+    "id": "CSC-059",
+    "options": [
+      "testimony",
+      "hearsay",
+      "perjury",
+      "indictment"
+    ],
+    "question": "Statements made by a witness under oath in court are called ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Over 95% of cases are handled by state courts, including traffic, divorce, wills and estates, and property cases.",
+    "id": "CSC-060",
+    "options": [
+      "federal courts",
+      "appellate courts",
+      "state courts",
+      "military courts"
+    ],
+    "question": "Traffic cases, divorces, wills, and property disputes are most often handled by ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "In a civil trial the plaintiff generally must prove liability by a preponderance of the evidence, the greater weight of the evidence \u2014 a far less stringent standard than beyond a reasonable doubt.",
+    "id": "CSC-061",
+    "options": [
+      "proof beyond a reasonable doubt",
+      "moral certainty",
+      "unanimous vote of the jury",
+      "preponderance of the evidence"
+    ],
+    "question": "In a civil case, the plaintiff must prove liability by a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "The government must prove guilt beyond a reasonable doubt; the defendant never has to prove innocence (or non-liability in civil cases).",
+    "id": "CSC-062",
+    "options": [
+      "is never required to",
+      "must always",
+      "must, if the victim testifies",
+      "is required to, after the prosecution rests"
+    ],
+    "question": "In a criminal case, the defendant ______ prove his own innocence.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "The same event can produce separate civil and criminal cases in the U.S.; unlike many countries, they are not combined.",
+    "id": "CSC-063",
+    "options": [
+      "separate civil and criminal cases",
+      "only a criminal case",
+      "only a civil case",
+      "a single combined case in the United States"
+    ],
+    "question": "The same event may give rise to ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Felonies include robbery, assault with a deadly weapon, and sexual assault; punishment on conviction is imprisonment of at least one year, usually in a state or federal penitentiary.",
+    "id": "CSC-064",
+    "options": [
+      "misdemeanor",
+      "traffic infraction",
+      "felony",
+      "tort"
+    ],
+    "question": "Robbery is an example of a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Misdemeanors include simple assault, DWI, and trespassing; punishment is less than a year, usually in a local jail.",
+    "id": "CSC-065",
+    "options": [
+      "felony",
+      "capital offense",
+      "civil wrong only",
+      "misdemeanor"
+    ],
+    "question": "Simple assault is an example of a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Traffic infractions and petty misdemeanors are usually punished by fines only.",
+    "id": "CSC-066",
+    "options": [
+      "imprisonment in a penitentiary",
+      "probation without trial",
+      "community service alone",
+      "fines only"
+    ],
+    "question": "Traffic infractions and petty misdemeanors are usually punished by ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Courts have three layers: trial courts (where cases start), intermediate appellate courts (where most appeals are first heard), and courts of last resort.",
+    "id": "CSC-067",
+    "options": [
+      "intermediate appellate courts",
+      "trial courts",
+      "courts of last resort",
+      "federal district courts"
+    ],
+    "question": "Most appeals are first heard in ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "A grand jury is a group (traditionally 23) summoned to determine whether the prosecutor's facts and accusations warrant an indictment and trial.",
+    "id": "CSC-068",
+    "options": [
+      "6",
+      "12",
+      "23",
+      "9"
+    ],
+    "question": "A grand jury traditionally has ______ members.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "An indictment is a formal written accusation issued by a grand jury charging a party with a crime.",
+    "id": "CSC-069",
+    "options": [
+      "verdict",
+      "summons",
+      "warrant",
+      "indictment"
+    ],
+    "question": "If a grand jury finds that the prosecutor's evidence warrants a trial, it votes to issue a(n) ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Under Miranda v. Arizona (1966), before questioning, a person taken into custody must be told of the right to remain silent, that anything said may be used against them, and the right to consult a lawyer, appointed if they cannot afford one.",
+    "id": "CSC-070",
+    "options": [
+      "bail amount",
+      "Miranda rights",
+      "court date",
+      "right to a jury trial"
+    ],
+    "question": "Before questioning a person taken into custody, police must inform the person of his ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "A person arrested without a warrant generally may not be held more than 48 hours without an initial appearance or arraignment before a judge or magistrate.",
+    "id": "CSC-071",
+    "options": [
+      "48 hours",
+      "24 hours",
+      "one week",
+      "30 days"
+    ],
+    "question": "A person arrested without a warrant generally may not be held more than ______ without an initial appearance before a judge or magistrate.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "At a misdemeanor initial appearance or arraignment the charge is read, penalties explained, rights advised including counsel, a plea entered, and bail set.",
+    "id": "CSC-072",
+    "options": [
+      "selects the jury",
+      "sentences the defendant",
+      "sets bail",
+      "hears opening statements"
+    ],
+    "question": "At a misdemeanor arraignment, after the charge is read and the defendant's rights are explained, the judge ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "At a preliminary hearing the government must show probable cause that the defendant committed the crime; if none is found, the matter is dismissed.",
+    "id": "CSC-073",
+    "options": [
+      "the defendant is bound over to trial court",
+      "the defendant is sentenced",
+      "the case goes directly to trial",
+      "the matter is dismissed"
+    ],
+    "question": "If the government cannot show probable cause at a preliminary hearing, ______.",
+    "source": "Court procedure"
+  }
+,
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "If probable cause is found at the preliminary hearing, the defendant is bound over to trial court.",
+    "id": "CSC-074",
+    "options": [
+      "acquitted and released",
+      "bound over",
+      "sentenced immediately",
+      "granted a mistrial"
+    ],
+    "question": "If probable cause is found at a preliminary hearing, the defendant is ______ to trial court.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Bail is returned when the trial is over (minus a processing fee in some states); bail is not a fine and not punishment.",
+    "id": "CSC-075",
+    "options": [
+      "when the trial is over",
+      "only if the defendant is acquitted",
+      "after the defendant is sentenced",
+      "only if no bondsperson was used"
+    ],
+    "question": "Bail posted by a defendant is returned ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Defendants may be released on their own recognizance \u2014 no payment, just a promise to appear.",
+    "id": "CSC-076",
+    "options": [
+      "pays 10% of the bond to a bondsperson",
+      "remains in jail until trial",
+      "promises to appear without posting money",
+      "must wear an ankle monitor"
+    ],
+    "question": "A defendant released on his own recognizance ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Bail bondspersons typically charge about 10% of the bond.",
+    "id": "CSC-077",
+    "options": [
+      "1%",
+      "25%",
+      "50%",
+      "10%"
+    ],
+    "question": "A bail bondsperson typically charges about ______ of the bond amount.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "In a plea bargain the defendant may plead as charged with the prosecution recommending leniency, but the judge is not bound by the prosecution's recommendation.",
+    "id": "CSC-078",
+    "options": [
+      "must always",
+      "is not bound to",
+      "may not hear about",
+      "must, once the defendant pleads guilty"
+    ],
+    "question": "In a plea bargain, the judge ______ follow the prosecution's sentencing recommendation.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Diversion programs remove less serious matters from formal procedure (probation without trial); successful completion can lead to expungement.",
+    "id": "CSC-079",
+    "options": [
+      "probation without trial",
+      "a jury trial",
+      "a longer prison sentence",
+      "an appeal"
+    ],
+    "question": "A diversion program may allow a less serious matter to be resolved by ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Diversion programs remove less serious matters from formal procedure; successful completion can lead to expungement of the record.",
+    "id": "CSC-080",
+    "options": [
+      "publication",
+      "sealing by the victim",
+      "expungement",
+      "a longer sentence"
+    ],
+    "question": "Successful completion of a diversion program can lead to ______ of the record.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "The charge must state the time, date, place, the accused's alleged involvement, and the crime's details.",
+    "id": "CSC-081",
+    "options": [
+      "the defendant's income",
+      "the names of all witnesses",
+      "the sentence to be imposed",
+      "the accused's alleged involvement and the details of the crime"
+    ],
+    "question": "The charge against a defendant must state the time, date, and place of the offense, as well as ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Criminal charges are brought three ways: an indictment voted by a grand jury, an information filed by the prosecuting attorney, or a citation by a police officer for minor offenses.",
+    "id": "CSC-082",
+    "options": [
+      "felonies",
+      "minor offenses",
+      "civil disputes",
+      "appeals"
+    ],
+    "question": "A citation is used by a police officer to charge ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "An information is filed by the prosecuting attorney (a criminal complaint may be filed by an individual); an indictment is voted by a grand jury.",
+    "id": "CSC-083",
+    "options": [
+      "the prosecuting attorney",
+      "the grand jury",
+      "the trial jury",
+      "the victim"
+    ],
+    "question": "An information is a criminal charge filed by ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Grand juries also investigate public corruption and monitor jail conditions in many states.",
+    "id": "CSC-084",
+    "options": [
+      "civil lawsuits",
+      "public corruption",
+      "traffic violations",
+      "court budgets"
+    ],
+    "question": "In many states, grand juries also investigate ______ and monitor jail conditions.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Grand juries exist in the federal system and almost all states, but only about half the states require grand juries for felony charges.",
+    "id": "CSC-085",
+    "options": [
+      "misdemeanor charges",
+      "traffic infractions",
+      "civil cases",
+      "felony charges"
+    ],
+    "question": "About half the states require a grand jury for ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "In domestic relations cases the parties are petitioner and respondent, rather than plaintiff and defendant.",
+    "id": "CSC-086",
+    "options": [
+      "plaintiff and defendant",
+      "petitioner and respondent",
+      "appellant and appellee",
+      "prosecutor and defendant"
+    ],
+    "question": "In a domestic relations case, the parties are called the ______ and the ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Jurisdiction is the legal authority of a court to hear and decide a case, over both the subject matter and the person or property involved.",
+    "id": "CSC-087",
+    "options": [
+      "jurisdiction",
+      "venue",
+      "probable cause",
+      "a jury"
+    ],
+    "question": "A court can decide a case only if it has ______ over the subject matter and over the person or property involved.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Venue is the county or district where the lawsuit is tried; it can be changed, for example for prejudicial pretrial publicity or witness convenience.",
+    "id": "CSC-088",
+    "options": [
+      "the defendant requests a jury trial",
+      "the judge retires",
+      "pretrial publicity has prejudiced the community",
+      "the plaintiff files a counterclaim"
+    ],
+    "question": "Venue may be changed when ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Local actions (for example, foreclosure) may be brought only where the subject is located, while transitory actions can be brought wherever the defendant is found and served.",
+    "id": "CSC-089",
+    "options": [
+      "wherever the defendant is found and served",
+      "in federal court",
+      "in the defendant's home county",
+      "where the property is located"
+    ],
+    "question": "A foreclosure action, which concerns a specific piece of property, may be brought only ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Pleadings include the complaint, the answer, the reply, and the counterclaim, in which the defendant sues the plaintiff back.",
+    "id": "CSC-090",
+    "options": [
+      "complaint",
+      "counterclaim",
+      "reply",
+      "summons"
+    ],
+    "question": "When a defendant sues the plaintiff back, the claim is called a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "A motion to dismiss argues the suit has no legally sound basis even if all facts alleged are true; a motion for summary judgment applies where there is no dispute about the facts and only a question of law remains.",
+    "id": "CSC-091",
+    "options": [
+      "the suit has no legally sound basis even if all the facts alleged are true",
+      "there is no dispute about the facts and only a question of law remains",
+      "the defendant should be released on bail",
+      "the jury should be sequestered"
+    ],
+    "question": "A motion to dismiss argues that ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "A deposition is a pretrial discovery device in which one party questions the other party or a witness under oath, usually in a lawyer's office before a court reporter.",
+    "id": "CSC-092",
+    "options": [
+      "in open court before a jury",
+      "at the defendant's home",
+      "in a lawyer's office before a court reporter",
+      "by telephone with the judge"
+    ],
+    "question": "A deposition is usually taken ______.",
+    "source": "Consortium glossary"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Depositions are out-of-court statements under oath, usable at trial or to discredit a witness whose trial testimony differs.",
+    "id": "CSC-093",
+    "options": [
+      "sentence the defendant",
+      "select the jury",
+      "set bail",
+      "discredit a witness whose trial testimony differs"
+    ],
+    "question": "A deposition taken before trial may be used at trial to ______.",
+    "source": "Court procedure"
+  }
+,
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Most civil cases settle by mutual agreement \u2014 before filing, before trial, during trial, during deliberations, or even after a verdict.",
+    "id": "CSC-094",
+    "options": [
+      "a jury verdict",
+      "settlement by mutual agreement",
+      "an appeal",
+      "a bench trial"
+    ],
+    "question": "Most civil cases are resolved by ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "A settlement usually states no one was right or wrong and need not settle the whole case.",
+    "id": "CSC-095",
+    "options": [
+      "no one was right or wrong",
+      "the defendant admits liability",
+      "the plaintiff drops all claims forever",
+      "the judge decides the facts"
+    ],
+    "question": "A settlement usually states that ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Pleadings include the complaint (or petition or bill), the answer, the reply, and the counterclaim; motions are requests for a legal ruling, not pleadings.",
+    "id": "CSC-096",
+    "options": [
+      "motion",
+      "verdict",
+      "pleading",
+      "subpoena"
+    ],
+    "question": "A reply, filed in response to an answer, is a ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Discovery methods include depositions, interrogatories, subpoenas for documents, physical examinations, and document-authentication requests.",
+    "id": "CSC-097",
+    "options": [
+      "jury selection",
+      "sentencing hearings",
+      "plea bargaining",
+      "document-authentication requests"
+    ],
+    "question": "Discovery methods include depositions, interrogatories, subpoenas for documents, physical examinations, and ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "In a bench trial there is no jury, and the judge presides, rules on points of law, and also decides the facts and the verdict.",
+    "id": "CSC-098",
+    "options": [
+      "instructs the jury on the law",
+      "decides the facts and the verdict",
+      "selects the jury foreperson",
+      "records the testimony verbatim"
+    ],
+    "question": "In a bench trial, the judge ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "The court clerk (or bailiff) administers oaths and manages exhibits; the court reporter records verbatim everything said in formal proceedings.",
+    "id": "CSC-099",
+    "options": [
+      "manages exhibits",
+      "records testimony verbatim",
+      "decides the facts",
+      "keeps order in the courtroom"
+    ],
+    "question": "The court clerk administers oaths and ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "Lawyers for both sides are officers of the court who represent their clients zealously within the Code of Professional Conduct.",
+    "id": "CSC-100",
+    "options": [
+      "only in criminal cases",
+      "without regard to the rules",
+      "zealously, within the Code of Professional Conduct",
+      "only if the client can pay"
+    ],
+    "question": "Lawyers are officers of the court who must represent their clients ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Juries number 6 to 12; civil juries often have 6, while serious criminal cases generally have 12.",
+    "id": "CSC-101",
+    "options": [
+      "12",
+      "23",
+      "3",
+      "6"
+    ],
+    "question": "A civil jury often has ______ jurors.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Peremptory challenges are limited in number, require no stated cause, and cannot be used to discriminate on the basis of race or sex.",
+    "id": "CSC-102",
+    "options": [
+      "age",
+      "race or sex",
+      "occupation",
+      "place of residence"
+    ],
+    "question": "Peremptory challenges may not be used to discriminate on the basis of ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Opening statements are confined to the facts to be proved by the evidence and cannot be argumentative; the party with the burden of proof goes first.",
+    "id": "CSC-103",
+    "options": [
+      "the facts to be proved by the evidence",
+      "arguments about the law",
+      "the personal opinions of the lawyers",
+      "evidence that will not be presented"
+    ],
+    "question": "Opening statements are confined to ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-sentence-completion",
+    "explanation": "On direct examination, witnesses generally cannot state opinions unless qualified as expert witnesses, and leading questions are generally not allowed.",
+    "id": "CSC-104",
+    "options": [
+      "eyewitness",
+      "character witness",
+      "expert witness",
+      "hostile witness"
+    ],
+    "question": "A witness generally may not state opinions unless qualified as a(n) ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-sentence-completion",
+    "explanation": "Objections require a specific legal reason; the judge sustains or overrules. A ruling on an objection is not taking sides.",
+    "id": "CSC-105",
+    "options": [
+      "appeal",
+      "dismiss",
+      "ignore",
+      "sustain or overrule"
+    ],
+    "question": "When a lawyer makes an objection, the judge may ______ it.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-sentence-completion",
+    "explanation": "Cross-examination is limited to matters raised on direct examination; leading questions are allowed, to test the credibility of statements made on direct.",
+    "id": "CSC-106",
+    "options": [
+      "new topics of the lawyer's choosing",
+      "matters raised on direct examination",
+      "the witness's personal life",
+      "questions approved by the jury"
+    ],
+    "question": "Cross-examination is limited to ______.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-sentence-completion",
+    "explanation": "Leading questions are generally not allowed on direct examination, but they are allowed for adverse or hostile witnesses on direct, and during cross-examination.",
+    "id": "CSC-107",
+    "options": [
+      "adverse or hostile",
+      "expert",
+      "friendly",
+      "child"
+    ],
+    "question": "Leading questions are allowed when questioning a(n) ______ witness on direct examination.",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-questions",
+    "explanation": "Pre-trial conferences help narrow the issues and encourage settlement.",
+    "id": "CQ-012",
+    "options": [
+      "To select the jury",
+      "To narrow the issues and encourage settlement",
+      "To sentence the defendant",
+      "To hear opening statements"
+    ],
+    "question": "What is the purpose of a pre-trial conference?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-questions",
+    "explanation": "Pleadings include the complaint, the answer, the reply, and the counterclaim; motions (such as a motion to dismiss) are requests for a legal ruling, not pleadings, and interrogatories are a discovery method.",
+    "id": "CQ-013",
+    "options": [
+      "A motion to dismiss",
+      "A motion for summary judgment",
+      "An interrogatory",
+      "A complaint"
+    ],
+    "question": "Which of the following is a pleading?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-questions",
+    "explanation": "Interrogatories are written questions answered in writing under oath, one of the discovery methods along with depositions and subpoenas for documents.",
+    "id": "CQ-014",
+    "options": [
+      "Written questions answered in writing under oath",
+      "Oral questions asked in open court",
+      "Requests for a change of venue",
+      "Orders requiring a witness to appear"
+    ],
+    "question": "In discovery, interrogatories are:",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-questions",
+    "explanation": "The bailiff keeps order, calls witnesses, and is in charge of the jury, ensuring no one influences it; the court reporter records the proceedings verbatim.",
+    "id": "CQ-015",
+    "options": [
+      "To record verbatim everything said in court",
+      "To decide questions of law",
+      "To keep order, call witnesses, and take charge of the jury",
+      "To represent the defendant"
+    ],
+    "question": "What is the role of the bailiff in a trial?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-questions",
+    "explanation": "Juries number 6 to 12; civil juries often have 6, while serious criminal cases generally have 12.",
+    "id": "CQ-016",
+    "options": [
+      "6",
+      "12",
+      "23",
+      "3"
+    ],
+    "question": "How many jurors generally serve on a jury in a serious criminal case?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-questions",
+    "explanation": "Alternate jurors hear the evidence but deliberate only if they replace an original juror.",
+    "id": "CQ-017",
+    "options": [
+      "They decide the sentence",
+      "They question the witnesses",
+      "They replace the judge if needed",
+      "They hear the evidence but deliberate only if they replace an original juror"
+    ],
+    "question": "What is the role of alternate jurors?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-questions",
+    "explanation": "Opening statements are confined to the facts to be proved by the evidence; the party with the burden of proof \u2014 the government in criminal cases, the plaintiff in civil cases \u2014 goes first.",
+    "id": "CQ-018",
+    "options": [
+      "The party with the burden of proof",
+      "The defendant",
+      "The judge",
+      "The jury foreperson"
+    ],
+    "question": "Who gives the first opening statement at trial?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-questions",
+    "explanation": "Counsel may impeach, that is, question or reduce a witness's credibility, by showing bias, interest in the outcome, or prior felony or moral-turpitude convictions.",
+    "id": "CQ-019",
+    "options": [
+      "Bias",
+      "Interest in the outcome of the case",
+      "That the witness is left-handed",
+      "A prior conviction for a felony or a crime of moral turpitude"
+    ],
+    "question": "Counsel may impeach a witness by showing all of the following EXCEPT:",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-questions",
+    "explanation": "In closing arguments the plaintiff or government goes first, then the defense; the burden-bearing side gets a final rebuttal.",
+    "id": "CQ-020",
+    "options": [
+      "The defense",
+      "The side with the burden of proof",
+      "The judge",
+      "Neither side"
+    ],
+    "question": "In closing arguments, which side gets a final rebuttal?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-questions",
+    "explanation": "In the jury instructions the judge states the issues, defines unfamiliar terms, and explains that opening and closing arguments are not evidence; jurors are the sole judges of facts and witness credibility.",
+    "id": "CQ-021",
+    "options": [
+      "The most important evidence in the case",
+      "Evidence, but only if the jury agrees",
+      "Binding on the jury",
+      "Not evidence"
+    ],
+    "question": "During jury instructions, the judge tells jurors that opening and closing arguments are:",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-questions",
+    "explanation": "The verdict is announced by the foreperson or the court clerk; either lawyer may then ask that the jury be polled.",
+    "id": "CQ-022",
+    "options": [
+      "The foreperson or the court clerk",
+      "The prosecutor",
+      "The bailiff",
+      "The court reporter"
+    ],
+    "question": "Who announces the verdict in court?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-questions",
+    "explanation": "The jury's decision takes effect only when the judge enters judgment, an order filed in public records.",
+    "id": "CQ-023",
+    "options": [
+      "When the jury finishes deliberating",
+      "When the foreperson announces it",
+      "When the judge enters judgment",
+      "When the appeal period expires"
+    ],
+    "question": "When does a jury's decision take effect?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-questions",
+    "explanation": "After conviction, a pre-sentence investigation (prior record, family, health, work record) helps the judge choose a sentence within the statutory range.",
+    "id": "CQ-024",
+    "options": [
+      "Only the facts of the crime",
+      "The defendant's prior record, family, health, and work record",
+      "The jury's deliberations",
+      "The victim's opinion of the sentence"
+    ],
+    "question": "What does a pre-sentence investigation examine?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-questions",
+    "explanation": "The appealing party is the appellant (petitioner); the other side is the appellee (respondent).",
+    "id": "CQ-025",
+    "options": [
+      "Appellee",
+      "Respondent",
+      "Plaintiff",
+      "Appellant"
+    ],
+    "question": "The party who files an appeal is called the:",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "court-questions",
+    "explanation": "The appeals court reverses only for error of law; harmless errors (no effect on the outcome) do not cause reversal, while reversible errors do.",
+    "id": "CQ-026",
+    "options": [
+      "An error that has no effect on the outcome of the case and does not cause reversal",
+      "An error that requires a new trial",
+      "An error made by the jury during deliberations",
+      "An error in the court record"
+    ],
+    "question": "What is a harmless error?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "court-questions",
+    "explanation": "If a decision is reversed, the case is usually remanded \u2014 sent back for a new trial, a modified judgment, or reconsideration.",
+    "id": "CQ-027",
+    "options": [
+      "Dismissed with prejudice",
+      "Sent to the U.S. Supreme Court",
+      "Remanded for a new trial, a modified judgment, or reconsideration",
+      "Retried by the same jury"
+    ],
+    "question": "If an appeals court reverses a lower court's decision, the case is usually:",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-questions",
+    "explanation": "State-convicted defendants who exhaust state appeals may file habeas corpus in federal court alleging federal constitutional violations.",
+    "id": "CQ-028",
+    "options": [
+      "That the jury was biased",
+      "Violations of federal constitutional rights",
+      "That the sentence was too harsh",
+      "That new evidence has been found"
+    ],
+    "question": "After exhausting state appeals, a state-convicted defendant may file for habeas corpus in federal court alleging:",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "court-questions",
+    "explanation": "In civil cases an appeal does not ordinarily stay enforcement unless the appellant posts a supersedeas bond.",
+    "id": "CQ-029",
+    "options": [
+      "Bail",
+      "A filing fee",
+      "A counterclaim",
+      "A supersedeas bond"
+    ],
+    "question": "In a civil case, what must an appellant post so that an appeal stays enforcement of the judgment?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "court-questions",
+    "explanation": "Oral argument in the U.S. Supreme Court lasts about one hour in total; in federal appeals courts it is often 10\u201315 minutes per side.",
+    "id": "CQ-030",
+    "options": [
+      "10\u201315 minutes per side",
+      "About one hour in total",
+      "One full day",
+      "Three hours per side"
+    ],
+    "question": "About how much total time is allowed for oral argument in the U.S. Supreme Court?",
+    "source": "Court procedure"
+  }
+,
+  {
+    "answer": 2,
+    "category": "sequence",
+    "explanation": "After arrest comes the initial appearance before a judge or magistrate; in a felony case a preliminary hearing follows, at which the government must show probable cause, and if probable cause is found the defendant is bound over for trial.",
+    "id": "SEQ-001",
+    "options": [
+      "Arrest, trial, preliminary hearing, initial appearance",
+      "Initial appearance, arrest, preliminary hearing, trial",
+      "Arrest, initial appearance, preliminary hearing, trial",
+      "Preliminary hearing, arrest, trial, initial appearance"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "sequence",
+    "explanation": "A trial begins with jury selection (voir dire), followed by opening statements, then the presentation of evidence through direct examination and cross-examination.",
+    "id": "SEQ-002",
+    "options": [
+      "Voir dire, opening statements, direct examination, cross-examination",
+      "Opening statements, voir dire, cross-examination, direct examination",
+      "Direct examination, voir dire, opening statements, cross-examination",
+      "Cross-examination, direct examination, voir dire, opening statements"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "sequence",
+    "explanation": "A civil suit begins with the filing of a complaint; a summons notifies the defendant, who files an answer; discovery, the formal exchange of information, follows the pleadings.",
+    "id": "SEQ-003",
+    "options": [
+      "Summons, complaint, discovery, answer",
+      "Answer, complaint, summons, discovery",
+      "Discovery, answer, complaint, summons",
+      "Complaint, summons, answer, discovery"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "sequence",
+    "explanation": "After opening statements, witnesses are questioned on direct examination and then cross-examination; closing arguments come after all the evidence has been presented.",
+    "id": "SEQ-004",
+    "options": [
+      "Direct examination, opening statements, closing arguments, cross-examination",
+      "Opening statements, direct examination, cross-examination, closing arguments",
+      "Cross-examination, closing arguments, direct examination, opening statements",
+      "Closing arguments, opening statements, cross-examination, direct examination"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "sequence",
+    "explanation": "After arrest, the defendant is brought before a judge or magistrate for an initial appearance, where bail is set; once bail is posted, the defendant is released until trial.",
+    "id": "SEQ-005",
+    "options": [
+      "Arrest, release on bail, initial appearance, bail set",
+      "Initial appearance, arrest, bail set, release on bail",
+      "Arrest, initial appearance, bail set, release on bail",
+      "Bail set, arrest, initial appearance, release on bail"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "sequence",
+    "explanation": "An appeal begins with a notice of appeal, followed by the appellant's brief, the appellee's answering brief, and then optional oral argument.",
+    "id": "SEQ-006",
+    "options": [
+      "Notice of appeal, appellant's brief, appellee's answering brief, oral argument",
+      "Appellant's brief, notice of appeal, oral argument, appellee's answering brief",
+      "Oral argument, notice of appeal, appellant's brief, appellee's answering brief",
+      "Appellee's answering brief, appellant's brief, notice of appeal, oral argument"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "sequence",
+    "explanation": "After investigation and arrest, the accused is brought before the court at arraignment to plead to the charge; the trial follows.",
+    "id": "SEQ-007",
+    "options": [
+      "Arrest, investigation, trial, arraignment",
+      "Arraignment, arrest, investigation, trial",
+      "Trial, arraignment, arrest, investigation",
+      "Investigation, arrest, arraignment, trial"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "sequence",
+    "explanation": "Jury selection (voir dire) comes first, then opening statements and the examination of witnesses; the judge instructs the jury after the evidence, and deliberations follow the instructions.",
+    "id": "SEQ-008",
+    "options": [
+      "Opening statements, voir dire, jury instructions, direct examination, deliberations",
+      "Voir dire, opening statements, direct examination, jury instructions, deliberations",
+      "Direct examination, deliberations, voir dire, opening statements, jury instructions",
+      "Jury instructions, deliberations, voir dire, opening statements, direct examination"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 2,
+    "category": "sequence",
+    "explanation": "After a guilty verdict, a pre-sentence investigation helps the judge choose a sentence within the statutory range; sentencing follows, and only then can the defendant appeal by filing a notice of appeal.",
+    "id": "SEQ-009",
+    "options": [
+      "Sentencing, guilty verdict, notice of appeal, pre-sentence investigation",
+      "Pre-sentence investigation, notice of appeal, guilty verdict, sentencing",
+      "Guilty verdict, pre-sentence investigation, sentencing, notice of appeal",
+      "Notice of appeal, guilty verdict, sentencing, pre-sentence investigation"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "sequence",
+    "explanation": "A civil case moves from the pleadings (complaint, then answer) to discovery, then to a pre-trial conference that narrows the issues, and finally to trial.",
+    "id": "SEQ-010",
+    "options": [
+      "Complaint, answer, discovery, pre-trial conference, trial",
+      "Answer, complaint, pre-trial conference, discovery, trial",
+      "Discovery, complaint, answer, trial, pre-trial conference",
+      "Pre-trial conference, trial, complaint, answer, discovery"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 3,
+    "category": "sequence",
+    "explanation": "A grand jury issues an indictment charging the defendant; at arraignment the accused pleads to that charge; the trial follows, ending in a verdict.",
+    "id": "SEQ-011",
+    "options": [
+      "Trial, indictment, verdict, arraignment",
+      "Arraignment, trial, indictment, verdict",
+      "Verdict, arraignment, trial, indictment",
+      "Indictment, arraignment, trial, verdict"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 1,
+    "category": "sequence",
+    "explanation": "Closing arguments come after the evidence; the judge then instructs the jury on the law, the jury deliberates, and finally returns its verdict.",
+    "id": "SEQ-012",
+    "options": [
+      "Jury instructions, deliberations, closing arguments, verdict",
+      "Closing arguments, jury instructions, deliberations, verdict",
+      "Deliberations, verdict, closing arguments, jury instructions",
+      "Verdict, closing arguments, jury instructions, deliberations"
+    ],
+    "question": "Which of the following is the correct chronological sequence of court procedure?",
+    "source": "Court procedure"
+  },
+  {
+    "answer": 0,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 1 requires conveying the speaker's emotional emphasis without reenacting or mimicking emotions or gestures, while preserving the meaning, style, and register of the speech.",
+    "id": "ES-014",
+    "options": [
+      "Convey the speaker's emotional emphasis without reenacting or mimicking her emotions or gestures",
+      "Interpret in a flat, neutral tone and leave out the emotional emphasis",
+      "Cry along with the witness so the jury feels what she feels",
+      "Summarize her testimony calmly, leaving out the emotional parts"
+    ],
+    "question": "A witness is testifying in tears, her voice shaking with anger as she describes what happened. How should you interpret her testimony?",
+    "source": "VA Code of Professional Responsibility, Canon 1"
+  },
+  {
+    "answer": 2,
+    "category": "ethical-scenarios",
+    "explanation": "Under Canon 1, interpreters must never interject their own words; if an explanation of an interpreting problem is needed, they must ask the court's permission.",
+    "id": "ES-015",
+    "options": [
+      "Explain the problem to the jury on your own",
+      "Skip the word and keep interpreting",
+      "Ask the court's permission before explaining the interpreting problem",
+      "Ask the witness to choose a different word"
+    ],
+    "question": "During testimony, a word comes up that has no equivalent in the other language, and you need to explain the interpreting problem to the court. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 1"
+  },
+  {
+    "answer": 0,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 3 requires avoiding casual personal conversations in court that could suggest a special relationship, as well as favoritism and personal dependence of the non-English-speaking party.",
+    "id": "ES-016",
+    "options": [
+      "Politely keep the conversation professional and avoid casual personal conversation in court",
+      "Chat freely \u2014 friendliness helps the defendant trust you",
+      "Exchange phone numbers so you can talk later",
+      "Ask the defendant about his case so you can prepare better"
+    ],
+    "question": "During a recess, the defendant you are interpreting for tries to strike up a friendly personal conversation with you about your family. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  },
+  {
+    "answer": 3,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 3 requires disclosing any real or perceived conflict of interest, including prior private employment by a party, so the court can assess whether the interpreter should serve.",
+    "id": "ES-017",
+    "options": [
+      "Say nothing, since the earlier work is finished",
+      "Withdraw silently without explanation",
+      "Continue, but favor the other party to balance things out",
+      "Disclose the prior private employment to the appropriate judicial authority"
+    ],
+    "question": "You are assigned to a case and realize you previously did private interpreting work for one of the parties. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  },
+  {
+    "answer": 0,
+    "category": "ethical-scenarios",
+    "explanation": "Under Canon 3, an interpreter must never serve where payment is contingent on the outcome of the case; the duty is to serve the court and the public, not the party who pays.",
+    "id": "ES-018",
+    "options": [
+      "Decline \u2014 an interpreter must never serve where payment is contingent on the outcome",
+      "Accept, since private work is separate from court work",
+      "Accept, but interpret impartially anyway",
+      "Accept only if the court approves the arrangement"
+    ],
+    "question": "A party offers to hire you privately to interpret in a case, but says you will only be paid if the case ends in their favor. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  },
+  {
+    "answer": 2,
+    "category": "ethical-scenarios",
+    "explanation": "Under Canon 7, an interpreter may convey legal advice from an attorney only while that attorney is giving it; interpreters must not give legal advice themselves.",
+    "id": "ES-019",
+    "options": [
+      "Explain the advice as the attorney asked",
+      "Give the defendant your own advice instead",
+      "Decline \u2014 you may convey legal advice from an attorney only while that attorney is giving it",
+      "Ask the judge to explain the advice for you"
+    ],
+    "question": "An attorney is about to leave the courtroom and asks you to explain his legal advice to the defendant after he has gone. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 7"
+  },
+  {
+    "answer": 1,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 7 limits interpreters to interpreting and translating; they must not perform official acts that belong to other court officials, such as clerks, pretrial release investigators, or probation counselors.",
+    "id": "ES-020",
+    "options": [
+      "Conduct the interview \u2014 it will save time",
+      "Decline \u2014 you must not perform official acts that belong to other court officials",
+      "Conduct the interview but interpret your own questions",
+      "Ask the defendant to answer in writing instead"
+    ],
+    "question": "A probation counselor asks you to conduct the intake interview with the defendant yourself, since you speak the defendant's language. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 7"
+  },
+  {
+    "answer": 0,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 8 requires interpreters to notify the court of environmental or physical limitations, such as a room too noisy, multiple people speaking at once, or speech too rapid.",
+    "id": "ES-021",
+    "options": [
+      "Notify the court of the environmental limitation affecting your performance",
+      "Guess at the words you cannot hear",
+      "Keep interpreting and hope the noise stops",
+      "Leave the courtroom until it quiets down"
+    ],
+    "question": "During a hearing, several people begin speaking at once and the room is so noisy that you cannot hear the witness clearly. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 8"
+  },
+  {
+    "answer": 2,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 8 requires interpreters to continually assess their ability and immediately convey reservations to the court, including the need for periodic breaks to prevent interpreter fatigue and recommending team interpreting when necessary.",
+    "id": "ES-022",
+    "options": [
+      "Push through without saying anything",
+      "Ask the witness to speak more slowly instead",
+      "Notify the court of your need for periodic breaks to prevent interpreter fatigue",
+      "Switch to summarizing instead of interpreting fully"
+    ],
+    "question": "After several hours of continuous interpreting, you feel fatigued and notice your accuracy slipping. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 8"
+  },
+  {
+    "answer": 3,
+    "category": "ethical-scenarios",
+    "explanation": "Canon 8 requires notifying the presiding officer of any personal bias; for example, a sexual-assault victim interpreting a similar case may wish to be excused.",
+    "id": "ES-023",
+    "options": [
+      "Keep your feelings to yourself and interpret anyway",
+      "Ask the victim to testify in simpler terms",
+      "Tell the attorneys about your past in detail",
+      "Notify the presiding officer of your personal bias and ask to be excused"
+    ],
+    "question": "You are assigned to interpret in a sexual-assault case very similar to an experience in your own past, and you feel it may affect your impartiality. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 8"
+  },
+  {
+    "answer": 1,
+    "category": "ethical-scenarios",
+    "explanation": "Under Canon 3, if a participant views the interpreter as biased, the interpreter must disclose that to the judicial authority and counsel.",
+    "id": "ES-024",
+    "options": [
+      "Ignore the comment and keep interpreting",
+      "Disclose the participant's view to the judicial authority and counsel",
+      "Defend yourself to the jury",
+      "Favor the complaining side to prove your impartiality"
+    ],
+    "question": "During a trial, a participant tells the judge that he believes you favor the other side. What should you do?",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  }
+]

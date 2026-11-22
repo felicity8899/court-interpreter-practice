@@ -14,6 +14,7 @@
     <button data-nav="home" class="nav-btn active">首页 Home</button>
     <button data-nav="review" class="nav-btn">错题本 Review <span id="wrong-count" class="badge"></span></button>
     <button data-nav="history" class="nav-btn">历史记录 History</button>
+    <button data-nav="manage" class="nav-btn">题库管理 Manage Questions</button>
     <a class="nav-btn" href="/api/export" download>导出备份 Export JSON</a>
   </nav>
 </header>
@@ -21,16 +22,25 @@
 <main>
   <!-- Home: start a new exam -->
   <section id="view-home" class="view">
+    <div id="resume-banner" class="resume-banner hidden">
+      <strong>有未完成的考试 Unfinished exam found</strong>
+      <span id="resume-info" class="muted"></span>
+      <button id="resume-btn" class="primary">继续考试 Resume</button>
+      <button id="discard-btn">放弃 Discard</button>
+    </div>
     <h2>开始模拟考试 Start a Mock Exam</h2>
     <p id="bank-info" class="muted">加载题库中… Loading question bank…</p>
-    <p class="muted">建议节奏：每题约 1 分钟。时间到后计时器会继续以“超时”显示，不会自动交卷。<br>
-    Suggested pace: ~1 minute per question. When time runs out, the timer keeps counting up as overtime — the exam never auto-submits.</p>
+    <p class="muted">建议节奏：每题约 1 分钟。时间到后计时器会继续以“超时”显示，不会自动交卷。考试中可以随时暂停，暂停时计时冻结、题目隐藏。<br>
+    Suggested pace: ~1 minute per question. When time runs out, the timer keeps counting up as overtime — the exam never auto-submits. You can pause anytime; the timer freezes and the questions are hidden while paused.</p>
     <div class="count-row">
       <label><input type="radio" name="count" value="20" checked> 20 题</label>
       <label><input type="radio" name="count" value="50"> 50 题</label>
       <label><input type="radio" name="count" value="88"> 88 题</label>
       <label><input type="radio" name="count" value="all"> 全部题库 All</label>
+      <label><input type="radio" name="count" value="full"> 全真模拟 135 题 Full Mock (135)</label>
     </div>
+    <p class="muted">全真模拟按真实考试结构出题：第一部分 75 题（句子填空 9、同义词语境 8、同义词 21、反义词 12、习语 25），第二部分 60 题（法庭句子填空 36、法庭知识 10、事件顺序 4、职业行为 2、道德情景 8），限时 2 小时 15 分。<br>
+    The full mock follows the real exam structure: Part I 75 questions, Part II 60 questions, 2 hours 15 minutes.</p>
     <button id="start-btn" class="primary">开始考试 Start Exam</button>
     <p id="start-error" class="error"></p>
   </section>
@@ -40,8 +50,15 @@
     <div class="exam-bar">
       <span id="exam-progress"></span>
       <span id="exam-timer" class="timer"></span>
+      <button id="pause-btn">⏸ 暂停 Pause</button>
     </div>
     <p id="exam-truncated" class="notice hidden"></p>
+    <div id="pause-overlay" class="pause-overlay hidden">
+      <h3>⏸ 已暂停 Paused</h3>
+      <p>计时已冻结，题目已隐藏。点击下方按钮继续考试。<br>
+      Timer frozen, questions hidden. Resume to continue.</p>
+      <button id="overlay-resume-btn" class="primary">▶ 继续考试 Resume</button>
+    </div>
     <div id="question-box"></div>
     <div class="exam-nav">
       <button id="prev-btn">← 上一题 Previous</button>
@@ -55,9 +72,13 @@
   <section id="view-result" class="view hidden">
     <h2>考试成绩 Exam Result</h2>
     <p id="result-score" class="score"></p>
+    <p id="result-time" class="muted"></p>
+    <div class="exam-nav">
+      <button id="result-review-btn" class="primary">查看复盘 Review This Exam</button>
+      <button data-nav="home">返回首页 Back to Home</button>
+      <button data-nav="review">查看错题本 Review Wrong Answers</button>
+    </div>
     <div id="result-breakdown"></div>
-    <button class="primary" data-nav="home">返回首页 Back to Home</button>
-    <button data-nav="review">查看错题本 Review Wrong Answers</button>
   </section>
 
   <!-- Wrong-answer review -->
@@ -71,16 +92,78 @@
   <!-- History -->
   <section id="view-history" class="view hidden">
     <h2>历史记录 Exam History</h2>
+    <p class="muted">删除一条历史记录时，只来自这场考试的错题也会一起从错题本中移除；在别的考试里也答错过的题目会保留。<br>
+    Deleting an exam also removes wrong-answer entries that came only from that exam; questions missed in another exam stay in the review set.</p>
     <div id="history-list"></div>
   </section>
 
-  <!-- Exam detail -->
-  <section id="view-detail" class="view hidden">
-    <h2>考试详情 Exam Detail</h2>
-    <p id="detail-meta" class="muted"></p>
-    <p id="detail-score" class="score"></p>
-    <div id="detail-breakdown"></div>
+  <!-- Exam debrief （复盘） -->
+  <section id="view-debrief" class="view hidden">
+    <h2>考试复盘 Exam Review</h2>
+    <p id="debrief-meta" class="muted"></p>
+    <p id="debrief-score" class="score"></p>
+    <h3>分类正确率 Accuracy by Category</h3>
+    <div id="debrief-categories"></div>
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">全部 All</button>
+      <button class="filter-btn" data-filter="wrong">答错 Wrong</button>
+      <button class="filter-btn" data-filter="correct">答对 Correct</button>
+    </div>
+    <div id="debrief-list"></div>
     <button data-nav="history">← 返回历史 Back to History</button>
+  </section>
+
+  <!-- Question management （题库管理） -->
+  <section id="view-manage" class="view hidden">
+    <h2>题库管理 Manage Questions</h2>
+    <p id="manage-bank-info" class="muted"></p>
+    <div class="question-card">
+      <h3 id="manage-form-title">添加题目 Add a Question</h3>
+      <form id="question-form">
+        <label class="form-label">分类 Category
+          <select id="q-category" required>
+            <option value="sentence-completion">第一部分 · 句子填空 Sentence Completion</option>
+            <option value="synonyms-in-context">第一部分 · 语境同义词 Synonyms in Context</option>
+            <option value="synonyms">第一部分 · 同义词 Synonyms</option>
+            <option value="antonyms">第一部分 · 反义词 Antonyms</option>
+            <option value="idioms">第一部分 · 习语 Idioms</option>
+            <option value="court-sentence-completion">第二部分 · 法庭句子填空 Court Sentence Completion</option>
+            <option value="court-questions">第二部分 · 法庭知识问答 Court-Related Questions</option>
+            <option value="sequence">第二部分 · 事件顺序 Sequence of Events</option>
+            <option value="professional-conduct">第二部分 · 职业行为 Professional Conduct</option>
+            <option value="ethical-scenarios">第二部分 · 道德情景 Ethical Scenarios</option>
+          </select>
+        </label>
+        <label class="form-label">题目 Question (English)
+          <textarea id="q-question" rows="3" required placeholder="Write the question in English, as the real exam is in English."></textarea>
+        </label>
+        <label class="form-label">选项 A <input id="q-opt-0" type="text" required></label>
+        <label class="form-label">选项 B <input id="q-opt-1" type="text" required></label>
+        <label class="form-label">选项 C <input id="q-opt-2" type="text" required></label>
+        <label class="form-label">选项 D <input id="q-opt-3" type="text" required></label>
+        <label class="form-label">正确答案 Correct answer
+          <select id="q-answer" required>
+            <option value="0">A</option>
+            <option value="1">B</option>
+            <option value="2">C</option>
+            <option value="3">D</option>
+          </select>
+        </label>
+        <label class="form-label">解析 Explanation
+          <textarea id="q-explanation" rows="2" placeholder="Why this answer is correct (shown after the exam)."></textarea>
+        </label>
+        <label class="form-label">来源 Source（可选 optional）
+          <input id="q-source" type="text" placeholder="e.g. Consortium glossary, VA Code Canon 3">
+        </label>
+        <button type="submit" id="q-submit-btn" class="primary">添加题目 Add Question</button>
+        <button type="button" id="q-cancel-edit-btn" class="hidden">取消编辑 Cancel Edit</button>
+        <span id="q-form-msg"></span>
+      </form>
+    </div>
+    <h3>我添加的题目 My Added Questions</h3>
+    <p class="muted">只能查看、编辑和删除自己添加的题目；内置题库题目不能修改。删除题目时，如该题在错题本中也会一并移除。<br>
+    Only questions you added here can be viewed, edited or deleted; built-in bank questions cannot be changed. Deleting a question also removes it from the wrong-answer set.</p>
+    <div id="manage-list"></div>
   </section>
 </main>
 
