@@ -6,6 +6,8 @@ timed mock exams, a wrong-answer review set （错题本）, exam history, and J
 Stack: **FastAPI + stdlib sqlite3 + plain HTML/JS** (no frontend build step, no ORM).
 Deploys to Render as a Docker web service (free plan).
 
+**Live app:** https://court-interpreter-practice.onrender.com
+
 ## Run locally
 
 ```bash
