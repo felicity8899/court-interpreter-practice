@@ -1,11 +1,15 @@
 """Court Interpreter Mock Exam Practice — FastAPI backend + static frontend.
 
 Question bank: the built-in bank loads from data/questions.json; questions the
-user adds in the app live in SQLite (user_questions) and are merged in at
+user adds in the app live in the database (user_questions) and are merged in at
 startup, so they appear in exams immediately and survive restarts.
 
-Exam history and the wrong-answer set （错题本） live in a SQLite file
-(data/app.db) via the stdlib sqlite3 module — no ORM, no extra dependencies.
+Exam history, the wrong-answer set （错题本）, and user-added questions live in
+PostgreSQL on Render (DATABASE_URL env var). Render's free-tier instance
+filesystem is ephemeral, so the old SQLite file lost everything on every
+restart (free services spin down after ~15 min idle, so restarts are
+constant). Locally, with DATABASE_URL unset, the app falls back to a SQLite
+file (data/app.db) via the stdlib sqlite3 module — no ORM.
 wrong_sources tracks which exam(s) each wrong-answer entry came from, so
 deleting an exam removes only the wrong entries that came solely from it.
 
@@ -16,16 +20,35 @@ The frontend pause feature freezes the timer (elapsed time excludes pauses).
 """
 
 import json
+import os
 import random
 import sqlite3
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+
+try:
+    import psycopg
+    from psycopg.rows import dict_row
+
+    HAVE_PSYCOPG = True
+except ImportError:  # local dev without psycopg installed
+    psycopg = None
+    HAVE_PSYCOPG = False
+
+DATABASE_URL = os.environ.get("DATABASE_URL", "").strip()
+if DATABASE_URL and not HAVE_PSYCOPG:
+    raise RuntimeError(
+        "DATABASE_URL is set but psycopg is not installed; install it "
+        "(pip install -r requirements.txt) or unset DATABASE_URL to use "
+        "the local SQLite fallback."
+    )
+USE_POSTGRES = bool(DATABASE_URL)
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
@@ -43,7 +66,7 @@ app = FastAPI(title="Court Interpreter Mock Exam Practice")
 # ---------------------------------------------------------------------------
 
 def load_bank() -> dict[str, dict]:
-    """Built-in JSON bank merged with user-added questions from SQLite.
+    """Built-in JSON bank merged with user-added questions from the database.
 
     User-added questions carry "user_added": True. They are loaded on every
     startup and also added to the in-memory BANK immediately when created
@@ -56,7 +79,7 @@ def load_bank() -> dict[str, dict]:
         conn = get_db()
         rows = conn.execute("SELECT * FROM user_questions").fetchall()
         conn.close()
-    except sqlite3.Error:
+    except DB_ERRORS:
         rows = []
     for r in rows:
         merged[r["id"]] = {
@@ -88,71 +111,130 @@ def public_question(q: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# SQLite persistence (stdlib sqlite3, one connection per call)
+# Persistence: PostgreSQL on Render, SQLite locally (one connection per call)
+#
+# Call sites write SQLite-style SQL ("?" placeholders, INSERT OR IGNORE).
+# DBConnection translates to the PostgreSQL dialect when DATABASE_URL is set:
+#   "?"                -> "%s"
+#   INSERT OR IGNORE   -> INSERT ... ON CONFLICT DO NOTHING
+# Rows behave dict-like in both dialects (sqlite3.Row locally, psycopg
+# dict_row on Postgres), so r["column"] and row.keys() work everywhere.
 # ---------------------------------------------------------------------------
 
-def get_db() -> sqlite3.Connection:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+DB_ERRORS = (sqlite3.Error, psycopg.Error) if HAVE_PSYCOPG else (sqlite3.Error,)
+
+
+class DBConnection:
+    """A thin wrapper over one sqlite3 or psycopg connection."""
+
+    def __init__(self) -> None:
+        if USE_POSTGRES:
+            self.dialect = "postgres"
+            self._conn = psycopg.connect(DATABASE_URL, row_factory=dict_row)
+        else:
+            self.dialect = "sqlite"
+            DATA_DIR.mkdir(parents=True, exist_ok=True)
+            self._conn = sqlite3.connect(DB_PATH)
+            self._conn.row_factory = sqlite3.Row
+
+    def _translate(self, sql: str) -> str:
+        if self.dialect == "sqlite":
+            return sql
+        sql = sql.replace("?", "%s")
+        if "INSERT OR IGNORE" in sql:
+            sql = sql.replace("INSERT OR IGNORE", "INSERT")
+            sql = sql.rstrip().rstrip(";") + " ON CONFLICT DO NOTHING"
+        return sql
+
+    def execute(self, sql: str, params=()):
+        return self._conn.execute(self._translate(sql), params)
+
+    def executescript(self, script: str) -> None:
+        if self.dialect == "sqlite":
+            self._conn.executescript(script)
+        else:
+            # psycopg has no executescript; run each statement separately.
+            for stmt in script.split(";"):
+                if stmt.strip():
+                    self._conn.execute(stmt)
+
+    def commit(self) -> None:
+        self._conn.commit()
+
+    def rollback(self) -> None:
+        self._conn.rollback()
+
+    def close(self) -> None:
+        self._conn.close()
+
+
+def get_db() -> DBConnection:
+    return DBConnection()
+
+
+DDL_SCRIPT = """
+CREATE TABLE IF NOT EXISTS exams (
+    id TEXT PRIMARY KEY,
+    started_at TEXT NOT NULL,
+    submitted_at TEXT,
+    question_count INTEGER NOT NULL,
+    score INTEGER,
+    time_limit_seconds INTEGER NOT NULL,
+    elapsed_seconds INTEGER,
+    question_ids TEXT NOT NULL,
+    results TEXT,
+    mode TEXT NOT NULL DEFAULT 'random'
+);
+CREATE TABLE IF NOT EXISTS wrong_answers (
+    question_id TEXT PRIMARY KEY,
+    first_wrong_at TEXT NOT NULL,
+    last_wrong_at TEXT NOT NULL,
+    times_wrong INTEGER NOT NULL,
+    last_exam_id TEXT
+);
+CREATE TABLE IF NOT EXISTS wrong_sources (
+    question_id TEXT NOT NULL,
+    exam_id TEXT NOT NULL,
+    PRIMARY KEY (question_id, exam_id)
+);
+CREATE TABLE IF NOT EXISTS user_questions (
+    id TEXT PRIMARY KEY,
+    category TEXT NOT NULL,
+    question TEXT NOT NULL,
+    options TEXT NOT NULL,
+    answer INTEGER NOT NULL,
+    explanation TEXT NOT NULL DEFAULT '',
+    source TEXT NOT NULL DEFAULT '',
+    created_at TEXT NOT NULL
+);
+"""
 
 
 def init_db() -> None:
     conn = get_db()
-    conn.executescript(
-        """
-        CREATE TABLE IF NOT EXISTS exams (
-            id TEXT PRIMARY KEY,
-            started_at TEXT NOT NULL,
-            submitted_at TEXT,
-            question_count INTEGER NOT NULL,
-            score INTEGER,
-            time_limit_seconds INTEGER NOT NULL,
-            elapsed_seconds INTEGER,
-            question_ids TEXT NOT NULL,
-            results TEXT,
-            mode TEXT NOT NULL DEFAULT 'random'
-        );
-        CREATE TABLE IF NOT EXISTS wrong_answers (
-            question_id TEXT PRIMARY KEY,
-            first_wrong_at TEXT NOT NULL,
-            last_wrong_at TEXT NOT NULL,
-            times_wrong INTEGER NOT NULL,
-            last_exam_id TEXT
-        );
-        CREATE TABLE IF NOT EXISTS wrong_sources (
-            question_id TEXT NOT NULL,
-            exam_id TEXT NOT NULL,
-            PRIMARY KEY (question_id, exam_id)
-        );
-        CREATE TABLE IF NOT EXISTS user_questions (
-            id TEXT PRIMARY KEY,
-            category TEXT NOT NULL,
-            question TEXT NOT NULL,
-            options TEXT NOT NULL,
-            answer INTEGER NOT NULL,
-            explanation TEXT NOT NULL DEFAULT '',
-            source TEXT NOT NULL DEFAULT '',
-            created_at TEXT NOT NULL
-        );
-        """
-    )
+    conn.executescript(DDL_SCRIPT)
     conn.commit()
     # Migration: exams.mode added after the first release (fresh DBs get it
     # from the CREATE TABLE above; existing DBs get it here).
-    try:
+    if conn.dialect == "postgres":
         conn.execute(
-            "ALTER TABLE exams ADD COLUMN mode TEXT NOT NULL DEFAULT 'random'"
+            "ALTER TABLE exams ADD COLUMN IF NOT EXISTS "
+            "mode TEXT NOT NULL DEFAULT 'random'"
         )
         conn.commit()
-    except sqlite3.OperationalError:
-        pass  # column already exists
+    else:
+        try:
+            conn.execute(
+                "ALTER TABLE exams ADD COLUMN mode TEXT NOT NULL DEFAULT 'random'"
+            )
+            conn.commit()
+        except sqlite3.OperationalError:
+            pass  # column already exists
     backfill_wrong_sources(conn)
     conn.close()
 
 
-def backfill_wrong_sources(conn: sqlite3.Connection) -> None:
+def backfill_wrong_sources(conn: DBConnection) -> None:
     """One-time (idempotent) migration for wrong-answer entries created
     before source tracking existed: reconstruct each entry's source exams
     from submitted exams' stored per-question results, falling back to the
@@ -196,7 +278,7 @@ def backfill_wrong_sources(conn: sqlite3.Connection) -> None:
                     (row["question_id"], row["last_exam_id"]),
                 )
         conn.commit()
-    except sqlite3.Error:
+    except DB_ERRORS:
         conn.rollback()
 
 
@@ -675,7 +757,7 @@ def master_wrong(question_id: str):
 # User-added questions （题库管理 — add / list / edit / delete)
 # ---------------------------------------------------------------------------
 
-def user_question_row(r: sqlite3.Row) -> dict:
+def user_question_row(r) -> dict:
     return {
         "id": r["id"],
         "category": r["category"],
@@ -703,7 +785,7 @@ def list_user_questions():
 
 @app.post("/api/questions")
 def add_user_question(req: QuestionRequest):
-    """Add a question. It is stored in SQLite, merged into the in-memory
+    """Add a question. It is stored in the database, merged into the in-memory
     bank immediately, and usable in exams right away."""
     validate_question_body(req)
     qid = "USER-" + uuid.uuid4().hex[:8]
@@ -871,6 +953,155 @@ def export_all():
             )
         },
     )
+
+
+# ---------------------------------------------------------------------------
+# Import / restore from an export file (JSON upload)
+# ---------------------------------------------------------------------------
+
+@app.post("/api/import")
+async def import_all(file: UploadFile = File(...)):
+    """Restore exams, wrong answers, and user-added questions from a JSON
+    file previously downloaded via /api/export. Records whose id already
+    exists are skipped (never duplicated); the response reports how many
+    records were restored vs skipped in each section."""
+    try:
+        payload = json.loads(await file.read())
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Not a valid JSON file.")
+    if not isinstance(payload, dict):
+        raise HTTPException(
+            status_code=400, detail="Expected a JSON object (an export file)."
+        )
+    restored = {
+        "user_questions": 0,
+        "exams": 0,
+        "wrong_answers": 0,
+        "wrong_sources": 0,
+    }
+    skipped = {
+        "user_questions": 0,
+        "exams": 0,
+        "wrong_answers": 0,
+        "wrong_sources": 0,
+    }
+    conn = get_db()
+    try:
+        # 1. User-added questions first: wrong-answer entries and exam
+        # results can reference them, and they join the in-memory bank.
+        for item in payload.get("user_questions") or []:
+            if not isinstance(item, dict) or not item.get("id"):
+                skipped["user_questions"] += 1
+                continue
+            exists = conn.execute(
+                "SELECT 1 FROM user_questions WHERE id = ?", (item["id"],)
+            ).fetchone()
+            if exists:
+                skipped["user_questions"] += 1
+                continue
+            options = item.get("options") or []
+            if len(options) != 4 or item.get("answer") not in (0, 1, 2, 3):
+                skipped["user_questions"] += 1
+                continue
+            conn.execute(
+                "INSERT INTO user_questions (id, category, question, options, "
+                "answer, explanation, source, created_at) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                (
+                    item["id"],
+                    item.get("category", ""),
+                    item.get("question", ""),
+                    json.dumps(options),
+                    item["answer"],
+                    item.get("explanation", "") or "",
+                    item.get("source", "") or "",
+                    item.get("created_at") or now_iso(),
+                ),
+            )
+            BANK[item["id"]] = {
+                "id": item["id"],
+                "category": item.get("category", ""),
+                "question": item.get("question", ""),
+                "options": options,
+                "answer": item["answer"],
+                "explanation": item.get("explanation", "") or "",
+                "source": item.get("source", "") or "",
+                "user_added": True,
+            }
+            restored["user_questions"] += 1
+        # 2. Exams.
+        for item in payload.get("exams") or []:
+            if not isinstance(item, dict) or not item.get("exam_id"):
+                skipped["exams"] += 1
+                continue
+            exists = conn.execute(
+                "SELECT 1 FROM exams WHERE id = ?", (item["exam_id"],)
+            ).fetchone()
+            if exists:
+                skipped["exams"] += 1
+                continue
+            conn.execute(
+                "INSERT INTO exams (id, started_at, submitted_at, "
+                "question_count, score, time_limit_seconds, elapsed_seconds, "
+                "question_ids, results, mode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (
+                    item["exam_id"],
+                    item.get("started_at") or now_iso(),
+                    item.get("submitted_at"),
+                    item.get("question_count") or 0,
+                    item.get("score"),
+                    item.get("time_limit_seconds") or 0,
+                    item.get("elapsed_seconds"),
+                    json.dumps(item.get("question_ids") or []),
+                    json.dumps(item.get("results"))
+                    if item.get("results") is not None
+                    else None,
+                    item.get("mode") or "random",
+                ),
+            )
+            restored["exams"] += 1
+        # 3. Wrong answers + their source exams.
+        for item in payload.get("wrong_answers") or []:
+            if not isinstance(item, dict) or not item.get("question_id"):
+                skipped["wrong_answers"] += 1
+                continue
+            exists = conn.execute(
+                "SELECT 1 FROM wrong_answers WHERE question_id = ?",
+                (item["question_id"],),
+            ).fetchone()
+            if exists:
+                skipped["wrong_answers"] += 1
+            else:
+                conn.execute(
+                    "INSERT INTO wrong_answers (question_id, first_wrong_at, "
+                    "last_wrong_at, times_wrong, last_exam_id) "
+                    "VALUES (?, ?, ?, ?, ?)",
+                    (
+                        item["question_id"],
+                        item.get("first_wrong_at") or now_iso(),
+                        item.get("last_wrong_at") or now_iso(),
+                        item.get("times_wrong") or 1,
+                        item.get("last_exam_id"),
+                    ),
+                )
+                restored["wrong_answers"] += 1
+            for exam_id in item.get("source_exam_ids") or []:
+                cur = conn.execute(
+                    "INSERT OR IGNORE INTO wrong_sources "
+                    "(question_id, exam_id) VALUES (?, ?)",
+                    (item["question_id"], exam_id),
+                )
+                if cur.rowcount:
+                    restored["wrong_sources"] += 1
+                else:
+                    skipped["wrong_sources"] += 1
+        conn.commit()
+    except DB_ERRORS as e:
+        conn.rollback()
+        raise HTTPException(status_code=400, detail=f"Import failed: {e}")
+    finally:
+        conn.close()
+    return {"restored": restored, "skipped": skipped}
 
 
 # ---------------------------------------------------------------------------

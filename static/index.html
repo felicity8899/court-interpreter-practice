@@ -94,6 +94,13 @@
     <h2>历史记录 Exam History</h2>
     <p class="muted">删除一条历史记录时，只来自这场考试的错题也会一起从错题本中移除；在别的考试里也答错过的题目会保留。<br>
     Deleting an exam also removes wrong-answer entries that came only from that exam; questions missed in another exam stay in the review set.</p>
+    <div class="import-row">
+      <button id="import-btn">导入备份 Import JSON</button>
+      <input type="file" id="import-file" accept=".json,application/json" class="hidden">
+      <span id="import-msg" class="muted"></span>
+    </div>
+    <p class="muted">从之前导出的备份文件恢复考试记录、错题和自加题目；已存在的记录会被跳过，不会重复。<br>
+    Restore exams, wrong answers, and added questions from a previously exported backup file. Records that already exist are skipped, never duplicated.</p>
     <div id="history-list"></div>
   </section>
 

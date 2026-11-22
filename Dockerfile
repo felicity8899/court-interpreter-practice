@@ -1,7 +1,8 @@
 # Court Interpreter Mock Exam Practice — web service image.
-# Serves main.py with uvicorn; question bank + SQLite file live under data/.
-# NOTE: on Render's free plan the disk is ephemeral — data/app.db is lost on
-# each redeploy, so use the /api/export endpoint to back up history regularly.
+# Serves main.py with uvicorn; the question bank lives under data/.
+# State lives in PostgreSQL (DATABASE_URL env var) — Render's free-tier
+# disk is ephemeral, so a SQLite file would be lost on every restart.
+# Locally, with DATABASE_URL unset, the app falls back to data/app.db.
 
 FROM python:3.12-slim
 

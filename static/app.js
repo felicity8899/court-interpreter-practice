@@ -498,6 +498,35 @@ async function attemptReview(qid, picked) {
   }
 }
 
+// ---------------------------------------------------------------- import
+
+$("import-btn").addEventListener("click", () => $("import-file").click());
+$("import-file").addEventListener("change", async () => {
+  const file = $("import-file").files[0];
+  if (!file) return;
+  const msg = $("import-msg");
+  msg.textContent = "导入中… Importing…";
+  msg.className = "muted";
+  const form = new FormData();
+  form.append("file", file);
+  try {
+    const data = await api("/api/import", { method: "POST", body: form });
+    const r = data.restored, s = data.skipped;
+    const skippedTotal = s.user_questions + s.exams + s.wrong_answers + s.wrong_sources;
+    msg.textContent =
+      `已恢复 Restored: 题目 ${r.user_questions} · 考试 ${r.exams} · 错题 ${r.wrong_answers} · 来源 ${r.wrong_sources}` +
+      (skippedTotal ? `；跳过 ${skippedTotal} 条已存在记录 Skipped ${skippedTotal} existing.` : "。");
+    msg.className = "success";
+    loadHistory();
+    refreshWrongCount();
+    loadBankInfo();
+  } catch (e) {
+    msg.textContent = "导入失败： " + e.message;
+    msg.className = "error";
+  }
+  $("import-file").value = "";
+});
+
 // ---------------------------------------------------------------- history
 
 async function loadHistory() {

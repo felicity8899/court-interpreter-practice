@@ -5,8 +5,10 @@ timed mock exams (including a full-length 135-question mock that mirrors the
 real NCSC written exam), a wrong-answer review set （错题本）, exam history
 with per-exam review （复盘）, in-app question management, and JSON export.
 
-Stack: **FastAPI + stdlib sqlite3 + plain HTML/JS** (no frontend build step, no ORM).
-Deploys to Render as a Docker web service (free plan).
+Stack: **FastAPI + PostgreSQL (psycopg) + plain HTML/JS** (no frontend build step, no ORM).
+Deploys to Render as a Docker web service (free plan), with a free Render
+PostgreSQL database. Locally, with `DATABASE_URL` unset, the app falls back
+to a SQLite file (`data/app.db`) — see [Data storage](#data-storage).
 
 **Live app:** https://court-interpreter-practice.onrender.com
 
@@ -77,7 +79,7 @@ per question:
 
 Use **题库管理 Manage Questions** in the app: fill in the category, question,
 four options, correct answer, and explanation. User-added questions are stored
-in SQLite (`user_questions`), merged into the bank at startup, and usable in
+in the database (`user_questions`), merged into the bank at startup, and usable in
 exams immediately. They can be listed, edited, and deleted from the same page.
 Deleting a question also removes it from the wrong-answer set if present.
 Built-in questions cannot be edited or deleted from the app.
@@ -115,7 +117,9 @@ with your answer, the correct answer, and the explanation — filterable by
 
 ## Data storage
 
-All state is server-side in a SQLite file, `data/app.db` (created on first run):
+All state is server-side in **PostgreSQL** on Render (the `DATABASE_URL` env
+var points at the `court-interpreter-practice-db` instance, free plan,
+Virginia). The same four tables as before:
 
 - `exams` — every started exam: date, question count, score, time limit,
   elapsed seconds, and per-question results (JSON).
@@ -126,6 +130,33 @@ All state is server-side in a SQLite file, `data/app.db` (created on first run):
 - `wrong_sources` — which exam(s) each wrong-answer entry came from. This is
   what makes history deletion cascade correctly (below).
 - `user_questions` — questions added in the app (see above).
+
+**Why PostgreSQL, not SQLite:** the app originally stored everything in a
+SQLite file (`data/app.db`), but Render's free-tier instance filesystem is
+ephemeral — the file was wiped on every restart, and free services spin down
+after ~15 min idle, so restarts happened constantly and all records were
+lost. PostgreSQL survives restarts and redeploys. Locally, with
+`DATABASE_URL` unset, the app still uses SQLite (`data/app.db`) so it runs
+with no setup; the SQL is written once (SQLite-style `?` placeholders and
+`INSERT OR IGNORE`) and translated to the PostgreSQL dialect by the
+`DBConnection` wrapper in `main.py`.
+
+> ⚠️ **Free PostgreSQL expiry:** the free Render PostgreSQL instance expires
+> **2026-12-22** (30 days from creation) and its data is deleted then. Before
+> that date, either upgrade the database to a paid plan (Render dashboard) or
+> export a backup, create a new free instance, point `DATABASE_URL` at it, and
+> restore with the import below. Export regularly regardless: the **导出备份
+> Export JSON** button (or `GET /api/export`) downloads the full history +
+> wrong-answer set + user-added questions.
+
+### Import / restore （导入备份）
+
+The History page has an **导入备份 Import JSON** button (`POST /api/import`):
+upload a file previously downloaded via Export and it restores exams, wrong
+answers (with their source exams), and user-added questions. Records whose id
+already exists are skipped, never duplicated; the response reports how many
+records were restored vs skipped in each section. Re-importing the same file
+is safe (everything is skipped the second time).
 
 ### Deleting history （删除历史记录）
 
@@ -141,12 +172,6 @@ the app backfills it for pre-existing wrong entries by reconstructing sources
 from submitted exams' stored results, falling back to each entry's
 `last_exam_id` where results can't determine a source. The backfill is
 idempotent and runs on every start.
-
-> ⚠️ **Render free-tier caveat:** the disk is ephemeral — `data/app.db` is
-> wiped on every redeploy. Use the **Export JSON** button (or
-> `GET /api/export`) to download the full history + wrong-answer set +
-> user-added questions as a backup before redeploying. There is no import
-> endpoint yet; the export is a human-readable backup.
 
 ## API endpoints
 
@@ -167,6 +192,7 @@ idempotent and runs on every start.
 | PUT | `/api/questions/{qid}` | Edit a user-added question |
 | DELETE | `/api/questions/{qid}` | Delete a user-added question (also removes it from the wrong set) |
 | GET | `/api/export` | Download full history + wrong-answer set + user-added questions as JSON |
+| POST | `/api/import` | Restore from an export file (multipart file upload). Skips records whose id already exists; reports restored vs skipped counts per section. |
 
 ## Deploy to Render
 
@@ -174,5 +200,14 @@ idempotent and runs on every start.
 - Dockerfile is at the repo root; the service listens on Render's injected
   `$PORT` (defaults to 8000 locally).
 - Set the **Health Check Path** to `/health`.
+- Create a **PostgreSQL** instance (free plan, same region — Virginia) and set
+  the service's `DATABASE_URL` env var to its **internal** connection string.
+  The app creates its tables on first start. Without `DATABASE_URL` the app
+  falls back to SQLite, which loses data on every Render restart — do not run
+  the deployed service without it.
+- **Auto-deploy does NOT fire for this repo** (the GitHub webhook does not
+  deliver): after pushing to `main`, trigger the deploy manually from the
+  Render dashboard or via the Render API (`POST /v1/services/{id}/deploys`).
 - Free plan: the service sleeps after inactivity (first load after sleep is
-  slow) and the SQLite file is lost on redeploy — export regularly.
+  slow). The free PostgreSQL instance expires 30 days after creation — see
+  [Data storage](#data-storage).
