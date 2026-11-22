@@ -1,0 +1,1122 @@
+[
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "The Consortium glossary defines an accomplice as one who knowingly, voluntarily, and intentionally unites with the principal offender in the commission of a crime — a partner in a crime. (An accessory is the person who aids or contributes in the commission of a crime.)",
+    "id": "TERM-001",
+    "options": [
+      "A court officer who assists the judge during a trial",
+      "A person who aids or contributes in the commission of a crime without being present",
+      "One who knowingly, voluntarily, and intentionally unites with the principal offender in the commission of a crime",
+      "A witness who testifies against the defendant in exchange for leniency"
+    ],
+    "question": "What is an \"accomplice\"?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 3,
+    "category": "terminology",
+    "explanation": "An affidavit is a written statement of facts confirmed by the oath of the party making it, before a notary or officer having authority to administer oaths. Police officers often use affidavits to convince courts to grant warrants.",
+    "id": "TERM-002",
+    "options": [
+      "A court order requiring a person to appear and testify",
+      "A formal written accusation issued by a grand jury",
+      "A summary of the evidence presented at trial",
+      "A written statement of facts confirmed by the oath of the party making it, before a notary or officer authorized to administer oaths"
+    ],
+    "question": "What is an \"affidavit\"?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 1,
+    "category": "terminology",
+    "explanation": "An alibi is a defense claim that the accused was somewhere else at the time a crime was committed.",
+    "id": "TERM-003",
+    "options": [
+      "Alford plea",
+      "Alibi",
+      "Arraignment",
+      "Affirmative defense"
+    ],
+    "question": "A defendant claims he was in another city when the crime occurred. This defense is called a(n):",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "An Alford plea is a special type of guilty plea by which a defendant does not admit guilt but concedes that the State has sufficient evidence to convict; it is normally made to avoid the threat of greater punishment (North Carolina v. Alford, 400 U.S. 25 (1970)).",
+    "id": "TERM-004",
+    "options": [
+      "Pleads not guilty and demands a jury trial",
+      "Claims insanity at the time of the offense",
+      "Does not admit guilt but concedes that the State has sufficient evidence to convict",
+      "Admits guilt in exchange for a reduced sentence"
+    ],
+    "question": "In an Alford plea, the defendant:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 1,
+    "category": "terminology",
+    "explanation": "An arraignment is a proceeding in which the accused is brought before the court to plead to the criminal charge in the indictment or information; the charge is read and the accused pleads guilty, not guilty, or, where permitted, nolo contendere.",
+    "id": "TERM-005",
+    "options": [
+      "The jury is selected and sworn in",
+      "The accused is brought before the court, the charge is read, and the accused is asked to plead",
+      "The judge sentences a convicted defendant",
+      "Witnesses are cross-examined by the defense"
+    ],
+    "question": "What happens at an arraignment?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "Bail is money or other security (such as a bail bond) provided to the court to temporarily allow a person's release from jail and assure appearance in court. It is not a fine and not punishment.",
+    "id": "TERM-006",
+    "options": [
+      "Compensation paid to the victim of a crime",
+      "A fine paid to the court after conviction",
+      "Money or other security provided to the court to temporarily allow a person's release from jail and assure his or her appearance in court",
+      "A fee paid to the prosecutor to drop charges"
+    ],
+    "question": "What is \"bail\"?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 0,
+    "category": "terminology",
+    "explanation": "A bench trial is a trial without a jury in which a judge decides the facts (and the verdict).",
+    "id": "TERM-007",
+    "options": [
+      "There is no jury and the judge decides the facts",
+      "The trial is held outside the courtroom",
+      "Only the attorneys present arguments, with no witnesses",
+      "The jury decides both the facts and the law"
+    ],
+    "question": "A \"bench trial\" is a trial in which:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "Beyond a reasonable doubt is the criminal standard of proof: the jury must be satisfied to a moral certainty that every element of a crime has been proven. It does not require absolute certainty or the elimination of all doubt.",
+    "id": "TERM-008",
+    "options": [
+      "The standard of proof in civil cases",
+      "Proof that eliminates all possible doubt",
+      "The standard in a criminal case requiring the jury to be satisfied to a moral certainty that every element of a crime has been proven",
+      "The standard used only in appeals"
+    ],
+    "question": "\"Beyond a reasonable doubt\" is:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "Concurrent sentences are sentences for more than one crime that are to be served at the same time, rather than one after the other — so two two-year concurrent sentences mean two years total. (This mirrors the Consortium written-exam overview's sample question.)",
+    "id": "TERM-009",
+    "options": [
+      "Six years",
+      "Four years",
+      "Two years",
+      "One year"
+    ],
+    "question": "If a defendant receives two years for burglary and two years for robbery, to be served as concurrent sentences, how much total jail time will the defendant serve?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 1,
+    "category": "terminology",
+    "explanation": "Consecutive sentences are successive sentences, one beginning at the expiration of another, imposed against a person convicted of two or more violations.",
+    "id": "TERM-010",
+    "options": [
+      "Suspended by the judge",
+      "Served one after another, each beginning when the previous one expires",
+      "Reduced for good behavior",
+      "Served at the same time"
+    ],
+    "question": "Consecutive sentences are sentences that are:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 0,
+    "category": "terminology",
+    "explanation": "Contempt of court is the court's finding that an act was committed with the intent of embarrassing the court, disobeying its lawful orders, or obstructing the administration of justice.",
+    "id": "TERM-011",
+    "options": [
+      "Contempt of court",
+      "Double jeopardy",
+      "Perjury",
+      "Probation"
+    ],
+    "question": "A witness who refuses to obey a court order to testify may be found in:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 3,
+    "category": "terminology",
+    "explanation": "A deposition is a pretrial discovery device by which one party questions the other party or a witness for the other party, usually in a lawyer's office in the presence of a court reporter who transcribes what is said.",
+    "id": "TERM-012",
+    "options": [
+      "The formal sentencing of a convicted defendant",
+      "A defendant's statement in mitigation of punishment",
+      "A written order from a judge to arrest a suspect",
+      "A pretrial discovery device in which one party questions the other party or a witness under oath, usually before a court reporter"
+    ],
+    "question": "What is a \"deposition\"?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "Double jeopardy is the constitutional prohibition under the Fifth Amendment against a person being put on trial more than once for the same offense. It is why the prosecution generally cannot appeal a criminal verdict.",
+    "id": "TERM-013",
+    "options": [
+      "Voir dire",
+      "Habeas corpus",
+      "Double jeopardy",
+      "Due process"
+    ],
+    "question": "The constitutional prohibition against trying a person twice for the same offense is called:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 1,
+    "category": "terminology",
+    "explanation": "A felony is a crime of a more serious nature than a misdemeanor, usually punishable by imprisonment in a penitentiary for more than a year and/or substantial fines.",
+    "id": "TERM-014",
+    "options": [
+      "A minor offense punishable only by a fine",
+      "A crime usually punishable by imprisonment in a penitentiary for more than a year and/or substantial fines",
+      "A civil wrong that results in money damages",
+      "An offense committed by a juvenile"
+    ],
+    "question": "Which of the following best describes a felony?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "A misdemeanor is a lesser offense than a felony and is generally punishable by fine or limited jail time, but not in a penitentiary.",
+    "id": "TERM-015",
+    "options": [
+      "Imprisonment in a penitentiary for more than a year",
+      "Death",
+      "A fine or limited jail time, but not in a penitentiary",
+      "Loss of citizenship"
+    ],
+    "question": "A misdemeanor is generally punishable by:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 3,
+    "category": "terminology",
+    "explanation": "A grand jury is a jury of inquiry; it determines which charges, if any, are to be brought against a defendant. It votes on whether to issue an indictment.",
+    "id": "TERM-016",
+    "options": [
+      "To sentence convicted defendants",
+      "To hear appeals from lower courts",
+      "To decide whether a defendant is guilty or not guilty at trial",
+      "To determine which charges, if any, are to be brought against a defendant"
+    ],
+    "question": "What is the function of a grand jury?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 1,
+    "category": "terminology",
+    "explanation": "Hearsay is statements by a witness who did not see or hear the incident in question but heard about it from someone else. Hearsay is usually not admissible as evidence in court.",
+    "id": "TERM-017",
+    "options": [
+      "Circumstantial evidence",
+      "Hearsay, which is usually not admissible as evidence",
+      "Perjury",
+      "Direct evidence"
+    ],
+    "question": "A witness testifies about something she did not see or hear herself but only heard about from someone else. This is:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "An indictment is a formal written accusation, issued by a grand jury, charging a party with a crime.",
+    "id": "TERM-018",
+    "options": [
+      "A defense attorney's opening statement",
+      "A jury's verdict of not guilty",
+      "A formal written accusation issued by a grand jury charging a party with a crime",
+      "A judge's order to release a defendant on bail"
+    ],
+    "question": "An indictment is:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 3,
+    "category": "terminology",
+    "explanation": "Jurisdiction is the legal authority of a court to hear and decide a case, and also the geographic area over which the court has authority to decide cases.",
+    "id": "TERM-019",
+    "options": [
+      "The fee charged to file a lawsuit",
+      "The sentence imposed after conviction",
+      "The county where a lawsuit is tried",
+      "The legal authority of a court to hear and decide a case"
+    ],
+    "question": "\"Jurisdiction\" means:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 0,
+    "category": "terminology",
+    "explanation": "Perjury is a false statement given while under oath or in a sworn affidavit.",
+    "id": "TERM-020",
+    "options": [
+      "A false statement given while under oath or in a sworn affidavit",
+      "Failing to appear in court after receiving a summons",
+      "Destroying evidence before trial",
+      "Refusing to answer a question in court"
+    ],
+    "question": "Perjury is:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 3,
+    "category": "terminology",
+    "explanation": "Preponderance of the evidence is evidence which is of greater weight or more convincing than the evidence offered in opposition to it. It is the standard of proof in civil cases.",
+    "id": "TERM-021",
+    "options": [
+      "Evidence that must be unanimously accepted by the jury",
+      "Evidence presented only by expert witnesses",
+      "Evidence that proves guilt to a moral certainty",
+      "Evidence of greater weight or more convincing than the evidence offered in opposition to it"
+    ],
+    "question": "\"Preponderance of the evidence\" is best described as:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 2,
+    "category": "terminology",
+    "explanation": "Probation is a sentence in which a convicted criminal offender is released into the community, usually under conditions and under the supervision of a probation officer, instead of incarceration. A violation of probation can lead to revocation and imprisonment.",
+    "id": "TERM-022",
+    "options": [
+      "Required to pay the victim's medical bills only",
+      "Banned from leaving the state for life",
+      "Released into the community under conditions and supervision of a probation officer instead of incarceration",
+      "Immediately imprisoned in a penitentiary"
+    ],
+    "question": "Probation is a sentence in which a convicted offender is:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 0,
+    "category": "terminology",
+    "explanation": "A subpoena is an order of the court which requires a person to be present at a certain time and place to give testimony upon a certain matter. Failure to appear may be punishable as contempt of court.",
+    "id": "TERM-023",
+    "options": [
+      "An order of the court requiring a person to be present at a certain time and place to give testimony",
+      "A defendant's plea of not guilty",
+      "A written argument filed on appeal",
+      "A request for a change of venue"
+    ],
+    "question": "What is a subpoena?",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 3,
+    "category": "terminology",
+    "explanation": "Voir dire ('to speak the truth') is the preliminary examination which the court and attorneys make of prospective jurors to determine their qualification and suitability to serve as jurors.",
+    "id": "TERM-024",
+    "options": [
+      "The reading of the verdict by the foreperson",
+      "A hearing to determine whether there is probable cause",
+      "The judge's final instructions to the jury",
+      "The preliminary examination of prospective jurors by the court and attorneys to determine their qualification and suitability to serve"
+    ],
+    "question": "\"Voir dire\" refers to:",
+    "source": "NCSC Consortium Glossary of Court Terminology"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "Criminal cases involve enforcing public codes of behavior, with the government prosecuting individuals or institutions. In a criminal case, the government brings charges against the person alleged to have committed the crime.",
+    "id": "PROC-001",
+    "options": [
+      "The government",
+      "The jury",
+      "The victim",
+      "A private attorney hired by the victim"
+    ],
+    "question": "In a criminal case, who brings the charges against the person alleged to have committed the crime?",
+    "source": "ABA How Courts Work — Civil and Criminal Cases"
+  },
+  {
+    "answer": 1,
+    "category": "procedures",
+    "explanation": "Felonies are the most serious crimes, with punishment on conviction of imprisonment of at least a year, usually in a penitentiary. Misdemeanors are less serious, with punishment of less than a year, usually in a local jail.",
+    "id": "PROC-002",
+    "options": [
+      "Felonies are punished only by fines",
+      "A felony conviction carries imprisonment of at least a year, usually in a state or federal penitentiary; a misdemeanor carries less than a year, usually in a local jail",
+      "Misdemeanors always require a jury trial, felonies do not",
+      "There is no difference in punishment"
+    ],
+    "question": "What distinguishes a felony from a misdemeanor in terms of punishment?",
+    "source": "ABA How Courts Work — Pre-Trial Procedures in Criminal Cases"
+  },
+  {
+    "answer": 2,
+    "category": "procedures",
+    "explanation": "Criminal charges are brought in three ways: an indictment voted by a grand jury, an information filed by the prosecuting attorney (or a criminal complaint), or a citation by a police officer for minor offenses. A jury verdict comes at the end of a trial, not at charging.",
+    "id": "PROC-003",
+    "options": [
+      "Through the filing of an information by the prosecuting attorney",
+      "Through a citation by a police officer for minor offenses",
+      "Through a verdict returned by a trial jury",
+      "Through an indictment voted by a grand jury"
+    ],
+    "question": "Criminal charges may be brought in all of the following ways EXCEPT:",
+    "source": "ABA How Courts Work — Bringing the Charge"
+  },
+  {
+    "answer": 2,
+    "category": "procedures",
+    "explanation": "Miranda rights require that people taken into custody be told that anything they say may be held against them, that they have the right to remain silent, to consult with a lawyer before and during questioning, and to have a lawyer appointed if they cannot afford one. Bail is set by a judge or magistrate, not by the defendant.",
+    "id": "PROC-004",
+    "options": [
+      "The right to consult with a lawyer before and during questioning",
+      "The right to have a lawyer appointed if they cannot afford one",
+      "The right to set their own bail amount",
+      "The right to remain silent"
+    ],
+    "question": "Under Miranda v. Arizona (1966), a person taken into custody must be informed before questioning of all of the following EXCEPT:",
+    "source": "ABA How Courts Work — Arrest Procedures"
+  },
+  {
+    "answer": 1,
+    "category": "procedures",
+    "explanation": "Bail is not a fine and is not supposed to be used as punishment. Its purpose is simply to ensure that defendants will appear for trial and all pretrial hearings. Bail is returned when the trial is over, in some states minus a processing fee.",
+    "id": "PROC-005",
+    "options": [
+      "To compensate the victim",
+      "To ensure that the defendant will appear for trial and all pretrial hearings",
+      "To pay for the costs of the trial",
+      "To punish the defendant before trial"
+    ],
+    "question": "What is the purpose of bail?",
+    "source": "ABA How Courts Work — Bail"
+  },
+  {
+    "answer": 3,
+    "category": "procedures",
+    "explanation": "Plea bargaining resolves most criminal cases filed in most jurisdictions. It usually involves pleading guilty to a lesser charge or to only one of several charges, or pleading as charged with a recommended leniency — but the judge is not bound by the prosecution's recommendation, and either side may begin negotiations.",
+    "id": "PROC-006",
+    "options": [
+      "Only the prosecution may begin plea negotiations",
+      "It resolves only a small fraction of criminal cases",
+      "The judge is bound to follow the prosecution's sentencing recommendation",
+      "It usually involves the defendant pleading guilty to a lesser charge or to only one of several charges"
+    ],
+    "question": "Which statement about plea bargaining is TRUE?",
+    "source": "ABA How Courts Work — Plea Bargaining"
+  },
+  {
+    "answer": 1,
+    "category": "procedures",
+    "explanation": "At a preliminary hearing, the government must demonstrate to a judge or magistrate that there is sufficient evidence, or probable cause, to believe the suspect committed the crime charged. If no probable cause is found, the matter is dismissed; if found, the defendant is bound over to trial court.",
+    "id": "PROC-007",
+    "options": [
+      "To select the trial jury",
+      "To determine whether there is probable cause to believe the defendant committed the charged offense",
+      "To sentence the defendant",
+      "To hear the defendant's opening statement"
+    ],
+    "question": "What is the purpose of a preliminary hearing in a felony case?",
+    "source": "ABA How Courts Work — Pre-Trial Court Appearances in Criminal Cases"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "In many jurisdictions a plea of no contest is equivalent to a guilty plea, except that the defendant does not directly admit guilt.",
+    "id": "PROC-008",
+    "options": [
+      "Equivalent to a guilty plea in many jurisdictions, except that the defendant does not directly admit guilt",
+      "A request to dismiss the charges",
+      "A plea entered only in civil cases",
+      "A plea of not guilty by reason of insanity"
+    ],
+    "question": "A plea of nolo contendere (no contest) is best described as:",
+    "source": "ABA How Courts Work — Pre-Trial Court Appearances in Criminal Cases"
+  },
+  {
+    "answer": 3,
+    "category": "procedures",
+    "explanation": "Discovery is the formal process of exchanging information between the parties about the witnesses and evidence they will present at trial. It is designed to prevent 'trial by ambush,' where one side doesn't learn of the other side's evidence or witnesses until the trial.",
+    "id": "PROC-009",
+    "options": [
+      "Keep evidence secret from the jury",
+      "Allow the judge to decide the case without a trial",
+      "Speed up jury selection",
+      "Prevent 'trial by ambush' by letting both sides know before trial what evidence may be presented"
+    ],
+    "question": "Discovery is designed primarily to:",
+    "source": "ABA How Courts Work — Discovery"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "A motion for summary judgment (sometimes called a motion for summary disposition) asks the court for a judgment on the merits before trial, properly made where there is no dispute about the facts and only a question of law needs to be decided. A motion to dismiss, by contrast, argues the suit lacks a legally sound basis.",
+    "id": "PROC-010",
+    "options": [
+      "A judgment on the merits of the case before trial, where there is no dispute about the facts and only a question of law needs to be decided",
+      "Dismissal because the suit has no legally sound basis even if all facts alleged are true",
+      "A new trial after a guilty verdict",
+      "Permission to question a witness a second time"
+    ],
+    "question": "A motion for summary judgment asks the court for:",
+    "source": "ABA How Courts Work — Motions"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "In a criminal trial the government must prove guilt beyond a reasonable doubt. In a civil trial the plaintiff generally must prove liability by a preponderance of the evidence (the greater weight of the evidence) — a far less stringent standard.",
+    "id": "PROC-011",
+    "options": [
+      "Criminal: beyond a reasonable doubt; Civil: preponderance of the evidence",
+      "Both criminal and civil: beyond a reasonable doubt",
+      "Both criminal and civil: preponderance of the evidence",
+      "Criminal: preponderance of the evidence; Civil: beyond a reasonable doubt"
+    ],
+    "question": "Which correctly states the burden of proof in criminal and civil trials?",
+    "source": "ABA How Courts Work — Opening Statements"
+  },
+  {
+    "answer": 1,
+    "category": "procedures",
+    "explanation": "Direct evidence speaks for itself (eyewitness accounts, a confession, a weapon); circumstantial evidence suggests a fact by implication or inference. Both kinds are part of most trials, and neither kind of evidence is more valuable than the other.",
+    "id": "PROC-012",
+    "options": [
+      "Circumstantial evidence is never admissible",
+      "Neither kind of evidence is more valuable than the other",
+      "Circumstantial evidence may only be presented by expert witnesses",
+      "Direct evidence is always more valuable than circumstantial evidence"
+    ],
+    "question": "Which statement about direct and circumstantial evidence is TRUE?",
+    "source": "ABA How Courts Work — Evidence"
+  },
+  {
+    "answer": 1,
+    "category": "procedures",
+    "explanation": "Lawyers generally may not ask leading questions of their own witnesses on direct examination. Leading questions may be asked during cross-examination, since its purpose is to test the credibility of statements made during direct examination; they are also allowed when questioning an adverse or hostile witness on direct.",
+    "id": "PROC-013",
+    "options": [
+      "Allowed during direct examination but not cross-examination",
+      "Generally not allowed during direct examination, but allowed during cross-examination",
+      "Never allowed in any trial",
+      "Allowed only when questioning expert witnesses"
+    ],
+    "question": "Leading questions — questions that suggest the answers desired — are:",
+    "source": "ABA How Courts Work — Direct Examination / Cross-Examination"
+  },
+  {
+    "answer": 2,
+    "category": "procedures",
+    "explanation": "Each lawyer may request the dismissal of an unlimited number of jurors for cause (e.g., a juror is a close relative of a party). Peremptory challenges permit a lawyer to excuse a potential juror without stating a cause, but they are limited to a certain number and cannot be used to discriminate on the basis of race or sex.",
+    "id": "PROC-014",
+    "options": [
+      "Peremptory challenges may be used to discriminate on the basis of race or sex",
+      "Challenges for cause are limited in number; peremptory challenges are unlimited",
+      "Challenges for cause require the lawyer to state a reason (e.g., the juror is biased) and are unlimited; peremptory challenges require no stated cause and are limited to a certain number",
+      "Only the prosecution may use challenges for cause"
+    ],
+    "question": "What is the difference between a challenge for cause and a peremptory challenge in jury selection?",
+    "source": "ABA How Courts Work — Jury Selection"
+  },
+  {
+    "answer": 1,
+    "category": "procedures",
+    "explanation": "If the jurors cannot agree on a verdict, a hung jury results, leading to a mistrial. The case is not decided, and it may be tried again at a later date before a new jury — or the plaintiff or government may decide not to pursue the case further.",
+    "id": "PROC-015",
+    "options": [
+      "An automatic acquittal",
+      "A hung jury, leading to a mistrial; the case may be tried again before a new jury",
+      "A directed verdict by the judge",
+      "A mandatory appeal"
+    ],
+    "question": "If the jurors cannot agree on a verdict, the result is:",
+    "source": "ABA How Courts Work — Jury Deliberations"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "Polling the jury means each juror is asked if he or she agrees with the decision as announced, to make sure the verdict announced is the actual verdict of the jury. The request usually comes from the losing party.",
+    "id": "PROC-016",
+    "options": [
+      "Each juror is asked individually if he or she agrees with the decision as announced",
+      "The judge dismisses the jury",
+      "The verdict is sent to an appeals court",
+      "The jurors vote again in secret"
+    ],
+    "question": "When a jury is \"polled\" after a verdict, it means:",
+    "source": "ABA How Courts Work — Verdict"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "An appeal is not a retrial or a new trial; appeals courts do not usually consider new witnesses or new evidence. In a criminal case, only the defendant has a right to an appeal in most states, because prosecution appeals after a verdict are barred by double jeopardy. There must be a legal basis for appeal — an alleged material error, not mere dislike of the verdict.",
+    "id": "PROC-017",
+    "options": [
+      "In a criminal case, only the defendant has a right to appeal in most states",
+      "A losing party always has an automatic right of appeal",
+      "Appeals courts decide cases by re-weighing all the evidence",
+      "An appeal is a retrial of the case with new witnesses and evidence"
+    ],
+    "question": "Which statement about appeals is TRUE?",
+    "source": "ABA How Courts Work — Appeals"
+  },
+  {
+    "answer": 3,
+    "category": "procedures",
+    "explanation": "In most states and in the federal courts, only the judge determines the sentence to be imposed. The main exception is that in most states juries impose sentence in cases where the death penalty is a possibility. A pre-sentence investigation helps the judge choose within the statutory range.",
+    "id": "PROC-018",
+    "options": [
+      "The probation officer",
+      "The jury in all cases",
+      "The prosecutor",
+      "Only the judge, except that in most states juries impose sentence where the death penalty is a possibility"
+    ],
+    "question": "In most states and in the federal courts, who determines the sentence after a criminal conviction?",
+    "source": "ABA How Courts Work — Sentencing"
+  },
+  {
+    "answer": 3,
+    "category": "procedures",
+    "explanation": "The courts are divided into three layers: trial courts (where cases start), intermediate appellate courts (where most appeals are first heard), and courts of last resort (usually called supreme courts). Over 95% of cases are handled by the state courts.",
+    "id": "PROC-019",
+    "options": [
+      "Four layers; state and federal courts split cases evenly",
+      "Three layers; federal courts handle over 95% of cases",
+      "Two layers; federal courts handle most cases",
+      "Three layers — trial courts, intermediate appellate courts, and courts of last resort; state courts handle over 95% of cases"
+    ],
+    "question": "The courts of the United States are generally divided into how many layers, and which handles the vast majority of cases?",
+    "source": "ABA How Courts Work — The Role and Structure of Courts"
+  },
+  {
+    "answer": 0,
+    "category": "procedures",
+    "explanation": "The court reporter records verbatim (word for word) everything said as part of the formal proceedings, including witness testimony, objections by lawyers, and the judge's rulings on those objections. The bailiff keeps order and is in charge of the jury; the clerk administers oaths and manages exhibits.",
+    "id": "PROC-020",
+    "options": [
+      "The court reporter",
+      "The jury foreperson",
+      "The bailiff",
+      "The court clerk"
+    ],
+    "question": "Which court officer records verbatim everything said as part of the formal proceedings in the courtroom?",
+    "source": "ABA How Courts Work — Court Officers"
+  },
+  {
+    "answer": 2,
+    "category": "ethics",
+    "explanation": "Canon 1 (Accuracy and Completeness) requires a complete and accurate interpretation or sight translation, without altering, omitting, or adding anything to what is stated or written, and without explanation. Every spoken statement must be interpreted, even if it appears non-responsive, obscene, rambling, or incoherent.",
+    "id": "ETH-001",
+    "options": [
+      "Simplified so the non-English speaker can easily understand it",
+      "A summary of the main points, omitting anything incoherent or obscene",
+      "Complete and accurate, without altering, omitting, or adding anything, and without explanation",
+      "Word-for-word literal in all circumstances"
+    ],
+    "question": "Under Canon 1 of the Virginia Code of Professional Responsibility, an interpreter must render an interpretation that is:",
+    "source": "VA Code of Professional Responsibility, Canon 1"
+  },
+  {
+    "answer": 1,
+    "category": "ethics",
+    "explanation": "The obligation to preserve accuracy includes the interpreter's duty to correct any error of interpretation discovered by the interpreter during the proceeding. Interpreters should also objectively analyze any challenge to their performance.",
+    "id": "ETH-002",
+    "options": [
+      "Ignore it and hope no one noticed",
+      "Correct the error during the proceeding",
+      "Wait until after the trial and tell the attorneys privately",
+      "Ask the witness to change the testimony"
+    ],
+    "question": "An interpreter realizes during a proceeding that she made an error in her interpretation. According to Canon 1, she should:",
+    "source": "VA Code of Professional Responsibility, Canon 1"
+  },
+  {
+    "answer": 3,
+    "category": "ethics",
+    "explanation": "Verbatim, 'word for word,' or literal oral interpretations are not appropriate when they distort the meaning of the source language. Interpreters are obligated to preserve faithfully the meaning of what is said in court, including the style or register of speech.",
+    "id": "ETH-003",
+    "options": [
+      "Judges forbid literal interpretation",
+      "It violates the confidentiality rule",
+      "It takes too much time",
+      "It is not appropriate when it distorts the meaning of the source language; the interpreter must preserve meaning, including the style or register of speech"
+    ],
+    "question": "According to Canon 1, why is a strictly verbatim, 'word for word' interpretation NOT always appropriate?",
+    "source": "VA Code of Professional Responsibility, Canon 1"
+  },
+  {
+    "answer": 2,
+    "category": "ethics",
+    "explanation": "Canon 2 requires interpreters to accurately and completely represent their certifications, training, and pertinent experience, so officers of the court can fairly evaluate their qualifications before appointment. Withdrawing mid-case disrupts proceedings and wastes scarce public resources.",
+    "id": "ETH-004",
+    "options": [
+      "Let the court assume their qualifications without discussion",
+      "Claim certification in every language they speak",
+      "Accurately and completely represent their certifications, training, and pertinent experience before appointment",
+      "Hide any gaps in their experience until after the case begins"
+    ],
+    "question": "Canon 2 (Representation of Qualifications) requires interpreters to:",
+    "source": "VA Code of Professional Responsibility, Canon 2"
+  },
+  {
+    "answer": 0,
+    "category": "ethics",
+    "explanation": "Canon 3 requires interpreters to be impartial and unbiased, refrain from conduct that may give an appearance of bias, and disclose any real or perceived conflict of interest — including to the appropriate judicial authority and counsel if a participant views the interpreter as biased.",
+    "id": "ETH-005",
+    "options": [
+      "Disclose it to the appropriate judicial authority and counsel",
+      "Keep it private to avoid embarrassing the court",
+      "Continue interpreting but favor the other side to compensate",
+      "Withdraw silently without explanation"
+    ],
+    "question": "Under Canon 3, if an interpreter becomes aware of a real or perceived conflict of interest, the interpreter must:",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  },
+  {
+    "answer": 2,
+    "category": "ethics",
+    "explanation": "Canon 3 lists circumstances presumed to create actual or apparent conflicts where interpreters should not serve, including: being a friend, associate, or relative of a party or counsel; having served in an investigative capacity for any party; having been retained by law enforcement to help prepare the criminal case; having a financial interest affected by the outcome; and having been involved in the choice of counsel.",
+    "id": "ETH-006",
+    "options": [
+      "The interpreter has previously worked with the judge",
+      "The interpreter has interpreted in the same courthouse before",
+      "The interpreter is a friend, associate, or relative of a party or counsel for a party in the proceedings",
+      "The interpreter speaks the same dialect as the defendant"
+    ],
+    "question": "Which of the following is a presumed conflict of interest under Canon 3, where the interpreter should NOT serve?",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  },
+  {
+    "answer": 0,
+    "category": "ethics",
+    "explanation": "The interpreter serves as an officer of the court and the interpreter's duty in a court proceeding is to serve the court and the public to which the court is a servant — regardless of whether the interpreter is publicly retained at government expense or privately retained at the expense of one of the parties.",
+    "id": "ETH-007",
+    "options": [
+      "The court and the public",
+      "The prosecution",
+      "The non-English-speaking party only",
+      "Only the party who hired and pays the interpreter"
+    ],
+    "question": "According to the commentary to Canon 3, the interpreter serves as an officer of the court, and the interpreter's duty in a court proceeding is to serve:",
+    "source": "VA Code of Professional Responsibility, Canon 3"
+  },
+  {
+    "answer": 2,
+    "category": "ethics",
+    "explanation": "Canon 4 requires interpreters to conduct themselves in a manner consistent with the dignity of the court and to be as unobtrusive as possible — observing protocol, speaking at an audible rate and volume, dressing consistent with the dignity of the proceedings, and avoiding obstructing anyone's view.",
+    "id": "ETH-008",
+    "options": [
+      "Dress casually to put witnesses at ease",
+      "Draw attention to herself so the jury notices her work",
+      "Conduct herself consistent with the dignity of the court and be as unobtrusive as possible",
+      "Speak loudly enough to be heard outside the courtroom"
+    ],
+    "question": "Under Canon 4 (Professional Demeanor), an interpreter should:",
+    "source": "VA Code of Professional Responsibility, Canon 4"
+  },
+  {
+    "answer": 3,
+    "category": "ethics",
+    "explanation": "Canon 5 requires protecting the confidentiality of all privileged and other confidential information. It is especially important to understand and uphold the attorney-client privilege, which requires confidentiality with respect to any communication between attorney and client.",
+    "id": "ETH-009",
+    "options": [
+      "Spousal privilege",
+      "Journalist-source privilege",
+      "Doctor-patient privilege",
+      "Attorney-client privilege"
+    ],
+    "question": "Canon 5 (Confidentiality) requires interpreters to protect the confidentiality of privileged information. Which privilege is singled out as especially important to uphold?",
+    "source": "VA Code of Professional Responsibility, Canon 5"
+  },
+  {
+    "answer": 1,
+    "category": "ethics",
+    "explanation": "Canon 5's exception: if an interpreter becomes aware of information suggesting imminent harm to someone or a crime being committed during proceedings, the interpreter should immediately disclose it to an appropriate authority within the judiciary who is not involved in the proceeding and seek advice about the potential conflict in professional responsibility.",
+    "id": "ETH-010",
+    "options": [
+      "Keep it confidential under all circumstances",
+      "Immediately disclose it to an appropriate authority within the judiciary who is not involved in the proceeding and seek advice",
+      "Tell the press",
+      "Announce it to the jury"
+    ],
+    "question": "Under Canon 5, if an interpreter becomes aware of information suggesting imminent harm to someone during proceedings, the interpreter should:",
+    "source": "VA Code of Professional Responsibility, Canon 5"
+  },
+  {
+    "answer": 3,
+    "category": "ethics",
+    "explanation": "Canon 6 states that interpreters shall not publicly discuss, report, or offer an opinion concerning a matter in which they are or have been engaged, even when that information is not privileged or required by law to be confidential.",
+    "id": "ETH-011",
+    "options": [
+      "Talking to colleagues about general interpreting techniques",
+      "Reporting ethical violations to a judicial authority",
+      "Discussing a case with the judge during the proceeding",
+      "Publicly discussing, reporting, or offering an opinion about a matter in which they are or have been engaged, even when the information is not privileged or confidential"
+    ],
+    "question": "Canon 6 (Restriction of Public Comment) prohibits interpreters from:",
+    "source": "VA Code of Professional Responsibility, Canon 6"
+  },
+  {
+    "answer": 3,
+    "category": "ethics",
+    "explanation": "Canon 7 limits interpreters to interpreting or translating: they must not give legal advice, express personal opinions, or act as counselors or advisors. An interpreter may translate the language on a form but may not explain the form or its purpose. Asking speakers to slow down or notifying the court of competence reservations are permitted — the interpreter must make clear she is speaking for herself.",
+    "id": "ETH-012",
+    "options": [
+      "Asking a speaker to slow down or repeat something",
+      "Notifying the court of reservations about one's ability to satisfy an assignment",
+      "Translating the language on a form for a person filling it out",
+      "Giving legal advice or explaining the purpose of a form to a party"
+    ],
+    "question": "Under Canon 7 (Scope of Practice), which action is PROHIBITED for a court interpreter?",
+    "source": "VA Code of Professional Responsibility, Canon 7"
+  },
+  {
+    "answer": 1,
+    "category": "ethics",
+    "explanation": "This is the Consortium written-exam overview's sample ethics scenario: the correct answer is to interpret at the same level as the witness. Summarizing, simplifying, or explaining would violate the accuracy and scope-of-practice canons — the interpreter interprets, and does not explain or advise.",
+    "id": "ETH-013",
+    "options": [
+      "Advise the judge that the defendant does not understand",
+      "Interpret at the same level as the witness",
+      "Ask the judge for permission to explain the testimony for the witness",
+      "Summarize the testimony in simpler language the defendant can understand"
+    ],
+    "question": "An expert witness is giving highly technical testimony about blood alcohol content, and the interpreter senses the defendant does not understand such technical language. What is the best course of action?",
+    "source": "NCSC Consortium Written Exam Overview (WA AOC, 2026)"
+  },
+  {
+    "answer": 1,
+    "category": "ethics",
+    "explanation": "Canon 8 requires interpreters to assess their ability at all times and immediately convey reservations to the appropriate judicial authority. When unfamiliar technical terminology arises, interpreters should request a brief recess to familiarize themselves with the subject matter, and inform the presiding officer if familiarity requires extensive time or research.",
+    "id": "ETH-014",
+    "options": [
+      "Guess at the terms and keep going",
+      "Request a brief recess to familiarize herself with the subject matter, and inform the presiding officer if extensive research is needed",
+      "Skip the technical portions",
+      "Ask the expert witness to testify in simpler language"
+    ],
+    "question": "Under Canon 8, if unfamiliar technical terminology suddenly arises during a proceeding (for example, unscheduled expert-witness testimony), the interpreter should:",
+    "source": "VA Code of Professional Responsibility, Canon 8"
+  },
+  {
+    "answer": 2,
+    "category": "ethics",
+    "explanation": "Canon 9 requires interpreters to report to the proper judicial authority any effort to impede compliance with the law, the code, or official policy. The interpreter should first inform the person of her professional obligations; if the person persists, she should turn to a supervisory interpreter, a judge, or another official with jurisdiction over interpreter matters.",
+    "id": "ETH-015",
+    "options": [
+      "Report the person to the police",
+      "Comply with the demand to avoid conflict",
+      "First inform the person of her professional obligations; if the person persists, turn to a supervisory interpreter, a judge, or another official with jurisdiction over interpreter matters",
+      "Refuse the assignment without telling anyone"
+    ],
+    "question": "Under Canon 9, if someone demands that the interpreter violate the Code of Professional Responsibility, the interpreter should:",
+    "source": "VA Code of Professional Responsibility, Canon 9"
+  },
+  {
+    "answer": 2,
+    "category": "ethics",
+    "explanation": "Canon 10 requires interpreters to continually improve their skills and knowledge and advance the profession through activities such as professional training and education and interaction with colleagues and specialists in related fields — including staying current on technical, vernacular, and regional terminology and on statutes, court rules, and judiciary policies.",
+    "id": "ETH-016",
+    "options": [
+      "Publish a legal glossary",
+      "Teach a court-interpreting course every year",
+      "Continually improve their skills and knowledge and advance the profession through training, education, and interaction with colleagues",
+      "Learn a third language within one year of certification"
+    ],
+    "question": "Canon 10 (Professional Development) requires interpreters to:",
+    "source": "VA Code of Professional Responsibility, Canon 10"
+  },
+  {
+    "answer": 2,
+    "category": "va-ncsc",
+    "explanation": "The NCSC written test consists of 135 multiple-choice questions measuring basic, general English language proficiency and court and ethics knowledge. In Virginia, candidates must score a minimum of 80% to be eligible to register for the 2-day interpreter orientation (at least 108 of 135 correct).",
+    "id": "VANC-001",
+    "options": [
+      "75 multiple-choice questions; 60% to pass",
+      "100 multiple-choice questions; 70% to pass",
+      "135 multiple-choice questions; 80% to pass",
+      "150 multiple-choice questions; 90% to pass"
+    ],
+    "question": "How many questions does the NCSC court interpreter written exam have, and what is the minimum passing score?",
+    "source": "VA Courts Certification Requirements; NCSC Consortium Written Exam Overview"
+  },
+  {
+    "answer": 0,
+    "category": "va-ncsc",
+    "explanation": "The written examination is allowed 2 hours and 15 minutes (Rhode Island, Illinois, and Nebraska program pages, all administering the same NCSC Consortium exam).",
+    "id": "VANC-002",
+    "options": [
+      "2 hours 15 minutes",
+      "3 hours",
+      "4 hours",
+      "1 hour"
+    ],
+    "question": "How much time are candidates allowed to complete the NCSC written exam?",
+    "source": "NCSC Consortium Written Exam Overview (RI/IL/NE program pages)"
+  },
+  {
+    "answer": 3,
+    "category": "va-ncsc",
+    "explanation": "The 135-question written exam has three parts: Part 1 English Language (75 questions), Part 2 Court-Related Terms and Usage (50 questions), and Part 3 Ethics and Professional Conduct (10 questions).",
+    "id": "VANC-003",
+    "options": [
+      "45 English, 45 court terms, 45 ethics",
+      "50 English, 50 court terms, 35 ethics",
+      "75 court terms, 50 English, 10 ethics",
+      "75 English language, 50 court-related terms and usage, 10 ethics and professional conduct"
+    ],
+    "question": "The written exam's 135 questions are divided into which three parts?",
+    "source": "NCSC Consortium Written Exam Overview (WA AOC, 2026)"
+  },
+  {
+    "answer": 3,
+    "category": "va-ncsc",
+    "explanation": "The oral exam tests proficiency in the three modes of interpretation: sight translation (English ↔ non-English), consecutive interpretation (English ↔ non-English), and simultaneous interpretation (English → non-English).",
+    "id": "VANC-004",
+    "options": [
+      "Sight translation, simultaneous interpretation, and written translation",
+      "Consecutive interpretation, simultaneous interpretation, and shorthand",
+      "Sight translation, consecutive interpretation, and document translation",
+      "Sight translation, consecutive interpretation, and simultaneous interpretation"
+    ],
+    "question": "The NCSC oral certification exam tests proficiency in which three modes of interpretation?",
+    "source": "VA Courts Certification Requirements"
+  },
+  {
+    "answer": 3,
+    "category": "va-ncsc",
+    "explanation": "Candidates must score a minimum of 70% on each section of the oral exam to pass, and may score no lower than 65% on either of the two sight translation portions.",
+    "id": "VANC-005",
+    "options": [
+      "80% on each section",
+      "50% overall average",
+      "60% on each section, with no minimum on sight translation",
+      "70% on each section, with no less than 65% on either sight translation portion"
+    ],
+    "question": "What is the passing standard for the NCSC oral certification exam?",
+    "source": "VA Courts Certification Requirements"
+  },
+  {
+    "answer": 1,
+    "category": "va-ncsc",
+    "explanation": "Step 1 is a webinar series of three one-hour sessions on the Virginia Judicial System, which must be completed before Step 2. Step 2 is the Oral Proficiency Interview (OPI), testing speaking and listening skills in both English and the non-English language(s).",
+    "id": "VANC-006",
+    "options": [
+      "Sign the Interpreter's Oath, then register for the written exam",
+      "Complete three one-hour webinars on the Virginia Judicial System, then take Oral Proficiency Interviews (OPI) in both English and the non-English language",
+      "Pass the oral exam, then attend the 2-day orientation",
+      "Complete 15 hours of court observation, then take the written exam"
+    ],
+    "question": "In Virginia's certification process, what are Steps 1 and 2?",
+    "source": "VA Courts Certification Requirements"
+  },
+  {
+    "answer": 1,
+    "category": "va-ncsc",
+    "explanation": "Step 4 is the 2-day interpreter orientation, covering the Virginia Judicial System, courtroom protocol, the interpreter's role, the modes of interpreting, and the Code of Professional Responsibility. After orientation, candidates must complete 15 hours of courtroom observation, then submit a resume and be interviewed by the Certification Team.",
+    "id": "VANC-007",
+    "options": [
+      "A 2-day orientation only, with no further requirements",
+      "A 2-day orientation covering courtroom protocol, the interpreter's role, the modes of interpreting, and the Code of Professional Responsibility, followed by 15 hours of courtroom observation",
+      "A one-week internship with a judge",
+      "An online quiz on Virginia court forms"
+    ],
+    "question": "What does Step 4 of Virginia's certification process involve?",
+    "source": "VA Courts Certification Requirements"
+  },
+  {
+    "answer": 3,
+    "category": "va-ncsc",
+    "explanation": "Virginia's designations (from October 2025): Conditionally Approved requires at least 50% on all sections of the oral exam (authorized for lower courts); Non-Certified requires at least 60% on all sections; Certified requires at least 70% on each of the three sections, with no less than 65% on either sight translation section.",
+    "id": "VANC-008",
+    "options": [
+      "Conditionally Approved 40%, Non-Certified 50%, Certified 60%",
+      "All designations require 70%",
+      "Conditionally Approved 60%, Non-Certified 70%, Certified 80%",
+      "Conditionally Approved 50%, Non-Certified 60%, Certified 70% (with at least 65% on each sight translation)"
+    ],
+    "question": "What oral-exam scores define Virginia's Conditionally Approved, Non-Certified, and Certified designations?",
+    "source": "VA Courts Certification Requirements"
+  },
+  {
+    "answer": 3,
+    "category": "va-ncsc",
+    "explanation": "Mandarin is one of the languages for which Virginia offers certification, along with Amharic, Arabic (Egyptian and Levantine), Bosnian-Croatian-Serbian, Cantonese, Filipino (Tagalog), French, Haitian Creole, Hmong, Khmer, Korean, Polish, Portuguese, Russian, Somali, Spanish, Turkish, and Vietnamese.",
+    "id": "VANC-009",
+    "options": [
+      "Mandarin interpreters must certify in another state first",
+      "Mandarin is offered only as an abbreviated exam",
+      "Mandarin has no certification exam, so only Qualified status is available",
+      "Mandarin is a certifiable language in Virginia"
+    ],
+    "question": "Which statement about Mandarin is TRUE for Virginia's court interpreter program?",
+    "source": "VA Courts Foreign Language Services program page"
+  },
+  {
+    "answer": 0,
+    "category": "va-ncsc",
+    "explanation": "Certified Status is for interpreters of languages with a certification exam; Qualified Status is for interpreters of languages that do not yet have a certification exam. Qualified candidates complete the same Steps 1–4 but there is no oral certification exam for their language.",
+    "id": "VANC-010",
+    "options": [
+      "Certified Status is for languages with a certification exam; Qualified Status is for languages that do not yet have one",
+      "Qualified interpreters earn higher pay than Certified interpreters",
+      "Certified interpreters may only work in federal court",
+      "Qualified status requires passing the oral exam with 80%"
+    ],
+    "question": "What is the difference between Certified Status and Qualified Status in Virginia?",
+    "source": "VA Courts Foreign Language Services program page"
+  },
+  {
+    "answer": 2,
+    "category": "va-ncsc",
+    "explanation": "Virginia's Step 5 oral-exam rules allow three attempts, once every six months. If unsuccessful three times, candidates must complete a judicial interpreter training course (e.g. Interpretrain, Athena Sky, Edgar Hidalgo, De La Mora Institute, or a university course) at their own expense before testing again, and each exam version may be attempted twice.",
+    "id": "VANC-011",
+    "options": [
+      "One attempt only",
+      "Unlimited attempts, once a month",
+      "Three attempts, once every six months; after three failures a judicial interpreter training course is required before testing again",
+      "Two attempts per year, with no training requirement"
+    ],
+    "question": "How many oral-exam attempts does Virginia allow, and what happens after three unsuccessful attempts?",
+    "source": "VA Courts Step 5: Oral Exam"
+  },
+  {
+    "answer": 0,
+    "category": "va-ncsc",
+    "explanation": "The written test is created by the National Center for State Courts and administered by the Office of the Executive Secretary of the Supreme Court of Virginia, twice a year. The oral exam is likewise created by NCSC and administered by OES in person, twice a year.",
+    "id": "VANC-012",
+    "options": [
+      "Created by the National Center for State Courts and administered by the Office of the Executive Secretary of the Supreme Court of Virginia, twice a year",
+      "Created and administered by the Virginia Bar Association",
+      "Created by the U.S. Department of Justice",
+      "Created by the American Bar Association and administered by local courts"
+    ],
+    "question": "Who creates the written exam, and who administers it in Virginia?",
+    "source": "VA Courts Certification Requirements"
+  },
+  {
+    "answer": 3,
+    "category": "language-access",
+    "explanation": "The mission of the Foreign Language Services Division is to assist individuals with limited English proficiency in overcoming language barriers to ensure equal access to Virginia's Judicial System — by providing interpretation and sight translation services, certifying and hiring highly trained interpreters, and upholding professional standards.",
+    "id": "LANG-001",
+    "options": [
+      "To teach English to court employees",
+      "To translate court forms into every language spoken in Virginia",
+      "To prosecute cases involving non-English speakers",
+      "To assist individuals with limited English proficiency in overcoming language barriers to ensure equal access to Virginia's Judicial System"
+    ],
+    "question": "What is the mission of Virginia's Foreign Language Services Division?",
+    "source": "VA Courts Foreign Language Services program page"
+  },
+  {
+    "answer": 0,
+    "category": "language-access",
+    "explanation": "NCSC states that as the developer of national court interpreter examinations, it has a deep understanding of language access trends and the knowledge and aptitude required for certification, and it assists courts looking to create or expand a language access program.",
+    "id": "LANG-002",
+    "options": [
+      "It develops the national court interpreter examinations and helps courts create or expand language access programs",
+      "It runs the federal court interpreter exam only",
+      "It provides free legal aid to non-English speakers",
+      "It licenses attorneys in all 50 states"
+    ],
+    "question": "What role does the National Center for State Courts (NCSC) play in language access?",
+    "source": "NCSC Language Access page"
+  },
+  {
+    "answer": 0,
+    "category": "language-access",
+    "explanation": "The Language Access Advisory Committee (LAAC) is a subcommittee of the Council of Language Access Coordinators established by the Conference of Chief Justices and Conference of State Court Administrators (COSCA), comprised of COSCA members and non-voting CLAC liaisons, focusing on language access issues and initiatives.",
+    "id": "LANG-003",
+    "options": [
+      "A subcommittee of the Council of Language Access Coordinators, established by the Conference of Chief Justices and COSCA, focused on language access issues and initiatives",
+      "A Virginia state agency that hires interpreters",
+      "A professional association for translators",
+      "A committee that writes the federal court interpreter exam"
+    ],
+    "question": "What is the Language Access Advisory Committee (LAAC)?",
+    "source": "NCSC Language Access page"
+  },
+  {
+    "answer": 1,
+    "category": "language-access",
+    "explanation": "The glossary's purpose is twofold: to provide a core set of legal terms in English as a base document for preparing dictionaries or glossaries in languages for which no published dictionaries exist, and to provide a source document for selecting technical terms included on oral performance exams prepared by the Consortium for Language Access in the Courts.",
+    "id": "LANG-004",
+    "options": [
+      "To replace bilingual dictionaries in courtrooms",
+      "To provide a core set of legal terms in English as a base for bilingual glossaries and as a source of technical terms for Consortium oral performance exams",
+      "To teach interpreters how to translate legal documents",
+      "To list every word in the English language"
+    ],
+    "question": "What is the stated purpose of the Consortium's Glossary of Commonly Used Court and Justice System Terminology?",
+    "source": "NCSC Consortium Glossary (Purpose and History)"
+  },
+  {
+    "answer": 1,
+    "category": "language-access",
+    "explanation": "Sight translation is one of the three modes of court interpreting: reading a written document aloud in another language (e.g., a letter to a judge, a police report, or a contract). The NCSC oral exam tests sight translation in both directions (English ↔ non-English), with about 225 words and 6 minutes per portion.",
+    "id": "LANG-005",
+    "options": [
+      "Interpreting while the speaker is still talking",
+      "Reading a written document aloud in another language",
+      "Interpreting after the speaker pauses, using notes",
+      "Translating a document in writing at home"
+    ],
+    "question": "What is \"sight translation\"?",
+    "source": "VA Courts Certification Requirements; NCSC Oral Exam guidance"
+  },
+  {
+    "answer": 1,
+    "category": "language-access",
+    "explanation": "Simultaneous interpretation is interpreting at the same time as the speaker is talking (usually listening through headphones while speaking aloud in the target language). In the NCSC oral exam, simultaneous interpretation runs from English into the non-English language and lasts about 8–10 minutes.",
+    "id": "LANG-006",
+    "options": [
+      "Interpreting only after the speaker has finished an entire speech",
+      "Interpreting at the same time as the speaker is talking",
+      "Reading a document aloud in another language",
+      "Interpreting with a partner taking turns every 30 minutes"
+    ],
+    "question": "In simultaneous interpretation, the interpreter:",
+    "source": "VA Courts Certification Requirements; NCSC Oral Exam guidance"
+  },
+  {
+    "answer": 0,
+    "category": "language-access",
+    "explanation": "Consecutive interpretation is interpreting after the speaker pauses — the interpreter listens to a segment of speech (in the NCSC oral exam, up to 50 words, in a question-and-answer format simulating witness testimony), takes notes if trained, and then renders it in the target language.",
+    "id": "LANG-007",
+    "options": [
+      "Listening to a segment of speech and then interpreting it after the speaker pauses",
+      "Reading a document aloud in another language",
+      "Whispering an interpretation to the defendant during trial",
+      "Interpreting while the speaker is still talking"
+    ],
+    "question": "In consecutive interpretation, the interpreter:",
+    "source": "VA Courts Certification Requirements; NCSC Oral Exam guidance"
+  },
+  {
+    "answer": 0,
+    "category": "language-access",
+    "explanation": "The Office of the Executive Secretary has set standards for certification or qualification reciprocity in Virginia: certification reciprocity for the certifiable languages, and qualification reciprocity for other languages. Reciprocity lets interpreters certified in another Consortium jurisdiction work in Virginia without re-testing.",
+    "id": "LANG-008",
+    "options": [
+      "Virginia offers certification reciprocity for certifiable languages and qualification reciprocity for other languages, under standards set by the Office of the Executive Secretary",
+      "Reciprocity is automatic for federal court certification only",
+      "Reciprocity requires retaking only the written exam",
+      "Virginia does not recognize any out-of-state certification"
+    ],
+    "question": "Which statement about interpreter reciprocity in Virginia is TRUE?",
+    "source": "VA Courts Foreign Language Services program page"
+  }
+]

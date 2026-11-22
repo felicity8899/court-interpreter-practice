@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>法庭口译模拟考试练习 · Court Interpreter Mock Exam Practice</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <h1>法庭口译模拟考试练习</h1>
+  <p class="subtitle">Court Interpreter Mock Exam Practice</p>
+  <nav>
+    <button data-nav="home" class="nav-btn active">首页 Home</button>
+    <button data-nav="review" class="nav-btn">错题本 Review <span id="wrong-count" class="badge"></span></button>
+    <button data-nav="history" class="nav-btn">历史记录 History</button>
+    <a class="nav-btn" href="/api/export" download>导出备份 Export JSON</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Home: start a new exam -->
+  <section id="view-home" class="view">
+    <h2>开始模拟考试 Start a Mock Exam</h2>
+    <p id="bank-info" class="muted">加载题库中… Loading question bank…</p>
+    <p class="muted">建议节奏：每题约 1 分钟。时间到后计时器会继续以“超时”显示，不会自动交卷。<br>
+    Suggested pace: ~1 minute per question. When time runs out, the timer keeps counting up as overtime — the exam never auto-submits.</p>
+    <div class="count-row">
+      <label><input type="radio" name="count" value="20" checked> 20 题</label>
+      <label><input type="radio" name="count" value="50"> 50 题</label>
+      <label><input type="radio" name="count" value="88"> 88 题</label>
+      <label><input type="radio" name="count" value="all"> 全部题库 All</label>
+    </div>
+    <button id="start-btn" class="primary">开始考试 Start Exam</button>
+    <p id="start-error" class="error"></p>
+  </section>
+
+  <!-- Exam in progress -->
+  <section id="view-exam" class="view hidden">
+    <div class="exam-bar">
+      <span id="exam-progress"></span>
+      <span id="exam-timer" class="timer"></span>
+    </div>
+    <p id="exam-truncated" class="notice hidden"></p>
+    <div id="question-box"></div>
+    <div class="exam-nav">
+      <button id="prev-btn">← 上一题 Previous</button>
+      <button id="next-btn">下一题 Next →</button>
+      <button id="submit-btn" class="primary">交卷 Submit Exam</button>
+    </div>
+    <p id="submit-error" class="error"></p>
+  </section>
+
+  <!-- Result after submit -->
+  <section id="view-result" class="view hidden">
+    <h2>考试成绩 Exam Result</h2>
+    <p id="result-score" class="score"></p>
+    <div id="result-breakdown"></div>
+    <button class="primary" data-nav="home">返回首页 Back to Home</button>
+    <button data-nav="review">查看错题本 Review Wrong Answers</button>
+  </section>
+
+  <!-- Wrong-answer review -->
+  <section id="view-review" class="view hidden">
+    <h2>错题本 Wrong-Answers Review</h2>
+    <p class="muted">重做答对后，该题会从错题本中移除。也可以直接点“已掌握”移除。<br>
+    Answer an item correctly on review and it is removed from the set. You can also remove it with “Mark as Mastered”.</p>
+    <div id="review-list"></div>
+  </section>
+
+  <!-- History -->
+  <section id="view-history" class="view hidden">
+    <h2>历史记录 Exam History</h2>
+    <div id="history-list"></div>
+  </section>
+
+  <!-- Exam detail -->
+  <section id="view-detail" class="view hidden">
+    <h2>考试详情 Exam Detail</h2>
+    <p id="detail-meta" class="muted"></p>
+    <p id="detail-score" class="score"></p>
+    <div id="detail-breakdown"></div>
+    <button data-nav="history">← 返回历史 Back to History</button>
+  </section>
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>

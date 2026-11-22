@@ -1,0 +1,11 @@
+# SQLite database (created at runtime; contains exam history + wrong answers)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
